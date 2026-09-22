@@ -193,6 +193,8 @@ README现提供 **16个语言／地区版本**，默认英文。各语言入口�
 
 欢迎提交原创场景、语言审校和带真实生成记录的图片。请阅读[贡献规范](CONTRIBUTING.md)与[原创规范](docs/originality.md)。
 
+[发布与维护资料](docs/seo.md) · [Quality review / 质量复查](docs/quality-review.md)
+
 ## 关于 VideoWeb AI
 
 VideoWeb AI 面向图片和视频创作者。这个分支保留源库完整配方与图片记录，并持续补充视频封面、分镜和社区案例。原始内容归属与同步方法见[源库说明](docs/upstream.md)。

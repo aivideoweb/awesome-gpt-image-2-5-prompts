@@ -247,6 +247,8 @@ Submit an original use case with a clear brief, constraints, a follow-up and rev
 
 Help expand the library with an original practical brief, a language correction or a documented image example. Include the intended use, constraints, a focused follow-up and observable review criteria. Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting.
 
+[Publishing and maintenance notes](docs/seo.md) · [Quality review / 质量复查](docs/quality-review.md)
+
 ## About VideoWeb AI
 
 VideoWeb AI helps image and video creators develop campaign visuals, covers, location concepts and storyboards. This edition preserves the upstream library and adds practical creator workflows. Read the [upstream credits and maintenance guide](docs/upstream.md).
