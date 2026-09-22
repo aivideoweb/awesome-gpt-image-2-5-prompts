@@ -113,10 +113,10 @@ def main():
         if START in text and END in text:
             block = START + text.split(START, 1)[1].split(END, 1)[0] + END
             require(block == render(lang), f'{name}: stale inline showcase')
-            require(block.count('### ') == 7 and block.count('```text') == 0,
-                    f'{name}: expected 7 visible reader tasks without interleaved long prompts')
-            require(len(re.findall(r'!\[', block)) == 21,
-                    f'{name}: expected 21 curated inline previews')
+            require(block.count('](prompts/') == 16 and block.count('```text') == 0,
+                    f'{name}: expected all 16 precise categories in the directory')
+            require(len(re.findall(r'!\[', block)) == 0,
+                    f'{name}: directory should remain a compact lookup table')
     readmes = read_json('data/readme-locales.json')['versions']
     require(len(readmes) == 16, 'Expected 16 README entry languages')
     for entry in readmes:

@@ -1,6 +1,6 @@
 # Reader-focused comparison · 2026-09-22
 
-**Current homepage:** seven task groups with 21 selected previews, one complete editing walkthrough and links to the full 106-recipe gallery. The chronological review notes below describe earlier versions.
+**Current homepage:** audience and purpose, three lead examples with concrete uses, a first-generation prompt, the full 16-pack directory, broader visual examples, and single- and multi-step editing comparisons. The full 106-recipe gallery remains available. The chronological review notes below describe earlier versions.
 
 Baseline: [Flaq AI source](https://github.com/flaqai/awesome-chatgpt-images-2-5-prompts), commit `0c74e035a713370217a1ecf29dd4a06edcc25fed`.
 
@@ -43,3 +43,9 @@ The Sol follow-up confirmed both findings closed. The primary editor then indepe
 The previous all-image homepage was rejected by the reader as cluttered. Both main READMEs now follow a single sequence: choose a task, inspect selected examples, follow one complete edit, then explore deeper guides. Seven task groups replace the 16 chronological pack sections; each group has three visible examples and links to its related packs. Long prompts no longer interrupt the gallery. A three-image lamp case provides two copyable edits in the correct input order. Duplicate update announcements were removed and the detailed tool comparison moved to `docs/tools.md`.
 
 Sol high-reasoning review checked the task grouping, input labels, edit sequence and retained coverage, and reported no mandatory correction. The primary editor independently compared the reader path with the source, checked all 16 pack entrances, and confirmed that recipe data, the full gallery and image records were unchanged. GitHub Markdown rendering was used to inspect title, image and input rows. This review addresses structure and usability; it is not a claim that every reader preference or mobile-network condition has been tested.
+
+## Restoring example value and precise discovery
+
+A direct comparison with the source identified gaps hidden by the earlier structural pass: the short homepage explained too little about who the library serves, why each example matters, how to start from text, and what an edit actually changes. Those findings were addressed in both main READMEs. Three lead examples explain copy space, character styles and shot continuity; the starter prompt appears before the full 16-pack directory. A second visual group covers posters, portraits and spaces. Candle and lamp comparisons show single-step and successive edits, with their recorded limitations.
+
+The Sol reviewer rechecked these reader paths against the source and the asset records, with no required correction. Its wording suggestion changed “Text only” to “Text-to-image; no reference needed.” The primary editor independently rechecked the requested use cases and source coverage after review. Recipe data, all generated images and the complete gallery remain unchanged. Content checks verify preservation and links; this review does not substitute for reader feedback or a real model-generation test.

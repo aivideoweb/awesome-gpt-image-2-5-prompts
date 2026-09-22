@@ -10,68 +10,42 @@ START = '<!-- BEGIN GENERATED SHOWCASE -->'
 END = '<!-- END GENERATED SHOWCASE -->'
 
 
-# Reader tasks, deliberately separate from the chronological source packs.
-GROUPS = [
-    ('products', 'Products & brand design', '商品与品牌',
-     'Create catalog photos, packaging and a consistent brand look.', '制作商品图、包装和品牌视觉。',
-     ['P002', 'P003', 'P035'], ['01-product', '06-brand-ui', '13-customizable-studio']),
-    ('posters', 'Posters, covers & publishing', '海报、封面与出版',
-     'Give a message a clear visual hierarchy, including multilingual copy.', '让活动、视频和书籍的标题与画面一眼可读，也支持多语言文案。',
-     ['P008', 'L003', 'P049'], ['02-social', '09-publishing', '11-multilingual']),
-    ('people', 'Portraits, outfits & pets', '人像、穿搭与宠物',
-     'Explore a look or edit a portrait while preserving recognizable features.', '探索服装造型，或在修图时保留人物和宠物的特征。',
-     ['P013', 'P014', 'P092'], ['03-people-pets']),
-    ('editing', 'Change one thing at a time', '局部修改与系列延展',
-     'Change clothing, patterns or text while keeping the approved composition.', '保留已确认的画面，只换服装、花色、文字，或制作同系列图片。',
-     ['P061', 'P063', 'P066'], ['04-editing', '10-production', '12-launch-examples']),
-    ('information', 'Explain an idea', '知识讲解与信息图',
-     'Turn a process, concept or supplied data into a visual explanation.', '把步骤、知识和给定数据整理成易懂的图示。',
-     ['P025', 'P027', 'P030'], ['05-information']),
-    ('spaces', 'Rooms & architecture', '室内与建筑',
-     'Explore room layouts, materials and concepts from sketches.', '从空间照片或草图出发，探索家具、材质与建筑方案。',
-     ['P043', 'P044', 'P048'], ['08-spaces']),
-    ('stories', 'Stories & video planning', '故事、分镜与视频前期',
-     'Plan characters, shot sequences and product films as still images.', '用静态图设计角色、镜头顺序和产品短片。分镜图本身不是视频。',
-     ['P037', 'P084', 'P087'], ['07-stories-games', '14-sketch-to-story', '15-x-community', '16-videoweb-x-creators']),
-]
+# The homepage directory preserves precise pack names rather than merging them.
+USES = {
+ '01-product': ('Catalog photos, skincare, cutaways, textures, gift boxes', '商品白底图、护肤静物、结构概念、材质特写、礼盒'),
+ '02-social': ('Event posters, video thumbnails, carousels, podcast covers', '活动海报、视频缩略图、旅行轮播、播客封面'),
+ '03-people-pets': ('Headshots, pet portraits, outfit try-ons, keepsakes', '职业头像、宠物写真、外套试穿、纪念插画'),
+ '04-editing': ('Recolor, remove objects, relight, replace text, cut out', '换色、去杂物、改光线、替换文字、商品抠图'),
+ '05-information': ('Explainers, charts, maps, plant cycles, workshop slides', '知识讲解、数据图、地图、植物周期、流程演示'),
+ '06-brand-ui': ('Wordmarks, wayfinding, app screens, landing pages, packaging', '字标、导视、应用界面、落地页、包装系列'),
+ '07-stories-games': ('Comics, character sheets, expressions, game icons, pixel art', '漫画、角色转面、表情表、游戏图标、像素场景'),
+ '08-spaces': ('Rooms, material refreshes, shops, courtyards, sketch concepts', '室内空间、材质翻新、快闪店、庭院、草图效果图'),
+ '09-publishing': ('Book covers, cookbook spreads, editorial art, zines', '书籍封面、食谱跨页、编辑插画、独立刊物'),
+ '10-production': ('Seasonal variants, crop changes, localization, composites', '四季系列、横竖版适配、本地化、三图合成、老照修复'),
+ '11-multilingual': ('12 language-specific posters, from English to Japanese and Arabic', '中、英、日、韩、西、法、德、葡、阿拉伯、印地、泰、俄'),
+ '12-launch-examples': ('Before-and-after edits: outfits, duvet, text, itinerary, candles', '带前后对照的换装、被套换花色、改字、行程修改、蜡烛计数'),
+ '13-customizable-studio': ('Adjustable portraits, coffee posters, packaging and miniatures', '可调整人物、配色与文案的工坊肖像、咖啡海报、包装、微缩景观'),
+ '14-sketch-to-story': ('Sketch exploration, character styles, portrait edits, storyboards', '草图探索、角色风格、人像连续修改、品牌周边、故事分镜'),
+ '15-x-community': ('Food lettering, fragrance boards, travel cards, architecture', 'X 来源的食材文字、香水分镜、旅行卡、建筑方案、邀请函'),
+ '16-videoweb-x-creators': ('Fashion-film wardrobe, retro opening frames, headphone campaigns', 'VideoWeb 新增：时装短片服装、复古开场帧、耳机广告'),
+}
 
 
 def render(lang):
     zh = lang == 'zh'
     catalog = json.loads((ROOT / 'data/catalog.json').read_text())
-    exported = json.loads((ROOT / 'data/prompts.json').read_text())
-    assets = json.loads((ROOT / 'assets/manifest.json').read_text())['assets']
-    latest = {a['recipe_id']: a for a in assets
-              if a.get('role') not in ('input', 'draft') and a['recipe_id'] != 'COVER'}
-    byid = {r['id']: r for r in exported['core'] + exported['localized']}
+    locales = json.loads((ROOT / 'data/locales.json').read_text())
     packs = {p['slug']: p for p in catalog['packs']}
-    packs['11-multilingual'] = {'title': {'en': 'Multilingual posters', 'zh': '多语言海报'}, 'recipes': exported['localized']}
+    packs['11-multilingual'] = {'title': {'en': 'Multilingual posters', 'zh': '多语言海报'}, 'recipes': locales}
     lines = [START, '',
-             '先按用途看代表案例，再打开需要的配方。首页精选 21 例；全部 106 例见[完整画廊](docs/gallery.md)。'
-             if zh else 'Find your task, preview an example, then open its recipe. These 21 selections introduce the [full gallery of 106 recipes](docs/gallery.md).', '',
-             ' · '.join(f'[{g[2] if zh else g[1]}](#browse-{g[0]})' for g in GROUPS), '']
-    for key, en, cn, desc_en, desc_cn, ids, slugs in GROUPS:
-        lines += [f'<a id="browse-{key}"></a>', '', f'### {cn if zh else en}', '', desc_cn if zh else desc_en, '']
-        headings, cells, modes = [], [], []
-        for id in ids:
-            r = byid[id];a = latest[id]
-            title = r['title'].get(lang, r['title']['en']) if isinstance(r['title'], dict) else r['title']
-            if zh:
-                title = {'L003': '日文烘焙店海报', 'P084': '九镜头音乐短片分镜', 'P087': '六画面香水发布分镜'}.get(id, title)
-            slug = r.get('pack', '11-multilingual')
-            link = f'prompts/{slug}.md#{id.lower()}'
-            mode = ('需参考图' if zh else 'Reference needed') if r.get('mode') == 'edit' else ('文字生图' if zh else 'Text to image')
-            if r.get('mode') != 'edit' and a['input_images']:
-                mode += ' · 含后续修订' if zh else ' · Refined result'
-            headings.append(f'[{title}]({link})')
-            cells.append(f'[![{title}]({a["path"]})]({link})')
-            modes.append(mode)
-        lines += ['| ' + ' | '.join(headings) + ' |', '| --- | --- | --- |',
-                  '| ' + ' | '.join(cells) + ' |', '| ' + ' | '.join(modes) + ' |', '',
-                  ('更多配方：' if zh else 'More recipes: ') + ' · '.join(
-                      f'[{packs[slug]["title"].get(lang, packs[slug]["title"]["en"])} ({len(packs[slug]["recipes"])})](prompts/{slug}.md)' for slug in slugs), '']
-    lines += [END]
-    return '\n'.join(lines)
+             '按具体任务查找。16 个场景包共 106 条配方；想先看效果，可浏览[完整图片画廊](docs/gallery.md)。'
+             if zh else 'Find a specific task across 16 packs and 106 recipes. Prefer to choose by appearance? Open the [complete visual gallery](docs/gallery.md).', '',
+             '| 场景包 | 可以做什么 | 配方数 |' if zh else '| Prompt pack | What you can make | Recipes |',
+             '| --- | --- | --- |']
+    for slug, pack in sorted(packs.items()):
+        title = pack['title'].get(lang, pack['title']['en'])
+        lines.append(f'| [{title}](prompts/{slug}.md) | {USES[slug][1 if zh else 0]} | {len(pack["recipes"])} |')
+    return '\n'.join(lines + ['', END])
 
 
 def main():
@@ -89,7 +63,7 @@ def main():
             raise SystemExit(f'Stale showcase: {filename}')
         if not args.check:
             path.write_text(new)
-    print('README showcases: 7 reader tasks and 21 selected examples per language.')
+    print('README directories: all 16 packs with concrete uses and current recipe counts.')
 
 
 if __name__ == '__main__':

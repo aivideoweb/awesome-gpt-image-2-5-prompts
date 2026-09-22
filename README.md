@@ -1,145 +1,114 @@
 # Awesome GPT Image 2.5 Prompts — VideoWeb AI
 
-Practical prompts for product visuals, posters, portrait edits and storyboards. **106 recipes, each with a generated example.**
+A practical prompt library for online shops, designers and video creators: make product campaigns, revise specific details and carry the same character into the next image.
+
+**106 recipes, each with a generated example.** Every core recipe names the inputs, what may change, what must stay and what to check, so you can develop an image through successive revisions.
 
 [Create with GPT Image 2.5](https://videoweb.ai/model/gpt-image-2-5/) · [Try free without signup](https://videoweb.ai/free-gpt-image-2-5/)
 
-[Browse by task](#prompt-library) · [Try one complete workflow](#quick-start) · [Video & further guides](#learn-more)
+[Three examples](#featured-examples) · [Copy a starter prompt](#quick-start) · [Find a category](#prompt-library) · [Before & after](#editing-examples) · [Video & guides](#learn-more)
 
 ![VideoWeb AI GPT Image 2.5 prompt library: product visuals, film locations and storyboards](assets/images/videoweb-cover.png)
 
 **English** · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Português (Brasil)](README_pt.md) · [Italiano](README_it.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [ไทย](README_th.md) · [Bahasa Indonesia](README_id.md) · [Tiếng Việt](README_vi.md)
 
+<a id="featured-examples"></a>
+
+## Three ways to use the library
+
+| Leave room for campaign copy | One character, four visual styles | One performer, nine shots |
+| --- | --- | --- |
+| [![Headphone campaign with copy space](assets/images/p094-videoweb.png)](prompts/16-videoweb-x-creators.md#p094) | [![Same character in four media](assets/images/example-p076.png)](prompts/14-sketch-to-story.md#p076) | [![Nine-shot music-video board](assets/images/example-p084.png)](prompts/14-sketch-to-story.md#p084) |
+| Position the product on the right and leave the left clear for a headline added later. Text-to-image; no reference needed. | Interpret one doodle as felt, pencil, risograph and ceramic while retaining its outfit and accessories. Upload the character reference. | Explore shot scale and order from one performer reference for a music-video brief. Upload the performer reference. |
+| [P094 · Prompt](prompts/16-videoweb-x-creators.md#p094) | [P076 · Prompt and input](prompts/14-sketch-to-story.md#p076) | [P084 · Prompt and input](prompts/14-sketch-to-story.md#p084) |
+
+These are starting points with recorded limitations: the headphone joints are conceptual; the character sheet carries over the input’s four visible buttons; the eye close-up and notebook handling need continuity checks. [Generation records](docs/generation-log.md).
+
+<a id="quick-start"></a>
+
+## Start with your first image
+
+Open an image tool above and copy this prompt; no reference upload is needed. Try the default brief once, then replace the brand, product and copy.
+
+```text
+Create a landscape 3:2 product campaign for the fictional lamp brand TIDELINE.
+Use a midnight-blue cylindrical metal base, ivory disc shade and orange pull tab.
+Place it on a coral stepped plinth against a navy backdrop, with soft light and natural shadows.
+The lamp occupies the right 60%; at left, print only "LIGHT, UNPLUGGED." and "TIDELINE" in white.
+Show believable metal texture. One lamp; no extra text or product claims.
+```
+
+Check the lettering, shade outline and pull-tab position, then save the approved version. The [editing case below](#editing-examples) shows how to change its color and headline. The [full P001 recipe](prompts/01-product.md#p001) includes constraints and checks.
+
+The free tool accepts text or one reference image and requires verification before generation. Multi-image recipes need a tool that supports the required number of uploads.
+
 ## Prompt library
 
 <!-- BEGIN GENERATED SHOWCASE -->
 
-Find your task, preview an example, then open its recipe. These 21 selections introduce the [full gallery of 106 recipes](docs/gallery.md).
+Find a specific task across 16 packs and 106 recipes. Prefer to choose by appearance? Open the [complete visual gallery](docs/gallery.md).
 
-[Products & brand design](#browse-products) · [Posters, covers & publishing](#browse-posters) · [Portraits, outfits & pets](#browse-people) · [Change one thing at a time](#browse-editing) · [Explain an idea](#browse-information) · [Rooms & architecture](#browse-spaces) · [Stories & video planning](#browse-stories)
-
-<a id="browse-products"></a>
-
-### Products & brand design
-
-Create catalog photos, packaging and a consistent brand look.
-
-| [Ceramic cup catalog](prompts/01-product.md#p002) | [Skincare ingredient still life](prompts/01-product.md#p003) | [Tea packaging family](prompts/06-brand-ui.md#p035) |
+| Prompt pack | What you can make | Recipes |
 | --- | --- | --- |
-| [![Ceramic cup catalog](assets/images/example-p002.png)](prompts/01-product.md#p002) | [![Skincare ingredient still life](assets/images/example-p003.png)](prompts/01-product.md#p003) | [![Tea packaging family](assets/images/example-p035.png)](prompts/06-brand-ui.md#p035) |
-| Reference needed | Text to image | Text to image |
-
-More recipes: [Product photography & e-commerce (6)](prompts/01-product.md) · [Brand identity & interface concepts (6)](prompts/06-brand-ui.md) · [Customizable studio briefs (6)](prompts/13-customizable-studio.md)
-
-<a id="browse-posters"></a>
-
-### Posters, covers & publishing
-
-Give a message a clear visual hierarchy, including multilingual copy.
-
-| [Creator thumbnail with one idea](prompts/02-social.md#p008) | [日本語 · ベーカリーポスター](prompts/11-multilingual.md#l003) | [Quiet orchard book cover](prompts/09-publishing.md#p049) |
-| --- | --- | --- |
-| [![Creator thumbnail with one idea](assets/images/example-p008.png)](prompts/02-social.md#p008) | [![日本語 · ベーカリーポスター](assets/images/komorebi-bakery.png)](prompts/11-multilingual.md#l003) | [![Quiet orchard book cover](assets/images/example-p049.png)](prompts/09-publishing.md#p049) |
-| Text to image | Text to image | Text to image |
-
-More recipes: [Ads, social posts & creator covers (6)](prompts/02-social.md) · [Publishing, print & editorial illustration (6)](prompts/09-publishing.md) · [Multilingual posters (12)](prompts/11-multilingual.md)
-
-<a id="browse-people"></a>
-
-### Portraits, outfits & pets
-
-Explore a look or edit a portrait while preserving recognizable features.
-
-| [Natural professional portrait](prompts/03-people-pets.md#p013) | [Pet explorer portrait](prompts/03-people-pets.md#p014) | [Fashion-film wardrobe concept](prompts/16-videoweb-x-creators.md#p092) |
-| --- | --- | --- |
-| [![Natural professional portrait](assets/images/example-p013.png)](prompts/03-people-pets.md#p013) | [![Pet explorer portrait](assets/images/example-p014.png)](prompts/03-people-pets.md#p014) | [![Fashion-film wardrobe concept](assets/images/p092-videoweb.png)](prompts/16-videoweb-x-creators.md#p092) |
-| Reference needed | Reference needed | Text to image |
-
-More recipes: [Portraits, fashion & pets (6)](prompts/03-people-pets.md)
-
-<a id="browse-editing"></a>
-
-### Change one thing at a time
-
-Change clothing, patterns or text while keeping the approved composition.
-
-| [Terrier cape makeover](prompts/12-launch-examples.md#p061) | [Duvet pattern swap](prompts/12-launch-examples.md#p063) | [One-column itinerary revision](prompts/12-launch-examples.md#p066) |
-| --- | --- | --- |
-| [![Terrier cape makeover](assets/images/launch-dog-edit.png)](prompts/12-launch-examples.md#p061) | [![Duvet pattern swap](assets/images/launch-bed-edit.png)](prompts/12-launch-examples.md#p063) | [![One-column itinerary revision](assets/images/launch-travel-edit.png)](prompts/12-launch-examples.md#p066) |
-| Reference needed | Reference needed | Reference needed |
-
-More recipes: [Precise edits & multi-turn workflows (6)](prompts/04-editing.md) · [Series, localization & production handoff (6)](prompts/10-production.md) · [Launch-inspired editing examples (7)](prompts/12-launch-examples.md)
-
-<a id="browse-information"></a>
-
-### Explain an idea
-
-Turn a process, concept or supplied data into a visual explanation.
-
-| [Three-stage rain garden explainer](prompts/05-information.md#p025) | [Transparent demo-data bar chart](prompts/05-information.md#p027) | [Workshop process slide](prompts/05-information.md#p030) |
-| --- | --- | --- |
-| [![Three-stage rain garden explainer](assets/images/example-p025.png)](prompts/05-information.md#p025) | [![Transparent demo-data bar chart](assets/images/example-p027-v2.png)](prompts/05-information.md#p027) | [![Workshop process slide](assets/images/example-p030.png)](prompts/05-information.md#p030) |
-| Text to image | Text to image · Refined result | Text to image |
-
-More recipes: [Infographics, education & presentations (6)](prompts/05-information.md)
-
-<a id="browse-spaces"></a>
-
-### Rooms & architecture
-
-Explore room layouts, materials and concepts from sketches.
-
-| [Workshop-to-reading-room concept](prompts/08-spaces.md#p043) | [Small apartment material refresh](prompts/08-spaces.md#p044) | [Sketch to small pavilion](prompts/08-spaces.md#p048) |
-| --- | --- | --- |
-| [![Workshop-to-reading-room concept](assets/images/reading-room.png)](prompts/08-spaces.md#p043) | [![Small apartment material refresh](assets/images/example-p044.png)](prompts/08-spaces.md#p044) | [![Sketch to small pavilion](assets/images/example-p048.png)](prompts/08-spaces.md#p048) |
-| Text to image | Reference needed | Reference needed |
-
-More recipes: [Architecture, interiors & hospitality (6)](prompts/08-spaces.md)
-
-<a id="browse-stories"></a>
-
-### Stories & video planning
-
-Plan characters, shot sequences and product films as still images.
-
-| [Paper moon repair story](prompts/07-stories-games.md#p037) | [Nine-shot music-video concept board](prompts/14-sketch-to-story.md#p084) | [Six-frame fragrance launch board](prompts/15-x-community.md#p087) |
-| --- | --- | --- |
-| [![Paper moon repair story](assets/images/paper-moon-story.png)](prompts/07-stories-games.md#p037) | [![Nine-shot music-video concept board](assets/images/example-p084.png)](prompts/14-sketch-to-story.md#p084) | [![Six-frame fragrance launch board](assets/images/example-p087.png)](prompts/15-x-community.md#p087) |
-| Text to image | Reference needed | Text to image |
-
-More recipes: [Comics, characters & game art (6)](prompts/07-stories-games.md) · [Sketch-to-story: English workflow prompts (12)](prompts/14-sketch-to-story.md) · [X community: practical visual briefs (6)](prompts/15-x-community.md) · [VideoWeb creator briefs from X (3)](prompts/16-videoweb-x-creators.md)
+| [Product photography & e-commerce](prompts/01-product.md) | Catalog photos, skincare, cutaways, textures, gift boxes | 6 |
+| [Ads, social posts & creator covers](prompts/02-social.md) | Event posters, video thumbnails, carousels, podcast covers | 6 |
+| [Portraits, fashion & pets](prompts/03-people-pets.md) | Headshots, pet portraits, outfit try-ons, keepsakes | 6 |
+| [Precise edits & multi-turn workflows](prompts/04-editing.md) | Recolor, remove objects, relight, replace text, cut out | 6 |
+| [Infographics, education & presentations](prompts/05-information.md) | Explainers, charts, maps, plant cycles, workshop slides | 6 |
+| [Brand identity & interface concepts](prompts/06-brand-ui.md) | Wordmarks, wayfinding, app screens, landing pages, packaging | 6 |
+| [Comics, characters & game art](prompts/07-stories-games.md) | Comics, character sheets, expressions, game icons, pixel art | 6 |
+| [Architecture, interiors & hospitality](prompts/08-spaces.md) | Rooms, material refreshes, shops, courtyards, sketch concepts | 6 |
+| [Publishing, print & editorial illustration](prompts/09-publishing.md) | Book covers, cookbook spreads, editorial art, zines | 6 |
+| [Series, localization & production handoff](prompts/10-production.md) | Seasonal variants, crop changes, localization, composites | 6 |
+| [Multilingual posters](prompts/11-multilingual.md) | 12 language-specific posters, from English to Japanese and Arabic | 12 |
+| [Launch-inspired editing examples](prompts/12-launch-examples.md) | Before-and-after edits: outfits, duvet, text, itinerary, candles | 7 |
+| [Customizable studio briefs](prompts/13-customizable-studio.md) | Adjustable portraits, coffee posters, packaging and miniatures | 6 |
+| [Sketch-to-story: English workflow prompts](prompts/14-sketch-to-story.md) | Sketch exploration, character styles, portrait edits, storyboards | 12 |
+| [X community: practical visual briefs](prompts/15-x-community.md) | Food lettering, fragrance boards, travel cards, architecture | 6 |
+| [VideoWeb creator briefs from X](prompts/16-videoweb-x-creators.md) | Fashion-film wardrobe, retro opening frames, headphone campaigns | 3 |
 
 <!-- END GENERATED SHOWCASE -->
 
-<a id="quick-start"></a>
+## Posters, portraits and spaces
 
-## Try it: change the color, then the headline
-
-Start with an approved image and change one thing at each step. These are the three recorded outputs.
-
-| Original | Step 1: recolor the base | Step 2: change the headline |
+| Multilingual copy: organize the hierarchy | Portrait edits: retain identity details | Interior concepts: plan materials and circulation |
 | --- | --- | --- |
-| ![Original](assets/images/tideline-lamp.png) | ![Recolor](assets/images/tideline-lamp-jade.png) | ![Headline edit](assets/images/tideline-lamp-copy.png) |
+| [![Japanese and English bakery poster](assets/images/komorebi-bakery.png)](prompts/11-multilingual.md#l003) | [![Natural professional portrait](assets/images/example-p013.png)](prompts/03-people-pets.md#p013) | [![Workshop reading-room concept](assets/images/reading-room.png)](prompts/08-spaces.md#p043) |
+| Arrange supplied Japanese and English copy into a headline and subheading; proofread every character. No reference needed. [L003 prompt](prompts/11-multilingual.md#l003). | Upload a portrait, change the setting and clothing, then compare facial features, skin tone and hairline. [P013 prompt and input](prompts/03-people-pets.md#p013). | Specify furniture positions, materials and light for a concept discussion, not construction drawings. [P043 prompt](prompts/08-spaces.md#p043). |
 
-**1. Prepare the original.** Download the [blue lamp image](assets/images/tideline-lamp.png) and upload it to your editor. To generate your own starting image, use the [full P001 prompt](prompts/01-product.md#p001).
+<a id="editing-examples"></a>
 
-**2. Change only the color.** Copy this instruction, inspect the result and save it.
+## Before and after: change one part, check the rest
+
+### One edit: three candles become five
+
+| Input: three candles | Edited: five candles |
+| --- | --- |
+| ![Three candles](assets/images/launch-cake-input.png) | ![Five candles](assets/images/launch-cake-edit.png) |
+
+The task changes the count while preserving the cake, plate and composition. Five orange candles are visible; the frosting texture shifts slightly. Use this to practice specifying the change and the preserve list. [P067 prompt, input and review](prompts/12-launch-examples.md#p067).
+
+### Two edits: color first, then the headline
+
+| Original | Step 1: recolor the base | Step 2: replace the headline |
+| --- | --- | --- |
+| ![Blue lamp](assets/images/tideline-lamp.png) | ![Green lamp](assets/images/tideline-lamp-jade.png) | ![New headline](assets/images/tideline-lamp-copy.png) |
+
+Continue with your saved lamp image, or upload the [blue example](assets/images/tideline-lamp.png). First change only the base:
 
 ```text
 Change only the lamp base to muted jade green, preserving its shape and metal texture.
 Keep the shade, pull tab, text, backdrop, camera and plinth unchanged.
 ```
 
-**3. Use the approved green result to change the headline.** Upload that result or continue in the same editing session.
+Inspect and save the green result; use that image as the next input:
 
 ```text
 Replace only "LIGHT, UNPLUGGED." with "YOUR EVENING, UPGRADED.".
 Preserve the green base, "TIDELINE" brand name, layout, product and lighting.
 ```
 
-**Check the result:** inspect every letter, product outline and color. The stem also turned green and surface texture changed slightly; this is not pixel-perfect preservation. [Exact executed prompts and full record](docs/editing-case-study.md).
-
-The free tool accepts text or one reference image and requires verification before generation. Multi-image recipes need an editor supporting that number of uploads.
+**Why separate the edits:** inspect one change at a time and return to the last approved image if needed. Here the stem also turned green, and texture and highlights drifted slightly; strict product work needs further correction. [Exact executed prompts and full record](docs/editing-case-study.md).
 
 <a id="learn-more"></a>
 
