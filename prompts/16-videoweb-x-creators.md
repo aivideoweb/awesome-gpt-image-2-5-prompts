@@ -19,6 +19,8 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Mode:** generate · **Target:** 3:4 · **Author:** VideoWeb AI team
 
+**Copy prompt / 复制提示词：** [English prompt](#p092-en) · [中文提示词](#p092-zh)
+
 **Best for:** Fashion-film wardrobe concept for a creator pitch or opening still.
 
 **Inputs:** Text only. No input image required. For the next edit, upload the approved result.
@@ -51,7 +53,10 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Jacket color:** Teal. **Alternatives:** Ochre, burgundy or your approved palette. **Preserve:** Garment silhouette, pose, trousers, boots and illustration style.
 
+<a id="p092-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Fashion-film wardrobe concept. Target aspect ratio: 3:4. Mode: generate.
@@ -60,7 +65,10 @@ Constraints: No lettering, logos or additional figures. Do not crop feet or hide
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p092-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：时装短片服装概念。目标比例：3:4。模式：新建。
@@ -79,7 +87,7 @@ Change only the rain jacket to ochre yellow. Preserve the pose, face, trousers, 
 只把雨衣改成赭黄色，保留姿势、面部、裤子、靴子、墨线风格及标题留白。
 ```
 
-**Review / 验收：** Check silhouette, anatomy or product geometry, usable title space and visual consistency. Follow-up and motion suggestions have not been executed. 检查轮廓、人体或产品结构、标题留白及画面一致性。后续修改和视频建议尚未执行。
+**Review / 验收：** Check full-body framing, feet, coat opening and pockets, hand anatomy and title space; compare identity and pose after any color edit. Follow-up edits have not been executed. 检查全身与双脚是否完整，雨衣门襟、口袋和手部结构是否合理，标题区是否留空；换色后对照人物与姿势。后续修改尚未执行。
 
 [Back to index / 返回索引](README.md)
 
@@ -88,6 +96,8 @@ Change only the rain jacket to ochre yellow. Preserve the pose, face, trousers, 
 ## P093 · Retro short-film opening frame / 复古短片开场帧
 
 **Mode:** generate · **Target:** 16:9 · **Author:** VideoWeb AI team
+
+**Copy prompt / 复制提示词：** [English prompt](#p093-en) · [中文提示词](#p093-zh)
 
 **Best for:** Retro short-film opening frame for a creator pitch or opening still.
 
@@ -119,7 +129,10 @@ Change only the rain jacket to ochre yellow. Preserve the pose, face, trousers, 
 
 **Room setting:** Modest 1980s living room. **Alternatives:** Your documented region and decade, with specific furnishings. **Preserve:** Person, camera position, quiet mood and title space.
 
+<a id="p093-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Retro short-film opening frame. Target aspect ratio: 16:9. Mode: generate.
@@ -128,7 +141,10 @@ Constraints: No modern screens, smartphones, readable brand marks, date stamps o
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p093-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：复古短片开场帧。目标比例：16:9。模式：新建。
@@ -147,7 +163,7 @@ Change only the upholstery to muted rust red; keep the person, room geometry, wi
 只把座椅布面改成低饱和铁锈红，保留人物、房间结构、窗光、收音机和构图。
 ```
 
-**Review / 验收：** Check silhouette, anatomy or product geometry, usable title space and visual consistency. Follow-up and motion suggestions have not been executed. 检查轮廓、人体或产品结构、标题留白及画面一致性。后续修改和视频建议尚未执行。
+**Review / 验收：** Check camera angle, furniture placement, rain and window reflections. Remove wall decorations if a clean title area is required; this example does not fully meet that requirement. Motion suggestions are untested. 检查机位、家具位置、雨景与窗面反射。若需干净标题区，应清除墙面装饰；当前示例尚未完全满足留白要求。视频动作建议未实测。
 
 [Back to index / 返回索引](README.md)
 
@@ -156,6 +172,8 @@ Change only the upholstery to muted rust red; keep the person, room geometry, wi
 ## P094 · Headphone launch key visual / 耳机发布主视觉
 
 **Mode:** generate · **Target:** 16:9 · **Author:** VideoWeb AI team
+
+**Copy prompt / 复制提示词：** [English prompt](#p094-en) · [中文提示词](#p094-zh)
 
 **Best for:** Headphone launch key visual for a creator pitch or opening still.
 
@@ -187,7 +205,10 @@ Change only the upholstery to muted rust red; keep the person, room geometry, wi
 
 **Pedestal color:** Violet. **Alternatives:** Muted blue or a brand-approved neutral. **Preserve:** Headset geometry, ivory material, lighting and empty copy area.
 
+<a id="p094-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Headphone launch key visual. Target aspect ratio: 16:9. Mode: generate.
@@ -196,7 +217,10 @@ Constraints: No text, logo, cable, extra headset or speculative product specific
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p094-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：耳机发布主视觉。目标比例：16:9。模式：新建。
@@ -215,6 +239,6 @@ Change only the pedestal to muted blue. Preserve the headset shape, ivory materi
 只把石台改成低饱和蓝色，保留耳机形状、象牙白材质、阴影方向、相机及左侧文案留白。
 ```
 
-**Review / 验收：** Check silhouette, anatomy or product geometry, usable title space and visual consistency. Follow-up and motion suggestions have not been executed. 检查轮廓、人体或产品结构、标题留白及画面一致性。后续修改和视频建议尚未执行。
+**Review / 验收：** Check the headband, two ear cups, cushion shape, pedestal contact and clear copy space at left. Joints are conceptual; compare geometry and lighting after edits. Follow-up edits have not been executed. 检查头梁、两只耳罩、耳垫形状、展台接触关系和左侧文案留白。关节结构属于概念设计；修改后对照外形与光线。后续修改尚未执行。
 
 [Back to index / 返回索引](README.md)

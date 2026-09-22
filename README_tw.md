@@ -6,7 +6,7 @@
 
 ![VideoWeb AI — GPT Image 2.5](assets/images/videoweb-cover.png)
 
-全庫共有106條配方、16個場景包與143張新生成圖片：76條核心配方提供完整英文與簡體中文版本，另有12條語言專用配方。README提供16個語言／地區版本；本頁是繁體中文入門說明，不代表全庫提示詞均已翻譯。 另新增18條僅以英文提供的工作流配方。
+全庫共有106條配方、16個場景包與143張新生成圖片：78條核心配方提供完整英文與簡體中文版本，另有12條語言專用配方。README提供16個語言／地區版本；本頁是繁體中文入門說明，不代表全庫提示詞均已翻譯。 另新增16條僅以英文提供的工作流配方。
 
 
 **[瀏覽全部106條圖文配方](docs/gallery.md)**
@@ -27,35 +27,30 @@
 [↗ L002](prompts/11-multilingual.md#l002)
 
 ```text
-製作一張2:3直式城市慢生活海報。使用奶油色紙張背景，下半部放置一把鈷藍色折疊椅，一枝橄欖枝斜伸入畫。午後自然光形成柔和長影，呈現真實布料紋理。上方大標題精確寫「把週末還給自己」，下方小字為「坐一會兒，也很好」，底部只寫「慢慢生活」。使用清晰的繁體中文字形、完整標點與寬鬆行距，不加英文、日期、地址或品牌。椅架結構須合理。後續編輯只把椅面改為鐵鏽色，保留文字、橄欖枝與光線。
+製作一張2:3直式城市慢生活海報。使用奶油色紙張背景，下半部放置一把鈷藍色折疊椅，一枝橄欖枝斜伸入畫。午後自然光形成柔和長影，呈現真實布料紋理。上方大標題精確寫「把週末還給自己」，下方小字為「坐一會兒，也很好」，底部只寫「慢慢生活」。使用清晰的繁體中文字形、完整標點與寬鬆行距，不加英文、日期、地址或品牌。椅架結構須合理。
+```
+
+先用上方提示詞生成並保存確認稿，再上傳該圖片，只做以下修改：
+
+```text
+後續編輯只把椅面改為鐵鏽色，保留文字、橄欖枝與光線。
 ```
 
 逐字檢查繁體字、逗號與行距，確認椅架沒有變形。
 
-## 免費 GPT Image 2.5 AI 工具，無需註冊
+## 從任務到完成
 
-以下12個工具可用文字或單張參考圖嘗試本庫提示詞。
+- 要做海報可直接使用上方本地示例；產品廣告可從[P094（EN / 简中）](prompts/16-videoweb-x-creators.md#p094)開始。
+- 先生成並保存圖片，再按[單次編輯案例](docs/editing-case-study.md)上傳該圖修改。
+- 到[更多圖文案例](docs/gallery.md)比較結果。
 
-| 工具 | 簡介 | 相關提示詞 |
-| --- | --- | --- |
-| [VideoWeb AI free gpt image 2.5](https://videoweb.ai/free-gpt-image-2-5/) | 適合影片開場、轉場參考、廣告與場景研究，提示詞中明確指定機位及光線。 | [相關提示詞](prompts/07-stories-games.md) |
-| [Flaq.ai free gpt image 2.5](https://flaq.ai/free-chatgpt-images-2-5/) | 適合商品圖、海報和寫實場景，亦提供 Flaq.ai 創作工具與 API 入口。 | [P001](prompts/01-product.md#p001) |
-| [UGC Maker free gpt image 2.5](https://ugcmaker.org/free-chatgpt-images-2-5/) | 適合 UGC 廣告概念、商品故事與社群圖片，方便先探索主視覺。 | [相關提示詞](prompts/02-social.md) |
-| [Best Image AI free gpt image 2.5](https://bestimage.ai/free-chatgpt-images-2-5/) | 適合電商、海報及視覺概念，可嘗試方形、直式與橫式構圖。 | [P070](prompts/13-customizable-studio.md#p070) |
-| [HeyDream free gpt image 2.5](https://heydream.im/free-chatgpt-images-2-5/) | 適合寫實場景、照片風格調整與背景編輯，另有獨立的圖生影片工具入口。 | [P071](prompts/13-customizable-studio.md#p071) |
-| [AITryOn free gpt image 2.5](https://aitryon.art/free-chatgpt-images-2-5/) | 適合服裝概念、時尚人像、配件與商品圖，建議明確描述材質、姿勢及背景。 | [P079](prompts/14-sketch-to-story.md#p079) |
-| [Flyne AI free gpt image 2.5](https://flyne.ai/free-gpt-image-2-5/) | 適合商品發布、社群圖像、插畫分鏡和情緒板；頁面介紹九種畫幅比例。 | [相關提示詞](prompts/01-product.md) |
-| [Sea Imagine AI free gpt image 2.5](https://seaimagine.com/free-gpt-image-2-5/) | 適合藝術構圖、建築環境、海報配置與配色探索，可指定留白及材質。 | [相關提示詞](prompts/08-spaces.md) |
-| [Fylia AI free gpt image 2.5](https://fylia.ai/free-gpt-image-2-5/) | 適合插畫人像、微縮繪本世界、生活場景與紙藝色彩實驗。 | [相關提示詞](prompts/03-people-pets.md) |
-| [SeeVido AI free gpt image 2.5](https://seevido.com/free-gpt-image-2-5/) | 適合角色場景、商品預告、旅行插畫與季節性社群貼文。 | [相關提示詞](prompts/02-social.md) |
-| [VO4 AI free gpt image 2.5](https://vo4.org/free-gpt-image-2-5/) | 適合電影感場景、動作參考、科幻環境及鏡頭構圖研究。 | [相關提示詞](prompts/14-sketch-to-story.md) |
-| [Chat 4O AI free gpt image 2.5](https://chat4o.ai/free-gpt-image-2-5/) | 適合簡報、教學插畫、專案情緒板與故事圖片，建議為文案預留空間。 | [相關提示詞](prompts/05-information.md) |
+[工具對照（EN / 简中）](docs/tools.md)
 
-複製提示詞並替換虛構內容；編輯時附上參考圖，明確列出保留項目。各頁面介紹免費、免註冊使用，新增工具仍要求生成前完成驗證。原有5個頁面於2026-09-14核對，新增7個於2026-09-16核對，未實測生成。進階功能、影片及API可能另行收費，額度與可用性以各站規則為準。
+連結的配方與指南主要以英文和簡體中文提供。
 
 ## 示例狀態
 
-下方是L002的繁體中文在地化示範，不另計為新配方，尚未生成此語言版本的圖片。本專案圖片由Codex內建工具生成，工具未提供底層模型ID，因此不作為Flare或Sunburst的已驗證評測。
+本頁是L002的繁體中文在地化示範，不另計為新配方，尚未生成此語言版本的圖片。本專案圖片由Codex內建工具生成，工具未提供底層模型ID，因此不作為Flare或Sunburst的已驗證評測。
 
 
 ## 聯盟推廣合作

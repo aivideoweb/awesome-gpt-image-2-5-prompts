@@ -22,6 +22,8 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p037-en) · [中文提示词](#p037-zh)
+
 **Best for:** Story pitching, character development and game concept art.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -36,7 +38,10 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Observed review:** Six panels and recognizable robot retained. Panel three shows stitches before the dedicated stitching panel; medium is more dimensional than requested. Teaching example requiring continuity revision.
 
+<a id="p037-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Paper moon repair story. Target aspect ratio: 3:2. Mode: generate.
@@ -45,7 +50,10 @@ Constraints: Keep robot design and workshop recognizable across panels; exactly 
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p037-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：修补纸月亮六格故事。目标比例：3:2。模式：新建。
@@ -74,6 +82,8 @@ Edit only panel three so the moon is still unstitched while the robot selects th
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p038-en) · [中文提示词](#p038-zh)
+
 **Best for:** Story pitching, character development and game concept art.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -88,7 +98,10 @@ Edit only panel three so the moon is still unstitched while the robot selects th
 
 **Observed review:** Three equal-scale front, side and back views share a baseline; satchel placement and costume folds should be reconciled before production modeling.
 
+<a id="p038-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Character turnaround sheet. Target aspect ratio: 3:2. Mode: generate.
@@ -97,7 +110,10 @@ Constraints: Same character and costume in all views; no weapons, text or backgr
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p038-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：原创角色转面表。目标比例：3:2。模式：新建。
@@ -126,6 +142,8 @@ Change only satchel color to forest green consistently in all three views.
 
 **Mode:** generate · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p039-en) · [中文提示词](#p039-zh)
+
 **Best for:** Story pitching, character development and game concept art.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -144,7 +162,10 @@ Change only satchel color to forest green consistently in all three views.
 
 **Observed review:** Four distinct expressions are visible on cream without the previous transparent background. Leaf placement and pebble texture remain coherent.
 
+<a id="p039-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Four-expression mascot sheet. Target aspect ratio: 1:1. Mode: generate.
@@ -153,7 +174,10 @@ Constraints: Exactly four heads, no bodies, words or additional facial markings.
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p039-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：吉祥物四表情表。目标比例：1:1。模式：新建。
@@ -182,6 +206,8 @@ Make only the sleepy expression’s eyelids lower.
 
 **Mode:** generate · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p040-en) · [中文提示词](#p040-zh)
+
 **Best for:** Story pitching, character development and game concept art.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -200,7 +226,10 @@ Make only the sleepy expression’s eyelids lower.
 
 **Observed review:** Nine distinct game objects are visible on cream without the previous transparent background. This is a concept sheet requiring slicing for production.
 
+<a id="p040-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Cozy game inventory icons. Target aspect ratio: 1:1. Mode: generate.
@@ -209,7 +238,10 @@ Constraints: One item per cell, no text or UI border; this is an atlas concept r
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p040-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：温馨游戏物品图标。目标比例：1:1。模式：新建。
@@ -238,6 +270,8 @@ Change only the lantern glow from yellow to pale blue.
 
 **Mode:** generate · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p041-en) · [中文提示词](#p041-zh)
+
 **Best for:** Story pitching, character development and game concept art.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -252,7 +286,10 @@ Change only the lantern glow from yellow to pale blue.
 
 **Observed review:** Greenhouse, three main raised beds and a barrel are present with visible walkway; extra small planters were added.
 
+<a id="p041-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Isometric rooftop garden. Target aspect ratio: 1:1. Mode: generate.
@@ -261,7 +298,10 @@ Constraints: Consistent isometric angles, no text, no characters and no hidden c
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p041-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：等距屋顶花园游戏场景。目标比例：1:1。模式：新建。
@@ -290,6 +330,8 @@ Add only a folded orange watering hose beside the barrel.
 
 **Mode:** generate · **Target:** 16:9 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p042-en) · [中文提示词](#p042-zh)
+
 **Best for:** Story pitching, character development and game concept art.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -304,7 +346,10 @@ Add only a folded orange watering hose beside the barrel.
 
 **Observed review:** Harbor layout and dusk palette match the brief; pixel-art appearance is illustrative rather than an enforced fixed pixel grid.
 
+<a id="p042-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Pixel-art harbor background. Target aspect ratio: 16:9. Mode: generate.
@@ -313,7 +358,10 @@ Constraints: Pixel-art appearance is requested, not a guaranteed exact pixel gri
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p042-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：像素港湾游戏背景。目标比例：16:9。模式：新建。

@@ -20,7 +20,7 @@
 | --- | --- | --- |
 | [![耳机广告留白](assets/images/p094-videoweb.png)](prompts/16-videoweb-x-creators.md#p094) | [![四种材质的同一角色](assets/images/example-p076.png)](prompts/14-sketch-to-story.md#p076) | [![九镜头音乐短片分镜](assets/images/example-p084.png)](prompts/14-sketch-to-story.md#p084) |
 | 产品放右侧，左侧留空，方便后期排标题。文字生图，无需参考图。 | 把同一张角色草图转成毛毡、彩铅、双色印刷和陶瓷，比较风格时保留服装与配件。需上传角色图。 | 用同一人物参考图规划景别和镜头顺序，为短片前期讨论准备分镜。需上传人物图。 |
-| [P094 · 中英提示词](prompts/16-videoweb-x-creators.md#p094) | [P076 · 英文提示词与输入图](prompts/14-sketch-to-story.md#p076) | [P084 · 英文提示词与输入图](prompts/14-sketch-to-story.md#p084) |
+| [P094 · 中英提示词](prompts/16-videoweb-x-creators.md#p094-zh) | [P076 · 中文提示词与输入图](prompts/14-sketch-to-story.md#p076-zh) | [P084 · 中文提示词与输入图](prompts/14-sketch-to-story.md#p084-zh) |
 
 这些示例展示创作方向，也保留检查记录：耳机结构属于概念设计；角色输入图中的四颗纽扣延续到了各版本；九镜头中的眼部特写和拿本子的动作仍需检查连续性。[查看生成记录](docs/generation-log.md)。
 
@@ -38,7 +38,7 @@
 呈现真实金属纹理，只保留一盏灯，不添加其他文字或产品参数。
 ```
 
-生成后先检查文字、灯罩轮廓和拉环位置，保存满意的版本。[下方案例](#editing-examples)展示如何在它的基础上继续改色、改标题。[完整 P001 配方](prompts/01-product.md#p001)另附约束和检查方法。
+生成后先检查文字、灯罩轮廓和拉环位置，保存满意的版本。[下方案例](#editing-examples)展示如何在它的基础上继续改色、改标题。[完整 P001 配方](prompts/01-product.md#p001-zh)另附约束和检查方法。
 
 免费体验页支持文字或一张参考图，生成前需要验证。需要多张输入图的配方，请使用支持相应输入数量的工具。
 
@@ -63,7 +63,7 @@
 | [多语言海报](prompts/11-multilingual.md) | 中、英、日、韩、西、法、德、葡、阿拉伯、印地、泰、俄 | 12 |
 | [官方发布场景原创实践](prompts/12-launch-examples.md) | 带前后对照的换装、被套换花色、改字、行程修改、蜡烛计数 | 7 |
 | [可微调创作配方](prompts/13-customizable-studio.md) | 可调整人物、配色与文案的工坊肖像、咖啡海报、包装、微缩景观 | 6 |
-| [从草图到故事：英文工作流配方](prompts/14-sketch-to-story.md) | 草图探索、角色风格、人像连续修改、品牌周边、故事分镜 | 12 |
+| [从草图到故事：创作工作流](prompts/14-sketch-to-story.md) | 草图探索、角色风格、人像连续修改、品牌周边、故事分镜 | 12 |
 | [X 社区实用场景](prompts/15-x-community.md) | X 来源的食材文字、香水分镜、旅行卡、建筑方案、邀请函 | 6 |
 | [VideoWeb 创作者 X 案例](prompts/16-videoweb-x-creators.md) | VideoWeb 新增：时装短片服装、复古开场帧、耳机广告 | 3 |
 
@@ -74,7 +74,7 @@
 | 多语言海报：安排文字层级 | 人像修改：保留身份细节 | 空间概念：安排材料与动线 |
 | --- | --- | --- |
 | [![日英双语烘焙海报](assets/images/komorebi-bakery.png)](prompts/11-multilingual.md#l003) | [![自然职业头像](assets/images/example-p013.png)](prompts/03-people-pets.md#p013) | [![工坊改造阅读室](assets/images/reading-room.png)](prompts/08-spaces.md#p043) |
-| 用给定的日文和英文组织标题与副标题，生成后逐字检查。无需参考图。[L003 配方](prompts/11-multilingual.md#l003)。 | 上传人像，改变背景和穿着后对照五官、肤色及发际线。[P013 中英配方与输入图](prompts/03-people-pets.md#p013)。 | 明确家具位置、材料和光线，先讨论空间概念；不是施工图。[P043 中英配方](prompts/08-spaces.md#p043)。 |
+| 用给定的日文和英文组织标题与副标题，生成后逐字检查。无需参考图。[L003 配方](prompts/11-multilingual.md#l003)。 | 上传人像，改变背景和穿着后对照五官、肤色及发际线。[P013 中英配方与输入图](prompts/03-people-pets.md#p013-zh)。 | 明确家具位置、材料和光线，先讨论空间概念；不是施工图。[P043 中英配方](prompts/08-spaces.md#p043-zh)。 |
 
 <a id="editing-examples"></a>
 
@@ -86,7 +86,7 @@
 | --- | --- |
 | ![Three candles](assets/images/launch-cake-input.png) | ![Five candles](assets/images/launch-cake-edit.png) |
 
-任务是改变数量，同时保留蛋糕、盘子和构图。成图中可见五根橙色蜡烛，奶油纹理略有变化。这个对照适合练习“明确修改对象＋列出保留项”。[P067 提示词、输入图与检查记录](prompts/12-launch-examples.md#p067)。
+任务是改变数量，同时保留蛋糕、盘子和构图。成图中可见五根橙色蜡烛，奶油纹理略有变化。这个对照适合练习“明确修改对象＋列出保留项”。[P067 提示词、输入图与检查记录](prompts/12-launch-examples.md#p067-zh)。
 
 ### 连续修改：先换颜色，再换标题
 
@@ -124,7 +124,7 @@
 
 ## 关于示例与开源使用
 
-本库由 VideoWeb AI 基于 [Flaq AI 源库](https://github.com/flaqai/awesome-chatgpt-images-2-5-prompts)维护，保留源库 103 条配方，新增 3 条创作者配方。共 16 个场景包、143 张图片；76 条配方为中英双语，18 条为英文，另有 12 条本地语言配方。
+本库由 VideoWeb AI 基于 [Flaq AI 源库](https://github.com/flaqai/awesome-chatgpt-images-2-5-prompts)维护，保留源库 103 条配方，新增 3 条创作者配方。共 16 个场景包、143 张图片；78 条配方为中英双语，16 条为英文，另有 12 条本地语言配方。
 
 图片由项目生图工具生成，未返回底层模型名称，不代表 VideoWeb 或指定型号的实测结果。示例可能有文字、结构或细节偏差，已知问题见[生成记录](docs/generation-log.md)。X 作者原图另有来源标注，不纳入本库 MIT 许可。
 

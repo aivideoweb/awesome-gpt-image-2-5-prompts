@@ -1,4 +1,4 @@
-# Sketch-to-story: English workflow prompts · 从草图到故事：英文工作流配方
+# Sketch-to-story: English workflow prompts · 从草图到故事：创作工作流
 
 [All recipes / 全部配方](README.md)
 
@@ -30,6 +30,8 @@ Scenario inspiration: [Chinese workflow article by 羊羊AI视频](https://mp.we
 
 **Mode:** edit · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p074-en)
+
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
 **Best for:** Reference-led concept development, editorial design and storyboards.
@@ -54,7 +56,10 @@ Scenario inspiration: [Chinese workflow article by 羊羊AI视频](https://mp.we
 
 **Concept categories:** bench, vessel, canopy, sculpture. **Alternatives:** four categories relevant to your brief. **Preserve:** curve landmarks and panel count.
 
+<a id="p074-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/curve-input.png)。
 
 ```text
 Asset: One sketch, four concept directions. Target aspect ratio: 1:1. Mode: edit.
@@ -78,6 +83,8 @@ Develop only the upper-left bench concept into one landscape image. Preserve the
 ## P075 · Bedroom plan to interior concept
 
 **Mode:** edit · **Target:** 3:2 · **Author:** flaq.ai team
+
+**Copy prompt / 复制提示词：** [English prompt](#p075-en)
 
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
@@ -103,7 +110,10 @@ Develop only the upper-left bench concept into one landscape image. Preserve the
 
 **Material palette:** pale oat, ash and ivory. **Alternatives:** warm walnut and sand. **Preserve:** layout, openings and circulation.
 
+<a id="p075-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/bedroom-plan.png)。
 
 ```text
 Asset: Bedroom plan to interior concept. Target aspect ratio: 3:2. Mode: edit.
@@ -124,15 +134,15 @@ Change only the wardrobe fronts from pale ash to matte ivory. Preserve all furni
 
 
 <a id="p076"></a>
-## P076 · Doodle character across four media
+## P076 · Doodle character across four media / 同一角色的四种材质风格
 
 **Mode:** edit · **Target:** 1:1 · **Author:** flaq.ai team
 
-**Language:** English. Expanded adaptation; see the result status and source information below.
+**Copy prompt / 复制提示词：** [English prompt](#p076-en) · [中文提示词](#p076-zh)
 
-**Best for:** Reference-led concept development, editorial design and storyboards.
+**Best for:** Comparing four material treatments while preserving one character identity.
 
-**Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
+**Inputs:** One original character doodle; use the linked sample or your own authorized character drawing.
 
 **Production check:** Inspect every panel or text region separately; a coherent overall layout can hide local errors. Use the target ratio as a framing request; inspect actual pixel dimensions before export.
 
@@ -152,7 +162,10 @@ Change only the wardrobe fronts from pale ash to matte ivory. Preserve all furni
 
 **Media:** felt, pencil, risograph, ceramic. **Alternatives:** four clearly different media. **Preserve:** identity anchors, pose and scale.
 
+<a id="p076-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/character-input.png)。
 
 ```text
 Asset: Doodle character across four media. Target aspect ratio: 1:1. Mode: edit.
@@ -161,13 +174,31 @@ Constraints: Use your own doodle. The sketch controls identity; the four named m
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p076-zh"></a>
+### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/character-input.png)。
+
+Chinese execution translation added by VideoWeb AI. Reviewed against the English brief; not separately rendered. / 中文执行版由 VideoWeb AI 补充，已对照英文核对，未单独生图。
+
+```text
+交付物：同一角色的四种材质风格。目标比例：1:1。模式：编辑。
+以附上的原创角色草图为身份参考。先识别五个最明显的特征：头部形状、主色、眼睛排列、服装轮廓和随身配件，并在每种风格中保留。不要借用其他作品的角色设计。制作一张1:1正方形四格对照图，格间留白等宽。左上为可见缝线的毛毡玩偶；右上为柔和彩铅绘本插画；左下为双色孔版印刷插画；右下为釉面陶瓷桌面摆件。四格保持相同的正面偏四分之三姿势、完整全身构图及大致比例。每种材质应呈现可信的表面质感，同时让角色保持可辨认。纯暖灰背景，不写文字，不让各格人物相互重叠，每格恰好一个角色。
+约束：使用你拥有权利的草图。草图决定角色身份，四种指定媒介决定表面与绘制方式。不要为了适应风格而替换配件。
+只渲染明确要求的图中文字，不添加无关标识、签名或说明。
+```
+
 ### Next edit / 后续修改
 
 ```text
 Render only the ceramic interpretation as a single product photograph. Preserve its head, face, colors, clothing and accessory.
 ```
 
-**Review / 验收：** Check all five identity anchors in all four panels; inspect limbs and accessory count.
+```text
+只把陶瓷版本制作成一张单独的产品摄影图，保留其头部、面部、颜色、服装和配件。
+```
+
+**Review / 验收：** Check all five identity anchors in all four panels; inspect limbs and accessory count. 逐格核对五个身份特征，检查四肢和配件数量。
 
 [Back to index / 返回索引](README.md)
 
@@ -177,9 +208,11 @@ Render only the ceramic interpretation as a single product photograph. Preserve 
 
 **Mode:** generate · **Target:** 3:4 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p077-en) · [Free-tool version / 免费工具版](#p077-en-compact)
+
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
-**Best for:** Reference-led concept development, editorial design and storyboards.
+**Best for:** Text-led editorial product sheets with supplied English copy, product labels and comparison tables.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
 
@@ -197,7 +230,12 @@ Render only the ceramic interpretation as a single product photograph. Preserve 
 
 **Product copy:** three fictional teas, 30 g each. **Alternatives:** your approved three-product assortment. **Preserve:** matching names and quantities everywhere.
 
+<a id="p077-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
+
+This full prompt has 2,979 characters, above the free page’s 2,000-character limit. / 此完整版超过免费页的 2,000 字符限制。 [Use the compact version / 使用精简版](#p077-en-compact).
 
 ```text
 Asset: English tea collection editorial sheet. Target aspect ratio: 3:4. Mode: generate.
@@ -220,6 +258,35 @@ Constraints: Fictional copy is supplied for layout practice. Exactly three tins,
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p077-en-compact"></a>
+### Free-tool version / 免费工具版
+
+1,823 characters / 字符 · No reference upload / 无需上传参考图。
+
+Compact version retains the supplied copy and layout targets; wording is condensed. Not separately rendered. / 精简版保留给定文案与布局目标，缩短说明文字，未单独生图。
+
+Copy this block alone into the [free tool](https://videoweb.ai/free-gpt-image-2-5/). / 只复制本段到[免费工具](https://videoweb.ai/free-gpt-image-2-5/)，不要再拼接上方完整版。
+
+```text
+Design a flat front-facing 3:4 product sheet for fictional RIDGE & LEAF tea. Ivory paper, forest-green type, copper accents; six-column grid, wide margins, serif headline, sans-serif body. Zones: title; product/sidebar; three tasting cards; table; footer. Use only this exact copy:
+HEADER: "RIDGE & LEAF" / "COLLECTION NOTES / 01"
+TITLE: "THREE LEAVES." / "ONE SLOW AFTERNOON."
+INTRO: "A small collection for noticing aroma, texture and the pace of a quiet afternoon."
+PRODUCT: left four columns: open paperboard box, exactly three cylindrical tins in three fitted recesses; left ivory, middle moss green, right warm clay. Each tin: "RIDGE & LEAF" plus respectively "JASMINE GREEN", "ROASTED OOLONG", "PLAIN BLACK". Soft side light; matte tins, molded-pulp lining.
+Right sidebar: "IN THE BOX" / "3 tins × 30 g" / "Total: 90 g"; "MATERIALS" / "Paperboard box" / "Reusable tins" / "Molded-pulp insert".
+CARDS: three equal cards, each with a small monochrome botanical drawing:
+"01 / FLORAL"; "JASMINE GREEN"; "A delicate floral direction with a light, fresh finish."
+"02 / TOASTED"; "ROASTED OOLONG"; "A warm aromatic direction with a rounded, lingering finish."
+"03 / MELLOW"; "PLAIN BLACK"; "A familiar full-bodied direction for an unhurried pause."
+TABLE: "CHOOSE YOUR MOMENT". Columns: TEA | PROFILE | TIN | NET WT. Rows:
+JASMINE GREEN | Floral | Ivory | 30 g
+ROASTED OOLONG | Toasted | Moss | 30 g
+PLAIN BLACK | Mellow | Clay | 30 g
+Pipes separate cells; never print pipes. Equal rows, pale-green header.
+FOOTER: "Store sealed, cool and dry." / "FICTIONAL COLLECTION / DESIGN STUDY".
+Keep headline/zone/tea/body/table/footer hierarchy; left-align body; match tea names everywhere. No extra text, prices, logos, QR codes or certification/origin/brewing claims. Raster concept: proofread and typeset final copy separately.
+```
+
 ### Next edit / 后续修改
 
 ```text
@@ -235,6 +302,8 @@ Replace only the two-line title with “A LITTLE STILLNESS.” / “IN EVERY CUP
 ## P078 · Headline replacement without layout drift
 
 **Mode:** edit · **Target:** 3:4 · **Author:** flaq.ai team
+
+**Copy prompt / 复制提示词：** [English prompt](#p078-en)
 
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
@@ -260,7 +329,10 @@ Replace only the two-line title with “A LITTLE STILLNESS.” / “IN EVERY CUP
 
 **New headline:** A LITTLE STILLNESS. / IN EVERY CUP.. **Alternatives:** two short approved lines. **Preserve:** type size, headline box and all other content.
 
+<a id="p078-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/example-p077.png)。
 
 ```text
 Asset: Headline replacement without layout drift. Target aspect ratio: 3:4. Mode: edit.
@@ -284,6 +356,8 @@ After approval, change only the thin copper divider rules to forest green. Prese
 ## P079 · Four-region portrait correction brief
 
 **Mode:** edit · **Target:** 2:3 · **Author:** flaq.ai team
+
+**Copy prompt / 复制提示词：** [English prompt](#p079-en)
 
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
@@ -309,7 +383,10 @@ After approval, change only the thin copper divider rules to forest green. Prese
 
 **Replacement bag:** plain walnut leather satchel. **Alternatives:** another unbranded bag with approved dimensions. **Preserve:** identity, shoulder contact and pose.
 
+<a id="p079-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/adult-input.png)。
 
 ```text
 Asset: Four-region portrait correction brief. Target aspect ratio: 2:3. Mode: edit.
@@ -333,6 +410,8 @@ Correct only any remaining earring fragments. Preserve hazel irises, cleared eye
 ## P080 · Portrait continuity through three revisions
 
 **Mode:** edit · **Target:** 2:3 · **Author:** flaq.ai team
+
+**Copy prompt / 复制提示词：** [English prompt](#p080-en)
 
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
@@ -358,7 +437,10 @@ Correct only any remaining earring fragments. Preserve hazel irises, cleared eye
 
 **Revision sequence:** hair, grade, background snow. **Alternatives:** three individually reviewable edits. **Preserve:** approved decisions from all earlier steps.
 
+<a id="p080-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/example-p079.png)。
 
 ```text
 Asset: Portrait continuity through three revisions. Target aspect ratio: 2:3. Mode: edit.
@@ -382,6 +464,8 @@ Revision 2, with approved revision 1 attached: change only the overall grading t
 ## P081 · Logo redesign with an explicit brand brief
 
 **Mode:** edit · **Target:** 1:1 · **Author:** flaq.ai team
+
+**Copy prompt / 复制提示词：** [English prompt](#p081-en)
 
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
@@ -407,7 +491,10 @@ Revision 2, with approved revision 1 attached: change only the overall grading t
 
 **Brand direction:** welcoming, precise, curious. **Alternatives:** three approved brand traits. **Preserve:** authorized name and palette.
 
+<a id="p081-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/logo-input.png)。
 
 ```text
 Asset: Logo redesign with an explicit brand brief. Target aspect ratio: 1:1. Mode: edit.
@@ -431,6 +518,8 @@ Separate the approved symbol and wordmark into a clean horizontal lockup. Preser
 ## P082 · Reference-led branded apparel presentation
 
 **Mode:** edit · **Target:** 3:4 · **Author:** flaq.ai team
+
+**Copy prompt / 复制提示词：** [English prompt](#p082-en)
 
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
@@ -458,7 +547,10 @@ Separate the approved symbol and wordmark into a clean horizontal lockup. Preser
 
 **Garment colorways:** ivory and charcoal. **Alternatives:** two approved fabric colors. **Preserve:** logo geometry and garment construction.
 
+<a id="p082-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/adult-input.png) → [Input 2 / 输入 2](../assets/images/example-p081.png)。
 
 ```text
 Asset: Reference-led branded apparel presentation. Target aspect ratio: 3:4. Mode: edit.
@@ -482,6 +574,8 @@ Change only the packaging box color from kraft to matte ivory. Preserve model, s
 ## P083 · Sixteen-pose action reference sheet
 
 **Mode:** edit · **Target:** 1:1 · **Author:** flaq.ai team
+
+**Copy prompt / 复制提示词：** [English prompt](#p083-en)
 
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
@@ -507,7 +601,10 @@ Change only the packaging box color from kraft to matte ivory. Preserve model, s
 
 **Pose sequence:** guard, punch, kick, block, finish. **Alternatives:** 16 explicit non-graphic actions. **Preserve:** character proportions, camera and cell spacing.
 
+<a id="p083-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/character-input.png)。
 
 ```text
 Asset: Sixteen-pose action reference sheet. Target aspect ratio: 1:1. Mode: edit.
@@ -528,15 +625,15 @@ Regenerate only the left front-kick pose as one transparent image, matching the 
 
 
 <a id="p084"></a>
-## P084 · Nine-shot music-video concept board
+## P084 · Nine-shot music-video concept board / 九镜头音乐短片概念分镜
 
 **Mode:** edit · **Target:** 3:2 · **Author:** flaq.ai team
 
-**Language:** English. Expanded adaptation; see the result status and source information below.
+**Copy prompt / 复制提示词：** [English prompt](#p084-en) · [中文提示词](#p084-zh)
 
-**Best for:** Reference-led concept development, editorial design and storyboards.
+**Best for:** Planning a nine-shot music-video sequence with a consistent singer and notebook.
 
-**Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
+**Inputs:** One original adult singer reference, without an instrument; use the linked sample or your own authorized character image.
 
 **Production check:** Inspect every panel or text region separately; a coherent overall layout can hide local errors. Use the target ratio as a framing request; inspect actual pixel dimensions before export.
 
@@ -556,7 +653,10 @@ Regenerate only the left front-kick pose as one transparent image, matching the 
 
 **Location:** botanical conservatory at dawn. **Alternatives:** one coherent alternative location. **Preserve:** character, notebook and shot progression.
 
+<a id="p084-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/singer-input.png)。
 
 ```text
 Asset: Nine-shot music-video concept board. Target aspect ratio: 3:2. Mode: edit.
@@ -565,13 +665,31 @@ Constraints: Use an original adult character reference without an instrument. A 
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p084-zh"></a>
+### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/singer-input.png)。
+
+Chinese execution translation added by VideoWeb AI. Reviewed against the English brief; not separately rendered. / 中文执行版由 VideoWeb AI 补充，已对照英文核对，未单独生图。
+
+```text
+交付物：九镜头音乐短片概念分镜。目标比例：3:2。模式：编辑。
+以附上的原创成年歌手插画为身份参考，制作一张3×3九格音乐短片概念分镜。场景为黎明时分废弃的植物温室。保持歌手的面部、头发和服装一致。每格均为横向画面，尺寸相同，格缝细而整洁，不加说明文字，场景内也不出现文字。按从左到右、从上到下的顺序阅读。第1至3镜：隔着雾蒙蒙的温室玻璃看外部全景；歌手拿一本小琥珀色笔记本走进温室的中景；手指翻开笔记本的特写。第4至6镜：歌手在植物蔓生窗边的侧面；眼睛倒映叶片的极近特写；歌手走在空花台之间的全景。第7至9镜：从高处看屋架下的歌手；歌手将笔记本合在胸前的中景；歌手走向淡淡晨光的离场全景。笔记本尺寸和颜色始终一致。采用克制的鼠尾草绿、琥珀色与珍珠白配色，保持连贯的黎明光线。
+约束：使用不带乐器的原创成年角色参考图。分镜用于提出镜头方案，不是已生成视频，也不表示口型与音乐同步。
+只渲染明确要求的图中文字，不添加无关标识、签名或说明。
+```
+
 ### Next edit / 后续修改
 
 ```text
 Expand shot 4 into a standalone landscape keyframe. Preserve singer identity, wardrobe, notebook, greenhouse geometry and dawn light.
 ```
 
-**Review / 验收：** Count nine shots and verify framing variety, prop continuity, environment and light direction. Check close-ups against the identity reference.
+```text
+将第4镜扩展为一张独立的横向关键帧。保留歌手身份、服装、笔记本、温室结构和黎明光线。
+```
+
+**Review / 验收：** Count nine shots and verify framing variety, prop continuity, environment and light direction. Check close-ups against the identity reference. 清点九个镜头，对照面部、服装、笔记本颜色与尺寸、视线和温室结构；用于制作前检查眼部特写与手部动作。
 
 [Back to index / 返回索引](README.md)
 
@@ -580,6 +698,8 @@ Expand shot 4 into a standalone landscape keyframe. Preserve singer identity, wa
 ## P085 · Sixteen-shot two-character narrative board
 
 **Mode:** edit · **Target:** 1:1 · **Author:** flaq.ai team
+
+**Copy prompt / 复制提示词：** [English prompt](#p085-en)
 
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
@@ -607,7 +727,10 @@ Expand shot 4 into a standalone landscape keyframe. Preserve singer identity, wa
 
 **Narrative prop:** two differently colored sketchbooks. **Alternatives:** two clearly distinguishable safe props. **Preserve:** ownership, screen direction and character identities.
 
+<a id="p085-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/person-a-input.png) → [Input 2 / 输入 2](../assets/images/person-b-input.png)。
 
 ```text
 Asset: Sixteen-shot two-character narrative board. Target aspect ratio: 1:1. Mode: edit.

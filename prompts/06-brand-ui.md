@@ -22,6 +22,8 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p031-en) · [中文提示词](#p031-zh)
+
 **Best for:** Brand direction and interface presentation concepts.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -40,7 +42,10 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Observed review:** Black wordmark and cream reverse lettering on clay are readable on an opaque light background. This is raster concept artwork, not a vector logo.
 
+<a id="p031-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Independent ceramics wordmark. Target aspect ratio: 3:2. Mode: generate.
@@ -49,7 +54,10 @@ Constraints: No copied logo shapes, faux trademark marks, 3D mockups or addition
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p031-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：独立陶艺品牌字标。目标比例：3:2。模式：新建。
@@ -78,6 +86,8 @@ Adjust only the spacing between F and T, preserving every letterform.
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p032-en) · [中文提示词](#p032-zh)
+
 **Best for:** Brand direction and interface presentation concepts.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -92,7 +102,10 @@ Adjust only the spacing between F and T, preserving every letterform.
 
 **Observed review:** Three signs, readable labels and correct arrow directions are present; the matching square motif is more decorative than a plain square.
 
+<a id="p032-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Museum wayfinding family. Target aspect ratio: 3:2. Mode: generate.
@@ -101,7 +114,10 @@ Constraints: Preserve arrow directions and equal text sizes; no emergency-exit o
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p032-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：博物馆导视系统。目标比例：3:2。模式：新建。
@@ -130,6 +146,8 @@ Change only sign material to painted wood while retaining navy and ivory colors.
 
 **Mode:** generate · **Target:** 4:5 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p033-en) · [中文提示词](#p033-zh)
+
 **Best for:** Brand direction and interface presentation concepts.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -144,7 +162,10 @@ Change only sign material to painted wood while retaining navy and ivory colors.
 
 **Observed review:** All requested labels and the primary button are readable; this is a raster UI concept with no implemented interaction.
 
+<a id="p033-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Book-club mobile app concept. Target aspect ratio: 4:5. Mode: generate.
@@ -153,7 +174,10 @@ Constraints: Raster design concept, not functional software; no device frame, in
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p033-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：读书会移动应用概念。目标比例：4:5。模式：新建。
@@ -182,6 +206,8 @@ Change only the primary button to dark green; keep layout and wording.
 
 **Mode:** generate · **Target:** 16:9 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p034-en) · [中文提示词](#p034-zh)
+
 **Best for:** Brand direction and interface presentation concepts.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -196,7 +222,10 @@ Change only the primary button to dark green; keep layout and wording.
 
 **Observed review:** Headline, supporting copy, navigation and button are readable; stool looks completed rather than half-built.
 
+<a id="p034-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Workshop booking landing page. Target aspect ratio: 16:9. Mode: generate.
@@ -205,7 +234,10 @@ Constraints: No invented testimonials, availability, checkout UI or extra naviga
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p034-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：工作坊预约落地页概念。目标比例：16:9。模式：新建。
@@ -234,6 +266,8 @@ Replace only the hero photo with a hand-planed wooden bowl scene, preserving the
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p035-en) · [中文提示词](#p035-zh)
+
 **Best for:** Brand direction and interface presentation concepts.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -248,7 +282,10 @@ Replace only the hero photo with a hand-planed wooden bowl scene, preserving the
 
 **Observed review:** Three cartons and requested variant names are legible. Extra TEA and SMALL LEAVES BIG CONVERSATIONS copy was generated; remove or approve this before production.
 
+<a id="p035-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Tea packaging family. Target aspect ratio: 3:2. Mode: generate.
@@ -257,7 +294,10 @@ Constraints: Exactly three cartons; no health promises, weights, certifications 
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p035-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：茶叶包装家族。目标比例：3:2。模式：新建。
@@ -286,6 +326,8 @@ Change only the OOLONG side-panel blue to deeper navy.
 
 **Mode:** generate · **Target:** 16:9 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p036-en) · [中文提示词](#p036-zh)
+
 **Best for:** Brand direction and interface presentation concepts.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -300,7 +342,10 @@ Change only the OOLONG side-panel blue to deeper navy.
 
 **Observed review:** Sidebar, three project cards and review time are readable; spacing is coherent for a dashboard concept.
 
+<a id="p036-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Creator dashboard concept. Target aspect ratio: 16:9. Mode: generate.
@@ -309,7 +354,10 @@ Constraints: No fabricated live metrics or real customer data; conceptual UI onl
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p036-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：创作者工作台概念。目标比例：16:9。模式：新建。

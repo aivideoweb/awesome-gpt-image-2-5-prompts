@@ -22,6 +22,8 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Mode:** edit · **Target:** 4:5 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p013-en) · [中文提示词](#p013-zh)
+
 **Best for:** Personal keepsakes, professional portraits and styling concepts.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -40,7 +42,10 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Observed review:** Portrait retains the fictional subject’s recognizable features and skin texture. Clothing, framing and lighting change for the portrait brief.
 
+<a id="p013-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/adult-input.png)。
 
 ```text
 Asset: Natural professional portrait. Target aspect ratio: 4:5. Mode: edit.
@@ -49,7 +54,10 @@ Constraints: Preserve identity, age, skin tone, facial proportions, hairstyle an
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p013-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/adult-input.png)。
 
 ```text
 交付物：自然职业头像。目标比例：4:5。模式：编辑。
@@ -78,6 +86,8 @@ Change only the background to a muted olive studio wall.
 
 **Mode:** edit · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p014-en) · [中文提示词](#p014-zh)
+
 **Best for:** Personal keepsakes, professional portraits and styling concepts.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -96,7 +106,10 @@ Change only the background to a muted olive studio wall.
 
 **Observed review:** Terrier, mustard scarf and backpack read clearly. The distinctive eye patch is retained with some fur-pattern variation.
 
+<a id="p014-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/pet-input.png)。
 
 ```text
 Asset: Pet explorer portrait. Target aspect ratio: 1:1. Mode: edit.
@@ -105,7 +118,10 @@ Constraints: Keep muzzle shape, eye color, coat patches, ear asymmetry and body 
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p014-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/pet-input.png)。
 
 ```text
 交付物：宠物探险家肖像。目标比例：1:1。模式：编辑。
@@ -134,6 +150,8 @@ Change only the neckerchief to dusty blue, keeping knot size and fur boundary.
 
 **Mode:** edit · **Target:** 4:5 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p015-en) · [中文提示词](#p015-zh)
+
 **Best for:** Personal keepsakes, professional portraits and styling concepts.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -154,7 +172,10 @@ Change only the neckerchief to dusty blue, keeping knot size and fur boundary.
 
 **Observed review:** Sage linen jacket, three buttons and pockets are recognizable. Sleeves are rolled rather than matching the full-length garment reference; shirt folds and hand details also vary.
 
+<a id="p015-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/adult-input.png) → [Input 2 / 输入 2](../assets/images/jacket-input.png)。
 
 ```text
 Asset: Linen jacket virtual styling. Target aspect ratio: 4:5. Mode: edit.
@@ -163,7 +184,10 @@ Constraints: Preserve face, body shape, hands, pose, background and other garmen
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p015-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/adult-input.png) → [Input 2 / 输入 2](../assets/images/jacket-input.png)。
 
 ```text
 交付物：亚麻外套虚拟穿搭。目标比例：4:5。模式：编辑。
@@ -192,6 +216,8 @@ Roll only the jacket sleeves once, keeping wrist anatomy and jacket length.
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p016-en) · [中文提示词](#p016-zh)
+
 **Best for:** Personal keepsakes, professional portraits and styling concepts.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -206,7 +232,10 @@ Roll only the jacket sleeves once, keeping wrist anatomy and jacket length.
 
 **Observed review:** Two adults share a plausible tea-pouring moment with subdued light and grain; hands and cup contact were visually inspected.
 
+<a id="p016-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Analog weekend portrait. Target aspect ratio: 3:2. Mode: generate.
@@ -215,7 +244,10 @@ Constraints: Two adults, anatomically credible hands, no beauty-ad retouching or
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p016-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：胶片周末生活照。目标比例：3:2。模式：新建。
@@ -244,6 +276,8 @@ Warm only the white balance slightly, preserving faces and scene arrangement.
 
 **Mode:** edit · **Target:** 4:5 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p017-en) · [中文提示词](#p017-zh)
+
 **Best for:** Personal keepsakes, professional portraits and styling concepts.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -262,7 +296,10 @@ Warm only the white balance slightly, preserving faces and scene arrangement.
 
 **Observed review:** Two fictional adults remain distinct in the pencil illustration; clothes, bench and riverside setting are coherent.
 
+<a id="p017-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/couple-input.png)。
 
 ```text
 Asset: Couple illustration keepsake. Target aspect ratio: 4:5. Mode: edit.
@@ -271,7 +308,10 @@ Constraints: No age changes, body reshaping, wedding symbols or invented relatio
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p017-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/couple-input.png)。
 
 ```text
 交付物：双人纪念插画。目标比例：4:5。模式：编辑。
@@ -300,6 +340,8 @@ Add only a closed yellow umbrella beside the bench; keep both people untouched.
 
 **Mode:** edit · **Target:** 4:5 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p018-en) · [中文提示词](#p018-zh)
+
 **Best for:** Personal keepsakes, professional portraits and styling concepts.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -318,7 +360,10 @@ Add only a closed yellow umbrella beside the bench; keep both people untouched.
 
 **Observed review:** Pet eye patch and pose remain recognizable in watercolor; flower decoration and paper texture are newly interpreted.
 
+<a id="p018-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/pet-input.png)。
 
 ```text
 Asset: Pet remembrance watercolor. Target aspect ratio: 4:5. Mode: edit.
@@ -327,7 +372,10 @@ Constraints: Do not invent a name, date, halo, wings or text; keep its natural a
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p018-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/pet-input.png)。
 
 ```text
 交付物：宠物纪念水彩。目标比例：4:5。模式：编辑。

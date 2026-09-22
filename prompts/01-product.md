@@ -22,6 +22,8 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p001-en) · [中文提示词](#p001-zh)
+
 **Best for:** Catalog pages and product campaign pitches.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -36,7 +38,10 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Observed review:** Headline and brand are readable. Material appearance is illustrative; recycled content cannot be verified visually.
 
+<a id="p001-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Portable lamp campaign. Target aspect ratio: 3:2. Mode: generate.
@@ -45,7 +50,10 @@ Constraints: One lamp; no invented battery claims or extra text.
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p001-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：无线台灯广告主图。目标比例：3:2。模式：新建。
@@ -74,6 +82,8 @@ Change only the base finish to muted jade; preserve shade, pull tab, framing and
 
 **Mode:** edit · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p002-en) · [中文提示词](#p002-zh)
+
 **Best for:** Catalog pages and product campaign pitches.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -92,7 +102,10 @@ Change only the base finish to muted jade; preserve shade, pull tab, framing and
 
 **Observed review:** The mug is isolated on white with a soft contact shadow. Glaze speckles and proportions vary slightly; this is a generated listing concept, not a pixel-exact cutout.
 
+<a id="p002-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/cup-input.png)。
 
 ```text
 Asset: Ceramic cup catalog. Target aspect ratio: 1:1. Mode: edit.
@@ -101,7 +114,10 @@ Constraints: Preserve silhouette, handle opening, glaze pattern and scale; do no
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p002-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/cup-input.png)。
 
 ```text
 交付物：陶瓷杯白底商品图。目标比例：1:1。模式：编辑。
@@ -130,6 +146,8 @@ Soften only the floor shadow; keep all cup pixels as close to the source as poss
 
 **Mode:** generate · **Target:** 4:5 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p003-en) · [中文提示词](#p003-zh)
+
 **Best for:** Catalog pages and product campaign pitches.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -144,7 +162,10 @@ Soften only the floor shadow; keep all cup pixels as close to the source as poss
 
 **Observed review:** Amber bottle, linen and two leaves are present; MOSS HOUR and FACE OIL are readable with calm upper space.
 
+<a id="p003-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Skincare ingredient still life. Target aspect ratio: 4:5. Mode: generate.
@@ -153,7 +174,10 @@ Constraints: No medical benefits, certification seals or invented ingredient per
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p003-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：护肤品成分氛围图。目标比例：4:5。模式：新建。
@@ -182,6 +206,8 @@ Replace only the linen with a pale sage cotton cloth, keeping folds similarly po
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p004-en) · [中文提示词](#p004-zh)
+
 **Best for:** Catalog pages and product campaign pitches.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -196,7 +222,10 @@ Replace only the linen with a pale sage cotton cloth, keeping folds similarly po
 
 **Observed review:** Five requested labels and CONCEPT are readable and leaders are separated. The mechanism is a conceptual exploded illustration, not validated engineering.
 
+<a id="p004-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Mechanical coffee grinder cutaway. Target aspect ratio: 3:2. Mode: generate.
@@ -205,7 +234,10 @@ Constraints: Concept illustration only; do not imply these are verified internal
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p004-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：手摇磨豆机结构概念图。目标比例：3:2。模式：新建。
@@ -234,6 +266,8 @@ Increase only the gap between burr and cup; preserve labels and component count.
 
 **Mode:** edit · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p005-en) · [中文提示词](#p005-zh)
+
 **Best for:** Catalog pages and product campaign pitches.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -252,7 +286,10 @@ Increase only the gap between burr and cup; preserve labels and component count.
 
 **Observed review:** Woven upper and sole texture are visible in the close-up. Fine stitch patterns are reconstructed rather than copied pixel for pixel.
 
+<a id="p005-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/shoe-input.png)。
 
 ```text
 Asset: Sneaker texture detail. Target aspect ratio: 3:2. Mode: edit.
@@ -261,7 +298,10 @@ Constraints: Preserve supplied colors, panel seams, sole profile and branding; n
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p005-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/shoe-input.png)。
 
 ```text
 交付物：运动鞋材质特写。目标比例：3:2。模式：编辑。
@@ -290,6 +330,8 @@ Reduce only the highlight strength on the rubber, retaining visible grain.
 
 **Mode:** generate · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p006-en) · [中文提示词](#p006-zh)
+
 **Best for:** Catalog pages and product campaign pitches.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -304,7 +346,10 @@ Reduce only the highlight strength on the rubber, retaining visible grain.
 
 **Observed review:** Four-item overhead arrangement and STILL POST label match the brief; card remains blank.
 
+<a id="p006-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Gift box unboxing flat lay. Target aspect ratio: 1:1. Mode: generate.
@@ -313,7 +358,10 @@ Constraints: Exactly four primary objects; no additional stationery, hands or pr
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p006-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：礼盒开箱平铺图。目标比例：1:1。模式：新建。

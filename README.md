@@ -20,7 +20,7 @@ A practical prompt library for online shops, designers and video creators: make 
 | --- | --- | --- |
 | [![Headphone campaign with copy space](assets/images/p094-videoweb.png)](prompts/16-videoweb-x-creators.md#p094) | [![Same character in four media](assets/images/example-p076.png)](prompts/14-sketch-to-story.md#p076) | [![Nine-shot music-video board](assets/images/example-p084.png)](prompts/14-sketch-to-story.md#p084) |
 | Position the product on the right and leave the left clear for a headline added later. Text-to-image; no reference needed. | Interpret one doodle as felt, pencil, risograph and ceramic while retaining its outfit and accessories. Upload the character reference. | Explore shot scale and order from one performer reference for a music-video brief. Upload the performer reference. |
-| [P094 · Prompt](prompts/16-videoweb-x-creators.md#p094) | [P076 · Prompt and input](prompts/14-sketch-to-story.md#p076) | [P084 · Prompt and input](prompts/14-sketch-to-story.md#p084) |
+| [P094 · Prompt](prompts/16-videoweb-x-creators.md#p094-en) | [P076 · Prompt and input](prompts/14-sketch-to-story.md#p076-en) | [P084 · Prompt and input](prompts/14-sketch-to-story.md#p084-en) |
 
 These are starting points with recorded limitations: the headphone joints are conceptual; the character sheet carries over the input’s four visible buttons; the eye close-up and notebook handling need continuity checks. [Generation records](docs/generation-log.md).
 
@@ -38,7 +38,7 @@ The lamp occupies the right 60%; at left, print only "LIGHT, UNPLUGGED." and "TI
 Show believable metal texture. One lamp; no extra text or product claims.
 ```
 
-Check the lettering, shade outline and pull-tab position, then save the approved version. The [editing case below](#editing-examples) shows how to change its color and headline. The [full P001 recipe](prompts/01-product.md#p001) includes constraints and checks.
+Check the lettering, shade outline and pull-tab position, then save the approved version. The [editing case below](#editing-examples) shows how to change its color and headline. The [full P001 recipe](prompts/01-product.md#p001-en) includes constraints and checks.
 
 The free tool accepts text or one reference image and requires verification before generation. Multi-image recipes need a tool that supports the required number of uploads.
 
@@ -74,7 +74,7 @@ Find a specific task across 16 packs and 106 recipes. Prefer to choose by appear
 | Multilingual copy: organize the hierarchy | Portrait edits: retain identity details | Interior concepts: plan materials and circulation |
 | --- | --- | --- |
 | [![Japanese and English bakery poster](assets/images/komorebi-bakery.png)](prompts/11-multilingual.md#l003) | [![Natural professional portrait](assets/images/example-p013.png)](prompts/03-people-pets.md#p013) | [![Workshop reading-room concept](assets/images/reading-room.png)](prompts/08-spaces.md#p043) |
-| Arrange supplied Japanese and English copy into a headline and subheading; proofread every character. No reference needed. [L003 prompt](prompts/11-multilingual.md#l003). | Upload a portrait, change the setting and clothing, then compare facial features, skin tone and hairline. [P013 prompt and input](prompts/03-people-pets.md#p013). | Specify furniture positions, materials and light for a concept discussion, not construction drawings. [P043 prompt](prompts/08-spaces.md#p043). |
+| Arrange supplied Japanese and English copy into a headline and subheading; proofread every character. No reference needed. [L003 prompt](prompts/11-multilingual.md#l003). | Upload a portrait, change the setting and clothing, then compare facial features, skin tone and hairline. [P013 prompt and input](prompts/03-people-pets.md#p013-en). | Specify furniture positions, materials and light for a concept discussion, not construction drawings. [P043 prompt](prompts/08-spaces.md#p043-en). |
 
 <a id="editing-examples"></a>
 
@@ -86,7 +86,7 @@ Find a specific task across 16 packs and 106 recipes. Prefer to choose by appear
 | --- | --- |
 | ![Three candles](assets/images/launch-cake-input.png) | ![Five candles](assets/images/launch-cake-edit.png) |
 
-The task changes the count while preserving the cake, plate and composition. Five orange candles are visible; the frosting texture shifts slightly. Use this to practice specifying the change and the preserve list. [P067 prompt, input and review](prompts/12-launch-examples.md#p067).
+The task changes the count while preserving the cake, plate and composition. Five orange candles are visible; the frosting texture shifts slightly. Use this to practice specifying the change and the preserve list. [P067 prompt, input and review](prompts/12-launch-examples.md#p067-en).
 
 ### Two edits: color first, then the headline
 
@@ -124,7 +124,7 @@ Preserve the green base, "TIDELINE" brand name, layout, product and lighting.
 
 ## About the examples and open-source use
 
-Maintained by VideoWeb AI from the [Flaq AI collection](https://github.com/flaqai/awesome-chatgpt-images-2-5-prompts): 103 inherited recipes plus 3 creator additions, across 16 packs and 143 images. There are 76 bilingual English/Chinese recipes, 18 English-only recipes and 12 language-specific briefs.
+Maintained by VideoWeb AI from the [Flaq AI collection](https://github.com/flaqai/awesome-chatgpt-images-2-5-prompts): 103 inherited recipes plus 3 creator additions, across 16 packs and 143 images. There are 78 bilingual English/Chinese recipes, 16 English-only recipes and 12 language-specific briefs.
 
 Examples were made with the project image tool, which did not expose a model ID; they are not verified VideoWeb or model-specific tests. Known text, structure and detail errors are documented in the [generation log](docs/generation-log.md). Third-party X images are credited separately and are not covered by this repository’s MIT license.
 

@@ -22,6 +22,8 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p025-en) · [中文提示词](#p025-zh)
+
 **Best for:** Teaching cards, explanatory slides and fictional-data presentations.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -36,7 +38,10 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Observed review:** Three panels, labels and directional water arrows are readable; classroom concept rather than a site-specific drainage design.
 
+<a id="p025-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Three-stage rain garden explainer. Target aspect ratio: 3:2. Mode: generate.
@@ -45,7 +50,10 @@ Constraints: Do not depict purified drinking water or invent performance percent
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p025-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：雨水花园三步科普。目标比例：3:2。模式：新建。
@@ -74,6 +82,8 @@ Increase only the arrow contrast; keep all stages and wording.
 
 **Mode:** generate · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p026-en) · [中文提示词](#p026-zh)
+
 **Best for:** Teaching cards, explanatory slides and fictional-data presentations.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -88,7 +98,10 @@ Increase only the arrow contrast; keep all stages and wording.
 
 **Observed review:** Three sectors, four text labels and matching ingredient illustrations are clear; not a comprehensive sensory wheel.
 
+<a id="p026-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Coffee tasting wheel for beginners. Target aspect ratio: 1:1. Mode: generate.
@@ -97,7 +110,10 @@ Constraints: Exactly three sectors; no borrowed official tasting-wheel layout or
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p026-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：新手咖啡风味轮。目标比例：1:1。模式：新建。
@@ -126,6 +142,8 @@ Change only the fruity-sector accent to muted pink.
 
 **Mode:** generate · **Target:** 16:9 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p027-en) · [中文提示词](#p027-zh)
+
 **Best for:** Teaching cards, explanatory slides and fictional-data presentations.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -144,7 +162,10 @@ Change only the fruity-sector accent to muted pink.
 
 **Observed review:** Cream background and readable labels are restored. Bars visually approximate the 20:30:40 relationship; use a charting tool for exact quantitative publication.
 
+<a id="p027-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Transparent demo-data bar chart. Target aspect ratio: 16:9. Mode: generate.
@@ -153,7 +174,10 @@ Constraints: No extrapolation, percentages or invented source. Keep labels outsi
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p027-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：示例数据柱状图。目标比例：16:9。模式：新建。
@@ -182,6 +206,8 @@ Highlight only June in orange, preserving values and bar geometry.
 
 **Mode:** generate · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p028-en) · [中文提示词](#p028-zh)
+
 **Best for:** Teaching cards, explanatory slides and fictional-data presentations.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -196,7 +222,10 @@ Highlight only June in orange, preserving values and bar geometry.
 
 **Observed review:** Station, central park, north library and east cafe are placed coherently; the dotted path is interrupted through the park and should not be used as real navigation.
 
+<a id="p028-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Fictional neighborhood walking map. Target aspect ratio: 1:1. Mode: generate.
@@ -205,7 +234,10 @@ Constraints: Not a navigational map; no real coordinates, travel times or extra 
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p028-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：虚构街区步行地图。目标比例：1:1。模式：新建。
@@ -234,6 +266,8 @@ Change only the route color to dark blue without moving its path.
 
 **Mode:** generate · **Target:** 4:5 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p029-en) · [中文提示词](#p029-zh)
+
 **Best for:** Teaching cards, explanatory slides and fictional-data presentations.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -248,7 +282,10 @@ Change only the route color to dark blue without moving its path.
 
 **Observed review:** Four labeled growth stages are recognizable. Direction arrows connect each row but omit the wrap between rows; botanical detail needs educator review.
 
+<a id="p029-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Plant life-cycle classroom card. Target aspect ratio: 4:5. Mode: generate.
@@ -257,7 +294,10 @@ Constraints: Roots below soil, leaves above; do not imply equal time intervals o
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p029-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：植物生命周期教学卡。目标比例：4:5。模式：新建。
@@ -286,6 +326,8 @@ Enlarge only the root illustration in the second panel while preserving labels.
 
 **Mode:** generate · **Target:** 16:9 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p030-en) · [中文提示词](#p030-zh)
+
 **Best for:** Teaching cards, explanatory slides and fictional-data presentations.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -300,7 +342,10 @@ Enlarge only the root illustration in the second panel while preserving labels.
 
 **Observed review:** Four equal cards, labeled stages and three connecting arrows form a clear sequence.
 
+<a id="p030-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Workshop process slide. Target aspect ratio: 16:9. Mode: generate.
@@ -309,7 +354,10 @@ Constraints: One illustration per stage; no extra steps or unsupported business 
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p030-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：工作坊流程演示页。目标比例：16:9。模式：新建。

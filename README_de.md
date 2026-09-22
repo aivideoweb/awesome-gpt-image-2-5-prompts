@@ -6,7 +6,7 @@ Erstelle Bilder und plane Videoprojekte mit VideoWeb AI.
 
 ![VideoWeb AI — GPT Image 2.5](assets/images/videoweb-cover.png)
 
-Die Sammlung enthält 106 Rezepte in 16 Paketen und 143 neu erzeugte Bilder: 76 Kernrezepte auf Englisch und vereinfachtem Chinesisch sowie 12 sprachspezifische Rezepte. Es gibt 16 README-Sprach- und Regionalversionen. Diese deutsche Einstiegsseite ist keine vollständige Übersetzung aller Prompts. Hinzu kommen 18 neue Workflow-Rezepte ausschließlich auf Englisch.
+Die Sammlung enthält 106 Rezepte in 16 Paketen und 143 neu erzeugte Bilder: 78 Kernrezepte auf Englisch und vereinfachtem Chinesisch sowie 12 sprachspezifische Rezepte. Es gibt 16 README-Sprach- und Regionalversionen. Diese deutsche Einstiegsseite ist keine vollständige Übersetzung aller Prompts. Hinzu kommen 16 neue Workflow-Rezepte ausschließlich auf Englisch.
 
 
 **[Bildergalerie mit 106 Rezepten](docs/gallery.md)**
@@ -27,35 +27,30 @@ Wähle ein Rezept im [Verzeichnis](prompts/README.md). Lade für eine Bearbeitun
 [↗ L007](prompts/11-multilingual.md#l007)
 
 ```text
-Gestalte ein Hochformatplakat im Verhältnis 2:3 für eine fiktive offene Werkstatt. Auf cremefarbenem Papier liegen ein kleiner Holzlöffel, ein Schleifklotz und eingerolltes orangefarbenes Garn. Weiches Seitenlicht zeigt Holzmaserung und Papierstruktur. Oben steht exakt "ZEIT FÜRS SELBERMACHEN", darunter "Eine Idee. Deine Hände." und unten "OFFENE WERKSTATT". Verwende dunkelblaue Schrift und breite Ränder. Lange Wörter dürfen sinnvoll umbrochen, aber nicht verändert werden. Keine Preise oder erfundenen Veranstaltungsdaten. Ändere anschließend nur die Garnfarbe zu Salbeigrün; behalte Schrift und Anordnung bei.
+Gestalte ein Hochformatplakat im Verhältnis 2:3 für eine fiktive offene Werkstatt. Auf cremefarbenem Papier liegen ein kleiner Holzlöffel, ein Schleifklotz und eingerolltes orangefarbenes Garn. Weiches Seitenlicht zeigt Holzmaserung und Papierstruktur. Oben steht exakt "ZEIT FÜRS SELBERMACHEN", darunter "Eine Idee. Deine Hände." und unten "OFFENE WERKSTATT". Verwende dunkelblaue Schrift und breite Ränder. Lange Wörter dürfen sinnvoll umbrochen, aber nicht verändert werden. Keine Preise oder erfundenen Veranstaltungsdaten.
+```
+
+Erzeuge zuerst mit dem obigen Prompt ein Bild und speichere die bestätigte Version. Lade dieses Bild danach hoch und führe nur diese Änderung aus:
+
+```text
+Ändere anschließend nur die Garnfarbe zu Salbeigrün; behalte Schrift und Anordnung bei.
 ```
 
 Umlaute in FÜRS und Hände sowie Wortumbrüche prüfen.
 
-## Kostenlose GPT Image 2.5 KI-Tools ohne Anmeldung
+## Von der Aufgabe zum Ergebnis
 
-12 Tools zum Ausprobieren der Prompts mit Text oder einem Referenzbild.
+- Für ein Plakat kannst du das deutsche Beispiel oben verwenden. Für Produktwerbung beginne mit [P094 (EN / 简中)](prompts/16-videoweb-x-creators.md#p094).
+- Erzeuge und speichere das Bild. Lade es dann hoch und folge dem [Beispiel für eine einzelne Bearbeitung](docs/editing-case-study.md).
+- Vergleiche das Ergebnis mit [weiteren bebilderten Beispielen](docs/gallery.md).
 
-| Tool | Beschreibung | Passende Prompts |
-| --- | --- | --- |
-| [VideoWeb AI free gpt image 2.5](https://videoweb.ai/free-gpt-image-2-5/) | Für Filmauftakte, Übergangsbilder, Kampagnen und Ortsstudien. Kameraposition und Licht im Prompt festlegen. | [Passende Prompts](prompts/07-stories-games.md) |
-| [Flaq.ai free gpt image 2.5](https://flaq.ai/free-chatgpt-images-2-5/) | Für Produktbilder, Plakate und realistische Szenen. Verlinkt auch auf weitere Kreativwerkzeuge und Flaq.ai-APIs. | [P001](prompts/01-product.md#p001) |
-| [UGC Maker free gpt image 2.5](https://ugcmaker.org/free-chatgpt-images-2-5/) | Für UGC-Werbekonzepte, Produktgeschichten und Grafiken für soziale Medien. | [Passende Prompts](prompts/02-social.md) |
-| [Best Image AI free gpt image 2.5](https://bestimage.ai/free-chatgpt-images-2-5/) | Für E-Commerce, Plakate und Bildkonzepte in quadratischen, hohen oder breiten Formaten. | [P070](prompts/13-customizable-studio.md#p070) |
-| [HeyDream free gpt image 2.5](https://heydream.im/free-chatgpt-images-2-5/) | Für realistische Szenen, neue Bildstile und Hintergründe. Separate Bild-zu-Video-Werkzeuge sind verlinkt. | [P071](prompts/13-customizable-studio.md#p071) |
-| [AITryOn free gpt image 2.5](https://aitryon.art/free-chatgpt-images-2-5/) | Für Outfits, Modeporträts, Accessoires und Produktbilder. Material, Pose und Hintergrund konkret angeben. | [P079](prompts/14-sketch-to-story.md#p079) |
-| [Flyne AI free gpt image 2.5](https://flyne.ai/free-gpt-image-2-5/) | Für Produkteinführungen, Social-Media-Grafiken, illustrierte Storyboards und Moodboards. Bewirbt neun Seitenverhältnisse. | [Passende Prompts](prompts/01-product.md) |
-| [Sea Imagine AI free gpt image 2.5](https://seaimagine.com/free-gpt-image-2-5/) | Für künstlerische Kompositionen, architektonische Umgebungen, Plakatlayouts und Farbpaletten. | [Passende Prompts](prompts/08-spaces.md) |
-| [Fylia AI free gpt image 2.5](https://fylia.ai/free-gpt-image-2-5/) | Für illustrierte Porträts, Miniaturwelten, Alltagsszenen und Papierkunst mit unterschiedlichen Farben. | [Passende Prompts](prompts/03-people-pets.md) |
-| [SeeVido AI free gpt image 2.5](https://seevido.com/free-gpt-image-2-5/) | Für Figurenszenen, Produktankündigungen, Reiseillustrationen und saisonale Beiträge. | [Passende Prompts](prompts/02-social.md) |
-| [VO4 AI free gpt image 2.5](https://vo4.org/free-gpt-image-2-5/) | Für filmische Szenen, Aktionsreferenzen, Science-Fiction-Welten und Studien zum Bildausschnitt. | [Passende Prompts](prompts/14-sketch-to-story.md) |
-| [Chat 4O AI free gpt image 2.5](https://chat4o.ai/free-gpt-image-2-5/) | Für Präsentationen, Lernillustrationen, Moodboards und Bildgeschichten. Platz für Folientext einplanen. | [Passende Prompts](prompts/05-information.md) |
+[Toolvergleich (EN / 简中)](docs/tools.md)
 
-Prompt kopieren und fiktive Angaben ersetzen. Bei einer Bearbeitung das Referenzbild anhängen und festlegen, was erhalten bleiben soll. Die Seiten werben mit kostenloser Nutzung ohne Anmeldung; die neuen Tools verlangen vor der Generierung eine Verifizierung. Beschreibungen am 14. und 16. September 2026 geprüft, keine Generierung getestet. Erweiterte Funktionen, Videos und APIs können kostenpflichtig sein; es gelten die jeweiligen Bedingungen.
+Die verlinkten Rezepte und Anleitungen sind hauptsächlich auf Englisch und vereinfachtem Chinesisch.
 
 ## Stand der Beispiele
 
-Der folgende Prompt ist eine noch nicht gerenderte Vorlage. Die Projektbilder entstanden mit dem integrierten Codex-Bildwerkzeug, das keine Modell-ID zurückgab. Sie sind kein verifizierter Vergleich von Flare und Sunburst. Prüfe Schrift, Mengen und Formen vor der Veröffentlichung.
+Der Prompt auf dieser Seite ist eine noch nicht gerenderte Vorlage. Die Projektbilder entstanden mit dem integrierten Codex-Bildwerkzeug, das keine Modell-ID zurückgab. Sie sind kein verifizierter Vergleich von Flare und Sunburst. Prüfe Schrift, Mengen und Formen vor der Veröffentlichung.
 
 
 ## Affiliate-Partnerschaft

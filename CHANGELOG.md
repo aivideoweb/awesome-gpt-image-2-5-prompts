@@ -1,3 +1,10 @@
+# Reader usability update — 2026-09-22
+
+- Added a 1,823-character P077 free-tool prompt alongside the unchanged full version; the compact version has not been separately rendered.
+- Added direct language anchors with input references, plus Chinese execution translations for P076 and P084.
+- Replaced long tool tables in 14 localized entry pages with task guidance and separated generation from follow-up edits.
+- Corrected task-specific usage and review notes. Current coverage: 106 recipes, 78 bilingual, 16 English-only and 12 language-specific; 143 PNGs.
+
 # VideoWeb AI 2.0.0 — 2026-09-22
 
 - Imported the complete Flaq AI baseline: 103 recipes, 16 language entry pages, 139 original image records.

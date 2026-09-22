@@ -33,7 +33,7 @@ def main():
     ids=[r['id'] for r in recipes+locales]
     require(len(ids)==len(set(ids)), 'Duplicate recipe IDs')
     require(len(recipes)==94 and len(locales)==12, 'Update documented recipe totals for this release')
-    require(sum(r.get('languages')==['en'] for r in recipes)==18, 'Expected 18 English-only workflow recipes')
+    require(sum(r.get('languages')==['en'] for r in recipes)==16, 'Expected 16 English-only workflow recipes')
     require(len(catalog['packs'])==15, 'Expected 15 core packs')
     require(len({r['language'] for r in locales})==12, 'Expected 12 language briefs')
     require(len(exported['core'])==len(recipes), 'Exported core count mismatch')
@@ -64,6 +64,19 @@ def main():
             require(exported_r.get(field)==r[field],f'{r["id"]}: stale exported {field}')
         for lang in languages:
             require(r['brief'][lang] in exported_r.get('prompt',{}).get(lang,''),f'{r["id"]}: missing full prompt')
+        for lang, prompt in r.get('compact_prompt',{}).items():
+            require(lang in languages and 0 < len(prompt) <= 2000, f'{r["id"]}: compact prompt must fit the free tool')
+            require(bool(r.get('compact_note')), f'{r["id"]}: missing compact-version status')
+    for pack in catalog['packs']:
+        page = ROOT/'prompts'/f'{pack["slug"]}.md'
+        targets = anchors(page)
+        for r in pack['recipes']:
+            for lang in r.get('languages',['en','zh']):
+                require(f'{r["id"].lower()}-{lang}' in targets, f'{r["id"]}: missing direct prompt anchor')
+    for name, lang in [('README.md','en'),('README_zh.md','zh')]:
+        text = (ROOT/name).read_text()
+        for recipe in ['p076','p084','p094']:
+            require(f'#{recipe}-{lang})' in text, f'{name}: featured prompt must open its execution language')
     require(len(manifest)==143,'Expected 143 recorded images')
     covered={a['recipe_id'] for a in manifest if a.get('role') not in ('input','draft')}
     require(set(ids).issubset(covered), 'Every recipe must have a generated result')

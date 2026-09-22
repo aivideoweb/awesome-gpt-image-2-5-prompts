@@ -22,6 +22,8 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Mode:** edit · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p055-en) · [中文提示词](#p055-zh)
+
 **Best for:** Extending and localizing approved visual campaigns.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -40,7 +42,10 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Observed review:** Autumn leaves and knitted fabric support the campaign; headline and lamp stay recognizable. Composition is rearranged for the new square frame.
 
+<a id="p055-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/tideline-lamp.png)。
 
 ```text
 Asset: Seasonal product series. Target aspect ratio: 1:1. Mode: edit.
@@ -49,7 +54,10 @@ Constraints: One variant per call; do not create a four-image collage or recolor
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p055-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/tideline-lamp.png)。
 
 ```text
 交付物：商品四季系列。目标比例：1:1。模式：编辑。
@@ -78,6 +86,8 @@ For the winter sibling, replace only the autumn props with folded ivory knit; re
 
 **Mode:** edit · **Target:** 2:3 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p056-en) · [中文提示词](#p056-zh)
+
 **Best for:** Extending and localizing approved visual campaigns.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -96,7 +106,10 @@ For the winter sibling, replace only the autumn props with folded ivory knit; re
 
 **Observed review:** Portrait campaign layout has clear copy and breathing room. Lamp and plinth proportions shift slightly in the reformatted composition.
 
+<a id="p056-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/tideline-lamp.png)。
 
 ```text
 Asset: Portrait ad reframe. Target aspect ratio: 2:3. Mode: edit.
@@ -105,7 +118,10 @@ Constraints: Do not crop product edges, stretch the object, invent copy or chang
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p056-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/tideline-lamp.png)。
 
 ```text
 交付物：横版广告转竖版。目标比例：2:3。模式：编辑。
@@ -134,6 +150,8 @@ Move only the headline down slightly to increase top safe space.
 
 **Mode:** edit · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p057-en) · [中文提示词](#p057-zh)
+
 **Best for:** Extending and localizing approved visual campaigns.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -152,7 +170,10 @@ Move only the headline down slightly to increase top safe space.
 
 **Observed review:** Chinese headline 把夜晚留给自己 is readable and TIDELINE remains. Minor product texture and framing changes accompany the text edit.
 
+<a id="p057-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/tideline-lamp.png)。
 
 ```text
 Asset: Localized campaign master. Target aspect ratio: 3:2. Mode: edit.
@@ -161,7 +182,10 @@ Constraints: No automatic additions, transliterated brand name or simplified rep
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p057-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/tideline-lamp.png)。
 
 ```text
 交付物：广告本地化母版。目标比例：3:2。模式：编辑。
@@ -190,6 +214,8 @@ Fix only any wrong Chinese character; preserve product and approved typesetting.
 
 **Mode:** edit · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p058-en) · [中文提示词](#p058-zh)
+
 **Best for:** Extending and localizing approved visual campaigns.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -212,7 +238,10 @@ Fix only any wrong Chinese character; preserve product and approved typesetting.
 
 **Observed review:** Lamp and striped linen are combined with the room reference. Sideboard accessories move to accommodate the lamp, so preservation is not pixel exact.
 
+<a id="p058-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/room-input.png) → [Input 2 / 输入 2](../assets/images/tideline-lamp.png) → [Input 3 / 输入 3](../assets/images/linen-input.png)。
 
 ```text
 Asset: Three-reference product composite. Target aspect ratio: 3:2. Mode: edit.
@@ -221,7 +250,10 @@ Constraints: Image 3 supplies texture only; keep architecture, chairs and all un
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p058-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/room-input.png) → [Input 2 / 输入 2](../assets/images/tideline-lamp.png) → [Input 3 / 输入 3](../assets/images/linen-input.png)。
 
 ```text
 交付物：三参考图商品合成。目标比例：3:2。模式：编辑。
@@ -250,6 +282,8 @@ Reduce only lamp size by 10% while keeping its base contact on the sideboard.
 
 **Mode:** edit · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p059-en) · [中文提示词](#p059-zh)
+
 **Best for:** Extending and localizing approved visual campaigns.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -268,7 +302,10 @@ Reduce only lamp size by 10% while keeping its base contact on the sideboard.
 
 **Observed review:** Major scratches are repaired and monochrome grain remains. Facial and foliage details are inferred; this synthetic exercise is not historical evidence.
 
+<a id="p059-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/vintage-input.png)。
 
 ```text
 Asset: Vintage-photo gentle restoration. Target aspect ratio: 3:2. Mode: edit.
@@ -277,7 +314,10 @@ Constraints: Do not invent facial details hidden by severe damage, change identi
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p059-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/vintage-input.png)。
 
 ```text
 交付物：老照片轻度修复。目标比例：3:2。模式：编辑。
@@ -306,6 +346,8 @@ Reduce only one remaining scratch; preserve all previously accepted repairs.
 
 **Mode:** edit · **Target:** 16:9 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p060-en) · [中文提示词](#p060-zh)
+
 **Best for:** Extending and localizing approved visual campaigns.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -324,7 +366,10 @@ Reduce only one remaining scratch; preserve all previously accepted repairs.
 
 **Observed review:** A coherent follow-on scene shows the robot, sleeping cat and repaired glowing moon. Scene geometry is reinterpreted across the story.
 
+<a id="p060-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/paper-moon-story.png)。
 
 ```text
 Asset: Approved storyboard shot expansion. Target aspect ratio: 16:9. Mode: edit.
@@ -333,7 +378,10 @@ Constraints: Do not include grid borders, other panels or new characters; this i
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p060-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/paper-moon-story.png)。
 
 ```text
 交付物：确认分镜扩展单镜头。目标比例：16:9。模式：编辑。

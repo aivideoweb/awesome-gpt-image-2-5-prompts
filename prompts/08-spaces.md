@@ -22,6 +22,8 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p043-en) · [中文提示词](#p043-zh)
+
 **Best for:** Interior, retail and landscape concept presentations.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -36,7 +38,10 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Observed review:** Main arrangement and four chairs visible. Added cup/vase and illegible book-spine marks; circulation and construction not validated.
 
+<a id="p043-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Workshop-to-reading-room concept. Target aspect ratio: 3:2. Mode: generate.
@@ -45,7 +50,10 @@ Constraints: No people, logos or signage; preserve believable circulation. Conce
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p043-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：旧工坊改造阅读室。目标比例：3:2。模式：新建。
@@ -74,6 +82,8 @@ Change only bench upholstery to deep teal; keep architecture and furniture place
 
 **Mode:** edit · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p044-en) · [中文提示词](#p044-zh)
+
 **Best for:** Interior, retail and landscape concept presentations.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -92,7 +102,10 @@ Change only bench upholstery to deep teal; keep architecture and furniture place
 
 **Observed review:** Sideboard fronts change to light oak while the room remains recognizable. This is a material visualization rather than an exact finish specification.
 
+<a id="p044-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/room-input.png)。
 
 ```text
 Asset: Small apartment material refresh. Target aspect ratio: 3:2. Mode: edit.
@@ -101,7 +114,10 @@ Constraints: No demolition, new openings, moved fixtures or visual expansion.
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p044-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/room-input.png)。
 
 ```text
 交付物：小公寓材质翻新。目标比例：3:2。模式：编辑。
@@ -130,6 +146,8 @@ Darken only the oak veneer slightly while keeping its grain direction.
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p045-en) · [中文提示词](#p045-zh)
+
 **Best for:** Interior, retail and landscape concept presentations.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -144,7 +162,10 @@ Darken only the oak veneer slightly while keeping its grain direction.
 
 **Observed review:** Doorway view, oak bed and linen are coherent; the reading niche is rendered as a small illuminated wall recess.
 
+<a id="p045-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Boutique guest-room styling. Target aspect ratio: 3:2. Mode: generate.
@@ -153,7 +174,10 @@ Constraints: No fake sea view, hotel rating, logos or excessive amenities.
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p045-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：精品客房软装概念。目标比例：3:2。模式：新建。
@@ -182,6 +206,8 @@ Change only cushion fabric to moss-green wool.
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p046-en) · [中文提示词](#p046-zh)
+
 **Best for:** Interior, retail and landscape concept presentations.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -196,7 +222,10 @@ Change only cushion fabric to moss-green wool.
 
 **Observed review:** Three dispensers and REFILL CORNER lettering are clear; the scene includes customers and a venue instead of an abstract empty backdrop.
 
+<a id="p046-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Pop-up refill store. Target aspect ratio: 3:2. Mode: generate.
@@ -205,7 +234,10 @@ Constraints: No sustainability statistics, brand partnerships or fabricated safe
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p046-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：补充装快闪店概念。目标比例：3:2。模式：新建。
@@ -234,6 +266,8 @@ Change only the fabric canopy to muted apricot.
 
 **Mode:** generate · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p047-en) · [中文提示词](#p047-zh)
+
 **Best for:** Interior, retail and landscape concept presentations.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -248,7 +282,10 @@ Change only the fabric canopy to muted apricot.
 
 **Observed review:** Top-down courtyard has one tree, oval gravel field, straight stepping stones and a bench. Tree canopy obscures the center of the path.
 
+<a id="p047-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Courtyard planting concept. Target aspect ratio: 1:1. Mode: generate.
@@ -257,7 +294,10 @@ Constraints: Keep all elements inside the boundary; no scale certification or sp
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p047-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：庭院种植设计概念。目标比例：1:1。模式：新建。
@@ -286,6 +326,8 @@ Widen only the path slightly without moving tree or bench.
 
 **Mode:** edit · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p048-en) · [中文提示词](#p048-zh)
+
 **Best for:** Interior, retail and landscape concept presentations.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -304,7 +346,10 @@ Widen only the path slightly without moving tree or bench.
 
 **Observed review:** Sketch becomes a timber pavilion with translucent panels. Structure and proportions are conceptual, not verified engineering.
 
+<a id="p048-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/pavilion-sketch.png)。
 
 ```text
 Asset: Sketch to small pavilion. Target aspect ratio: 3:2. Mode: edit.
@@ -313,7 +358,10 @@ Constraints: No structural-safety guarantee; do not silently redesign proportion
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p048-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/pavilion-sketch.png)。
 
 ```text
 交付物：草图转小亭效果图。目标比例：3:2。模式：编辑。

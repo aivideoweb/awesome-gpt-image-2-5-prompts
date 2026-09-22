@@ -6,7 +6,7 @@ Buat gambar dan rencanakan video dengan VideoWeb AI.
 
 ![VideoWeb AI — GPT Image 2.5](assets/images/videoweb-cover.png)
 
-Koleksi ini berisi 106 resep dalam 16 kategori serta 143 gambar baru. Sebanyak 76 resep utama tersedia dalam bahasa Inggris dan Mandarin sederhana, ditambah 12 resep khusus bahasa. README tersedia dalam 16 versi bahasa dan wilayah. Halaman ini merupakan pengantar bahasa Indonesia, bukan terjemahan seluruh prompt. Ada pula 18 resep alur kerja baru yang tersedia hanya dalam bahasa Inggris.
+Koleksi ini berisi 106 resep dalam 16 kategori serta 143 gambar baru. Sebanyak 78 resep utama tersedia dalam bahasa Inggris dan Mandarin sederhana, ditambah 12 resep khusus bahasa. README tersedia dalam 16 versi bahasa dan wilayah. Halaman ini merupakan pengantar bahasa Indonesia, bukan terjemahan seluruh prompt. Ada pula 16 resep alur kerja baru yang tersedia hanya dalam bahasa Inggris.
 
 
 **[Galeri 106 resep bergambar](docs/gallery.md)**
@@ -27,35 +27,30 @@ Pilih resep dari [daftar](prompts/README.md). Untuk menyunting, lampirkan gambar
 [↗ L005](prompts/11-multilingual.md#l005)
 
 ```text
-Buat poster vertikal 2:3 untuk kedai kopi fiktif. Di atas latar kertas krem, tampilkan cangkir keramik biru berisi kopi dan sebuah sendok kecil, dengan cahaya pagi dari samping. Tulis persis "SECANGKIR KOPI, TANPA TERBURU-BURU" di bagian atas, "Luangkan waktu sejenak" di bawahnya, dan "KEDAI KOPI TETANGGA" di bagian paling bawah. Gunakan huruf biru tua, margin lebar, dan hierarki teks yang jelas. Pertahankan tanda koma dan tanda hubung; jangan tambahkan harga atau alamat. Pada penyuntingan berikutnya, ubah hanya warna cangkir menjadi hijau zaitun, sambil mempertahankan teks, bayangan, dan komposisi.
+Buat poster vertikal 2:3 untuk kedai kopi fiktif. Di atas latar kertas krem, tampilkan cangkir keramik biru berisi kopi dan sebuah sendok kecil, dengan cahaya pagi dari samping. Tulis persis "SECANGKIR KOPI, TANPA TERBURU-BURU" di bagian atas, "Luangkan waktu sejenak" di bawahnya, dan "KEDAI KOPI TETANGGA" di bagian paling bawah. Gunakan huruf biru tua, margin lebar, dan hierarki teks yang jelas. Pertahankan tanda koma dan tanda hubung; jangan tambahkan harga atau alamat.
+```
+
+Buat dahulu gambar dengan prompt di atas dan simpan hasil yang sudah disetujui. Setelah itu, unggah gambar tersebut dan lakukan satu perubahan ini saja:
+
+```text
+Pada penyuntingan berikutnya, ubah hanya warna cangkir menjadi hijau zaitun, sambil mempertahankan teks, bayangan, dan komposisi.
 ```
 
 Periksa ejaan, tanda hubung pada TERBURU-BURU, serta keterbacaan judul yang panjang.
 
-## Alat AI GPT Image 2.5 gratis tanpa pendaftaran
+## Dari tugas hingga hasil
 
-12 alat untuk mencoba prompt dengan teks atau satu gambar referensi.
+- Untuk poster, gunakan contoh bahasa Indonesia di atas. Untuk iklan produk, mulai dari [P094 (EN / 简中)](prompts/16-videoweb-x-creators.md#p094).
+- Buat dan simpan gambar, lalu unggah dan ikuti [contoh satu kali penyuntingan](docs/editing-case-study.md).
+- Bandingkan hasilnya dengan [contoh bergambar lainnya](docs/gallery.md).
 
-| Alat | Pengantar | Prompt terkait |
-| --- | --- | --- |
-| [VideoWeb AI free gpt image 2.5](https://videoweb.ai/free-gpt-image-2-5/) | Untuk pembukaan film, bingkai transisi, kampanye, dan studi lokasi. Tentukan posisi kamera dan pencahayaan. | [Prompt terkait](prompts/07-stories-games.md) |
-| [Flaq.ai free gpt image 2.5](https://flaq.ai/free-chatgpt-images-2-5/) | Untuk gambar produk, poster, dan adegan realistis. Juga menyediakan tautan ke alat kreatif serta API Flaq.ai. | [P001](prompts/01-product.md#p001) |
-| [UGC Maker free gpt image 2.5](https://ugcmaker.org/free-chatgpt-images-2-5/) | Untuk konsep iklan UGC, cerita produk, dan gambar media sosial. | [Prompt terkait](prompts/02-social.md) |
-| [Best Image AI free gpt image 2.5](https://bestimage.ai/free-chatgpt-images-2-5/) | Untuk ecommerce, poster, dan konsep visual dalam komposisi persegi, vertikal, atau lebar. | [P070](prompts/13-customizable-studio.md#p070) |
-| [HeyDream free gpt image 2.5](https://heydream.im/free-chatgpt-images-2-5/) | Untuk adegan realistis, perubahan gaya foto, dan latar. Ada tautan ke alat gambar-ke-video yang terpisah. | [P071](prompts/13-customizable-studio.md#p071) |
-| [AITryOn free gpt image 2.5](https://aitryon.art/free-chatgpt-images-2-5/) | Untuk konsep pakaian, potret mode, aksesori, dan produk. Jelaskan bahan, pose, dan latar. | [P079](prompts/14-sketch-to-story.md#p079) |
-| [Flyne AI free gpt image 2.5](https://flyne.ai/free-gpt-image-2-5/) | Untuk peluncuran produk, grafis sosial, storyboard ilustrasi, dan moodboard. Halaman menawarkan sembilan rasio aspek. | [Prompt terkait](prompts/01-product.md) |
-| [Sea Imagine AI free gpt image 2.5](https://seaimagine.com/free-gpt-image-2-5/) | Untuk komposisi seni, lingkungan arsitektur, tata letak poster, dan eksplorasi palet warna. | [Prompt terkait](prompts/08-spaces.md) |
-| [Fylia AI free gpt image 2.5](https://fylia.ai/free-gpt-image-2-5/) | Untuk potret ilustrasi, dunia cerita miniatur, adegan keseharian, dan eksperimen kerajinan kertas. | [Prompt terkait](prompts/03-people-pets.md) |
-| [SeeVido AI free gpt image 2.5](https://seevido.com/free-gpt-image-2-5/) | Untuk adegan karakter, teaser produk, ilustrasi perjalanan, dan unggahan musiman. | [Prompt terkait](prompts/02-social.md) |
-| [VO4 AI free gpt image 2.5](https://vo4.org/free-gpt-image-2-5/) | Untuk adegan sinematik, referensi aksi, dunia fiksi ilmiah, dan studi komposisi kamera. | [Prompt terkait](prompts/14-sketch-to-story.md) |
-| [Chat 4O AI free gpt image 2.5](https://chat4o.ai/free-gpt-image-2-5/) | Untuk presentasi, ilustrasi pembelajaran, moodboard, dan cerita visual. Sisakan ruang untuk teks slide. | [Prompt terkait](prompts/05-information.md) |
+[Perbandingan alat (EN / 简中)](docs/tools.md)
 
-Salin prompt dan ganti detail fiktif. Untuk pengeditan, lampirkan referensi dan tentukan bagian yang harus dipertahankan. Halaman menawarkan akses gratis tanpa pendaftaran, tetapi alat baru meminta verifikasi sebelum generasi. Deskripsi diperiksa pada 14 dan 16 September 2026, tanpa menguji generasi. Fitur lanjutan, video, dan API dapat berbayar; ikuti ketentuan setiap situs.
+Resep dan panduan yang ditautkan terutama tersedia dalam bahasa Inggris dan Mandarin sederhana.
 
 ## Status contoh
 
-Prompt berikut merupakan adaptasi L005, tidak dihitung sebagai resep baru, dan belum memiliki gambar hasil. Gambar proyek dibuat dengan alat bawaan Codex yang tidak memberikan ID model. Gambar tersebut bukan perbandingan Flare dan Sunburst yang terverifikasi. Periksa teks, jumlah objek, dan bentuk sebelum publikasi.
+Prompt pada halaman ini merupakan adaptasi L005, tidak dihitung sebagai resep baru, dan belum memiliki gambar hasil. Gambar proyek dibuat dengan alat bawaan Codex yang tidak memberikan ID model. Gambar tersebut bukan perbandingan Flare dan Sunburst yang terverifikasi. Periksa teks, jumlah objek, dan bentuk sebelum publikasi.
 
 
 ## Kerja sama afiliasi

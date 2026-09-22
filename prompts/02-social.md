@@ -22,6 +22,8 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Mode:** generate · **Target:** 2:3 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p007-en) · [中文提示词](#p007-zh)
+
 **Best for:** Social posts, event announcements and editorial covers.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -36,7 +38,10 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Observed review:** Headline, date, time and venue are readable; repaired mug and tools form a coherent print illustration.
 
+<a id="p007-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Repair café event poster. Target aspect ratio: 2:3. Mode: generate.
@@ -45,7 +50,10 @@ Constraints: Fictional event; no QR code, sponsors, prices or unprovided details
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p007-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：社区修理日海报。目标比例：2:3。模式：新建。
@@ -74,6 +82,8 @@ Replace only the date with "SAT 21 NOV"; preserve hierarchy and line breaks.
 
 **Mode:** generate · **Target:** 16:9 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p008-en) · [中文提示词](#p008-zh)
+
 **Best for:** Social posts, event announcements and editorial covers.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -88,7 +98,10 @@ Replace only the date with "SAT 21 NOV"; preserve hierarchy and line breaks.
 
 **Observed review:** Headline and sanding block are clear with the chair centered. The restored section is subtle rather than a sharply demarcated before/after.
 
+<a id="p008-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Creator thumbnail with one idea. Target aspect ratio: 16:9. Mode: generate.
@@ -97,7 +110,10 @@ Constraints: No celebrity likeness, fake reactions, arrows or unverified before-
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p008-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：单一主题视频缩略图。目标比例：16:9。模式：新建。
@@ -126,6 +142,8 @@ Enlarge only the title by 15%, leaving its left margin and subject position unch
 
 **Mode:** generate · **Target:** 4:5 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p009-en) · [中文提示词](#p009-zh)
+
 **Best for:** Social posts, event announcements and editorial covers.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -140,7 +158,10 @@ Enlarge only the title by 15%, leaving its left margin and subject position unch
 
 **Observed review:** Headline and slide number are legible; the red train follows a coherent curve through the landscape.
 
+<a id="p009-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Carousel cover for slow travel. Target aspect ratio: 4:5. Mode: generate.
@@ -149,7 +170,10 @@ Constraints: Illustrative destination, no invented route names, schedules or pri
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p009-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：慢旅行轮播封面。目标比例：4:5。模式：新建。
@@ -178,6 +202,8 @@ Make a second cover by changing only the title to "PACK A LITTLE LESS" and page 
 
 **Mode:** generate · **Target:** 4:5 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p010-en) · [中文提示词](#p010-zh)
+
 **Best for:** Social posts, event announcements and editorial covers.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -192,7 +218,10 @@ Make a second cover by changing only the title to "PACK A LITTLE LESS" and page 
 
 **Observed review:** Both copy lines are readable and the bowl ingredients are identifiable. Additional background foliage and cutlery appear, so the result is less minimal than the brief.
 
+<a id="p010-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Neighborhood lunch special. Target aspect ratio: 4:5. Mode: generate.
@@ -201,7 +230,10 @@ Constraints: No nutritional values, dietary certification or fabricated discount
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p010-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：街区餐厅午餐海报。目标比例：4:5。模式：新建。
@@ -230,6 +262,8 @@ Change only the coral square to cobalt blue; keep food and text unchanged.
 
 **Mode:** generate · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p011-en) · [中文提示词](#p011-zh)
+
 **Best for:** Social posts, event announcements and editorial covers.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -244,7 +278,10 @@ Change only the coral square to cobalt blue; keep food and text unchanged.
 
 **Observed review:** Paper chair, long shadow and all requested lettering read clearly.
 
+<a id="p011-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Podcast editorial cover. Target aspect ratio: 1:1. Mode: generate.
@@ -253,7 +290,10 @@ Constraints: No microphones, platform logos, badges or extra names.
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p011-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：播客编辑风封面。目标比例：1:1。模式：新建。
@@ -282,6 +322,8 @@ Shorten only the shadow by one third while keeping light direction consistent.
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p012-en) · [中文提示词](#p012-zh)
+
 **Best for:** Social posts, event announcements and editorial covers.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -296,7 +338,10 @@ Shorten only the shadow by one third while keeping light direction consistent.
 
 **Observed review:** Market miniatures have distinct paper and textile surfaces; the headline and market label are readable.
 
+<a id="p012-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Seasonal market campaign. Target aspect ratio: 3:2. Mode: generate.
@@ -305,7 +350,10 @@ Constraints: Original miniature scene; no recognizable branded toys or additiona
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p012-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：秋日市集活动主视觉。目标比例：3:2。模式：新建。

@@ -22,6 +22,8 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Mode:** generate · **Target:** 2:3 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p049-en) · [中文提示词](#p049-zh)
+
 **Best for:** Book covers, editorial pages and print concept development.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -36,7 +38,10 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Observed review:** Title and author are readable; pear tree and oversized shadow follow the concept. Cream-on-peach title contrast is modest.
 
+<a id="p049-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Quiet orchard book cover. Target aspect ratio: 2:3. Mode: generate.
@@ -45,7 +50,10 @@ Constraints: Only the supplied title and author; no award stickers, quotes, ISBN
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p049-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：果园主题书籍封面。目标比例：2:3。模式：新建。
@@ -74,6 +82,8 @@ Increase only title contrast without moving the tree or changing typography.
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p050-en) · [中文提示词](#p050-zh)
+
 **Best for:** Book covers, editorial pages and print concept development.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -88,7 +98,10 @@ Increase only title contrast without moving the tree or changing typography.
 
 **Observed review:** Title and three steps are readable; the spread uses realistic book curvature and adds step numbers 1–3.
 
+<a id="p050-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Recipe editorial spread. Target aspect ratio: 3:2. Mode: generate.
@@ -97,7 +110,10 @@ Constraints: Layout concept only; no invented cooking times, temperatures or ing
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p050-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：食谱编辑跨页概念。目标比例：3:2。模式：新建。
@@ -126,6 +142,8 @@ Move only the small step illustrations closer to their labels, avoiding the gutt
 
 **Mode:** generate · **Target:** 4:5 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p051-en) · [中文提示词](#p051-zh)
+
 **Best for:** Book covers, editorial pages and print concept development.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -144,7 +162,10 @@ Move only the small step illustrations closer to their labels, avoiding the gutt
 
 **Observed review:** Title and 2026 REVIEW are legible on cream. Five translucent paper shapes remain an illustrative composition, not a data visualization.
 
+<a id="p051-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Annual review cover. Target aspect ratio: 4:5. Mode: generate.
@@ -153,7 +174,10 @@ Constraints: No financial metrics, organization seals or impact claims.
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p051-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：年度回顾封面。目标比例：4:5。模式：新建。
@@ -182,6 +206,8 @@ Change only the year to "2027 REVIEW", preserving every graphic element.
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p052-en) · [中文提示词](#p052-zh)
+
 **Best for:** Book covers, editorial pages and print concept development.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -196,7 +222,10 @@ Change only the year to "2027 REVIEW", preserving every graphic element.
 
 **Observed review:** One orange focal flower and a wall separating the notification field are clear; no readable text is added.
 
+<a id="p052-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Editorial attention metaphor. Target aspect ratio: 3:2. Mode: generate.
@@ -205,7 +234,10 @@ Constraints: No recognizable app icons, named artists or borrowed characters.
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p052-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：注意力主题编辑插画。目标比例：3:2。模式：新建。
@@ -234,6 +266,8 @@ Reduce only the number of paper notifications by half.
 
 **Mode:** generate · **Target:** 2:3 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p053-en) · [中文提示词](#p053-zh)
+
 **Best for:** Book covers, editorial pages and print concept development.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -248,7 +282,10 @@ Reduce only the number of paper notifications by half.
 
 **Observed review:** Three main reed stems and vermilion sun are visible; the scene expands into a distant landscape beyond the requested small pool.
 
+<a id="p053-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Botanical ink print. Target aspect ratio: 2:3. Mode: generate.
@@ -257,7 +294,10 @@ Constraints: No seal, calligraphy, artist signature or imitation of a specific a
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p053-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：植物水墨装饰画。目标比例：2:3。模式：新建。
@@ -286,6 +326,8 @@ Make only the sun slightly smaller, preserving brushwork and empty space.
 
 **Mode:** generate · **Target:** 4:5 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p054-en) · [中文提示词](#p054-zh)
+
 **Best for:** Book covers, editorial pages and print concept development.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -300,7 +342,10 @@ Make only the sun slightly smaller, preserving brushwork and empty space.
 
 **Observed review:** Title is legible; bicycle, window, plant and awning form a cohesive two-ink-style collage.
 
+<a id="p054-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Risograph neighborhood zine. Target aspect ratio: 4:5. Mode: generate.
@@ -309,7 +354,10 @@ Constraints: No additional publication logos or fake issue numbers; keep title r
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p054-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：街区独立刊物封面。目标比例：4:5。模式：新建。

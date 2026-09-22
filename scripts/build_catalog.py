@@ -32,9 +32,14 @@ def build():
         for r in pack['recipes']:
             languages = r.get('languages', ['en', 'zh'])
             translated_title = ' / '+r['title']['zh'] if 'zh' in languages else ''
-            index.append(f'| {r["id"]} | [{r["title"]["en"]}]({pack["slug"]}.md#{r["id"].lower()}) | {r["title"].get("zh", "English workflow")} | {r["mode"]} | {r["ratio"]} |')
+            chinese_link = f'[{r["title"]["zh"]}]({pack["slug"]}.md#{r["id"].lower()}-zh)' if 'zh' in languages else 'English workflow'
+            index.append(f'| {r["id"]} | [{r["title"]["en"]}]({pack["slug"]}.md#{r["id"].lower()}-en) | {chinese_link} | {r["mode"]} | {r["ratio"]} |')
             lines += ['', f'<a id="{r["id"].lower()}"></a>', f'## {r["id"]} · {r["title"]["en"]}{translated_title}', '',
                       f'**Mode:** {r["mode"]} · **Target:** {r["ratio"]} · **Author:** {r.get("author", "flaq.ai team")}', '']
+            direct = [f'[{label}](#{r["id"].lower()}-{lang})' for lang,label in [('en','English prompt'),('zh','中文提示词')] if lang in languages]
+            if r.get('compact_prompt'):
+                direct += [f'[Free-tool version / 免费工具版](#{r["id"].lower()}-en-compact)']
+            lines += ['**Copy prompt / 复制提示词：** ' + ' · '.join(direct), '']
             if languages == ['en']:
                 lines += ['**Language:** English. Expanded adaptation; see the result status and source information below.', '']
             if r.get('usage'):
@@ -83,7 +88,25 @@ def build():
                 else:
                     text=f'交付物：{r["title"][lang]}。目标比例：{r["ratio"]}。模式：'+('新建' if r['mode']=='generate' else '编辑')+'。\n'+r['brief'][lang]+'\n约束：'+r['constraints'][lang]+'\n只渲染明确要求的图中文字，不添加无关标识、签名或说明。'
                 complete[lang]=text
-                lines += [f'### {label}', '', '```text',text,'```','']
+                lines += [f'<a id="{r["id"].lower()}-{lang}"></a>', f'### {label}', '']
+                if r['mode'] == 'generate':
+                    lines += ['No reference upload required. / 无需上传参考图。', '']
+                else:
+                    inputs = next((a['input_images'] for a in examples.get(r['id'],[]) if a.get('input_images')), [])
+                    input_links = ' → '.join(f'[Input {n} / 输入 {n}](../{path})' for n,path in enumerate(inputs,1))
+                    lines += ['Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。' + (f' Example inputs, in order / 示例输入顺序：{input_links}。' if inputs else ''), '']
+                if lang == 'zh' and r.get('translation_note'):
+                    lines += [r['translation_note'], '']
+                if len(text) > 2000:
+                    route = f'[Use the compact version / 使用精简版](#{r["id"].lower()}-{lang}-compact).' if lang in r.get('compact_prompt',{}) else 'Use a tool that accepts this length. / 请选用支持此长度的工具。'
+                    lines += [f'This full prompt has {len(text):,} characters, above the free page’s 2,000-character limit. / 此完整版超过免费页的 2,000 字符限制。 {route}', '']
+                lines += ['```text',text,'```','']
+                if lang in r.get('compact_prompt',{}):
+                    compact = r['compact_prompt'][lang]
+                    lines += [f'<a id="{r["id"].lower()}-{lang}-compact"></a>', '### Free-tool version / 免费工具版', '',
+                              f'{len(compact):,} characters / 字符 · No reference upload / 无需上传参考图。', '', r['compact_note'], '',
+                              'Copy this block alone into the [free tool](https://videoweb.ai/free-gpt-image-2-5/). / 只复制本段到[免费工具](https://videoweb.ai/free-gpt-image-2-5/)，不要再拼接上方完整版。', '',
+                              '```text', compact, '```', '']
             lines += ['### Next edit / 后续修改', '', '```text', r['revision']['en'], '```', '']
             if 'zh' in languages:
                 lines += ['```text', r['revision']['zh'], '```', '']

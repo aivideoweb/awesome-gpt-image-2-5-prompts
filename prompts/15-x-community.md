@@ -22,6 +22,8 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Mode:** generate · **Target:** 4:5 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p086-en)
+
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
 **Best for:** Source-attributed campaign and presentation concepts.
@@ -58,7 +60,10 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Bakery product:** braided dough. **Alternatives:** pretzel dough or seeded bread. **Preserve:** word structure and spacing.
 
+<a id="p086-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Ingredient-built bakery lettering. Target aspect ratio: 4:5. Mode: generate.
@@ -82,6 +87,8 @@ Change the enamel surface to warm ivory while preserving the dough shapes, shado
 ## P087 · Six-frame fragrance launch board
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
+
+**Copy prompt / 复制提示词：** [English prompt](#p087-en)
 
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
@@ -115,7 +122,10 @@ Change the enamel surface to warm ivory while preserving the dough shapes, shado
 
 **Fragrance direction:** cedar on slate. **Alternatives:** citrus on limestone or tea on ceramic. **Preserve:** bottle shape, label and six-shot sequence.
 
+<a id="p087-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Six-frame fragrance launch board. Target aspect ratio: 3:2. Mode: generate.
@@ -139,6 +149,8 @@ Correct only panel 05 so the mist originates at the atomizer; preserve all other
 ## P088 · Editorial mobility concept poster
 
 **Mode:** generate · **Target:** 4:5 · **Author:** flaq.ai team
+
+**Copy prompt / 复制提示词：** [English prompt](#p088-en)
 
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
@@ -172,7 +184,10 @@ Correct only panel 05 so the mist originates at the atomizer; preserve all other
 
 **Mobility product:** cargo bicycle. **Alternatives:** folding bicycle or commuter scooter. **Preserve:** one hero object and clear type separation.
 
+<a id="p088-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Editorial mobility concept poster. Target aspect ratio: 4:5. Mode: generate.
@@ -196,6 +211,8 @@ Change only the cargo box to muted orange; keep wheels, frame, camera and typogr
 ## P089 · Paper-window weekend destination card
 
 **Mode:** generate · **Target:** 2:3 · **Author:** flaq.ai team
+
+**Copy prompt / 复制提示词：** [English prompt](#p089-en)
 
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
@@ -229,7 +246,10 @@ Change only the cargo box to muted orange; keep wheels, frame, camera and typogr
 
 **Landscape:** fictional lake retreat. **Alternatives:** desert observatory or mountain refuge. **Preserve:** paper depth and two-line hierarchy.
 
+<a id="p089-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Paper-window weekend destination card. Target aspect ratio: 2:3. Mode: generate.
@@ -253,6 +273,8 @@ Move the lighting from morning to overcast afternoon without changing the paper 
 ## P090 · Sketch-to-building concept reveal
 
 **Mode:** generate · **Target:** 16:9 · **Author:** flaq.ai team
+
+**Copy prompt / 复制提示词：** [English prompt](#p090-en)
 
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
@@ -286,7 +308,10 @@ Move the lighting from morning to overcast afternoon without changing the paper 
 
 **Building use:** neighborhood library. **Alternatives:** community gallery or visitor center. **Preserve:** three roof bays and shared perspective.
 
+<a id="p090-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Sketch-to-building concept reveal. Target aspect ratio: 16:9. Mode: generate.
@@ -310,6 +335,8 @@ Make only the middle wireframe zone narrower, preserving the building footprint 
 ## P091 · Community picnic announcement
 
 **Mode:** generate · **Target:** 4:5 · **Author:** flaq.ai team
+
+**Copy prompt / 复制提示词：** [English prompt](#p091-en)
 
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
@@ -343,7 +370,10 @@ Make only the middle wireframe zone narrower, preserving the building footprint 
 
 **Seasonal food:** strawberries. **Alternatives:** peaches or grapes. **Preserve:** empty center and three-line invitation.
 
+<a id="p091-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Community picnic announcement. Target aspect ratio: 4:5. Mode: generate.

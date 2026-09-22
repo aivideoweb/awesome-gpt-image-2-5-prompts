@@ -24,6 +24,8 @@ Scenario inspiration: [Referenced prompt collection](https://github.com/PhiMaker
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p068-en) · [中文提示词](#p068-zh)
+
 **Best for:** Reusable product and storytelling design studies.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -48,7 +50,10 @@ Use the complete prompt below as a working default. Replace the named detail in 
 | Repair subject / 修补物 | navy backpack / 深蓝背包 | canvas tote or denim jacket / 帆布袋或牛仔外套 | one visible seam and plausible hand contact / 一条可见接缝与合理手部接触 |
 | Light / 光线 | overcast window / 阴天窗光 | warm late-afternoon window / 温暖午后窗光 | window position and camera / 窗户位置与相机 |
 
+<a id="p068-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Repair collective editorial portrait. Target aspect ratio: 3:2. Mode: generate.
@@ -57,7 +62,10 @@ Constraints: Keep believable hand contact and a visible repair seam; no text or 
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p068-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：修理工坊纪实风肖像。目标比例：3:2。模式：新建。
@@ -86,6 +94,8 @@ Change only the apron from mustard to muted plum. Preserve the person, pose, bac
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p069-en) · [中文提示词](#p069-zh)
+
 **Best for:** Reusable product and storytelling design studies.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -110,7 +120,10 @@ Use the complete prompt below as a working default. Replace the named detail in 
 | Heading / 标题 | A QUIET POUR / A QUIET POUR | your approved short heading / 已确认的短标题 | four step labels / 四个步骤标签 |
 | Illustration finish / 插画质感 | screen-print texture / 丝网印刷纹理 | flat editorial ink / 平面编辑插画 | sequence and vessel roles / 顺序与器皿用途 |
 
+<a id="p069-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Four-step pour-over poster. Target aspect ratio: 3:2. Mode: generate.
@@ -119,7 +132,10 @@ Constraints: Exactly four columns in order; preserve verbatim labels and vessel 
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p069-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：四步手冲咖啡流程海报。目标比例：3:2。模式：新建。
@@ -148,6 +164,8 @@ Change only the coral accent color to moss green; preserve all labels, step orde
 
 **Mode:** generate · **Target:** 2:3 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p070-en) · [中文提示词](#p070-zh)
+
 **Best for:** Reusable product and storytelling design studies.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -172,7 +190,10 @@ Use the complete prompt below as a working default. Replace the named detail in 
 | Accessory / 配件 | orange suitcase / 橙色旅行箱 | small satchel / 小挎包 | one separate compartment / 一个独立分格 |
 | Series copy / 系列文字 | CITY SERIES 01 / CITY SERIES 01 | CITY SERIES 02 / CITY SERIES 02 | other two text lines / 其余两行文字 |
 
+<a id="p070-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Pocket tram collectible packaging. Target aspect ratio: 2:3. Mode: generate.
@@ -181,7 +202,10 @@ Constraints: One tram and one suitcase; no barcode, age claim, certification, pr
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p070-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：口袋电车收藏包装。目标比例：2:3。模式：新建。
@@ -209,6 +233,8 @@ Change only the tram’s teal painted body panels to brick red. Preserve cream t
 ## P071 · Handmade lighthouse island / 手工灯塔岛微缩场景
 
 **Mode:** generate · **Target:** 1:1 · **Author:** flaq.ai team
+
+**Copy prompt / 复制提示词：** [English prompt](#p071-en) · [中文提示词](#p071-zh)
 
 **Best for:** Reusable product and storytelling design studies.
 
@@ -244,7 +270,10 @@ Use the complete prompt below as a working default. Replace the named detail in 
 | Season / 季节 | spring without snow / 无雪春天 | early autumn foliage / 初秋叶色 | path, boat count and structures / 路径、船数与建筑 |
 | Backdrop / 背景 | pale apricot / 浅杏色 | warm gray or powder blue / 暖灰或粉蓝 | entire cork base visible / 软木底座完整可见 |
 
+<a id="p071-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Handmade lighthouse island. Target aspect ratio: 1:1. Mode: generate.
@@ -253,7 +282,10 @@ Constraints: Exactly two boats, one lighthouse and one boathouse; no people, sig
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p071-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：手工灯塔岛微缩场景。目标比例：1:1。模式：新建。
@@ -282,6 +314,8 @@ Change only the lighthouse roof from terracotta to muted sage green. Preserve al
 
 **Mode:** generate · **Target:** 2:3 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p072-en) · [中文提示词](#p072-zh)
+
 **Best for:** Reusable product and storytelling design studies.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -306,7 +340,10 @@ Use the complete prompt below as a working default. Replace the named detail in 
 | Tin color / 铁盒色 | indigo / 靛蓝 | muted forest green / 柔和森林绿 | scratches, hinge and rabbit / 划痕、铰链与兔子 |
 | Outside weather / 窗外天气 | falling snow / 落雪 | gentle autumn rain / 柔和秋雨 | warm interior and window position / 温暖室内与窗户位置 |
 
+<a id="p072-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Knitted keepsake greeting card. Target aspect ratio: 2:3. Mode: generate.
@@ -315,7 +352,10 @@ Constraints: Preserve the repaired ear, two eyes, open tin and text margins. Kee
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p072-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：针织纪念物贺卡。目标比例：2:3。模式：新建。
@@ -344,6 +384,8 @@ Change only the bottom line to “THINKING OF YOU”. Preserve the top headline,
 
 **Mode:** generate · **Target:** 2:3 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p073-en) · [中文提示词](#p073-zh)
+
 **Best for:** Reusable product and storytelling design studies.
 
 **Inputs:** No reference upload is required for this default text-to-image prompt.
@@ -368,7 +410,10 @@ Use the complete prompt below as a working default. Replace the named detail in 
 | Glaze color / 釉色 | teal / 青绿 | amber or cobalt / 琥珀或钴蓝 | same color in brush and finished-bowl photos / 涂釉与成品碗两图釉色一致 |
 | Title / 标题 | THE SHAPE OF A DAY / THE SHAPE OF A DAY | your approved studio title / 已确认的工作室标题 | four-print layout and footer / 四图布局与底部文案 |
 
+<a id="p073-en"></a>
 ### English
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 Asset: Ceramics studio editorial collage. Target aspect ratio: 2:3. Mode: generate.
@@ -377,7 +422,10 @@ Constraints: Exactly four bordered prints; no celebrity, archival claim, handwri
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p073-zh"></a>
 ### 简体中文
+
+No reference upload required. / 无需上传参考图。
 
 ```text
 交付物：陶艺工作室编辑拼贴。目标比例：2:3。模式：新建。

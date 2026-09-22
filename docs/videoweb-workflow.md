@@ -3,7 +3,7 @@
 [English README](../README.md) · [简体中文](../README_zh.md)
 
 1. Pick a [recipe](../prompts/README.md). For quick text or single-reference work, open the [free tool](https://videoweb.ai/free-gpt-image-2-5/). For the model workflow, open [GPT Image 2.5](https://videoweb.ai/model/gpt-image-2-5/).
-2. Replace fictional names and copy, choose a ratio, and upload a reference only when the recipe requires it. The free page shows a 2,000-character prompt field and one reference input. Multi-reference recipes need a tool that supports every required input; do not omit inputs silently.
+2. Replace fictional names and copy, choose a ratio, and upload a reference only when the recipe requires it. The free page shows a 2,000-character prompt field and one reference input. For the long tea-sheet prompt, copy the [P077 free-tool version](../prompts/14-sketch-to-story.md#p077-en-compact) alone. Multi-reference recipes need a tool that supports every required input; do not omit inputs silently.
 3. Complete the tool’s verification, generate, inspect lettering and identity, then download the approved image. Re-upload it for a separate edit; change one variable at a time.
 4. For motion, use a separate [image-to-video tool](https://videoweb.ai/image-to-video/). Upload one selected frame, not a whole storyboard grid. Confirm that tool’s own duration, resolution and input controls before generating.
 
@@ -26,7 +26,7 @@ This is an untested motion brief for a separate video model, not a GPT Image 2.5
 
 ## 中文步骤
 
-从配方索引选用途，复制一种语言的完整提示词，替换虚构产品和文字。免费页支持一张参考图，文字输入上限显示为2000字符；多图配方要选择支持相应输入数量的工具。完成验证后生图，检查文字、人物与产品，再下载确认版本。
+从配方索引选用途，复制一种语言的提示词，替换虚构产品和文字。免费页支持一张参考图，文字输入上限显示为2000字符；茶叶产品页的长提示词请改用 [P077 免费工具版](../prompts/14-sketch-to-story.md#p077-en-compact)，只复制精简版一段。多图配方要选择支持相应输入数量的工具。完成验证后生图，检查文字、人物与产品，再下载确认版本。
 
 需要视频时，把选定的单帧交给独立的图片转视频工具，不要把整张分镜格当成首帧。可以先试缓慢推进镜头，要求产品外形、文字与位置保持一致。检查闪烁、变形与画面边缘；正式字幕可在剪辑软件中添加。
 

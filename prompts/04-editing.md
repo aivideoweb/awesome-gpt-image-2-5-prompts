@@ -22,6 +22,8 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Mode:** edit · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p019-en) · [中文提示词](#p019-zh)
+
 **Best for:** Controlled revisions to an already selected image.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -50,7 +52,10 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Observed review:** New headline and retained green base visually verified. Fine texture and highlights drift; not a pixel-identical edit.
 
+<a id="p019-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/tideline-lamp.png)。
 
 ```text
 Asset: Product colorway edit. Target aspect ratio: 3:2. Mode: edit.
@@ -59,7 +64,10 @@ Constraints: Preserve all copy, positions, scale, camera, background and shadows
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p019-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/tideline-lamp.png)。
 
 ```text
 交付物：商品配色局部修改。目标比例：3:2。模式：编辑。
@@ -88,6 +96,8 @@ On this approved green version, change only "LIGHT, UNPLUGGED." to "YOUR EVENING
 
 **Mode:** edit · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p020-en) · [中文提示词](#p020-zh)
+
 **Best for:** Controlled revisions to an already selected image.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -106,7 +116,10 @@ On this approved green version, change only "LIGHT, UNPLUGGED." to "YOUR EVENING
 
 **Observed review:** Plastic bottle is removed while mug, runner and room layout remain. Table grain is reconstructed in the removed area.
 
+<a id="p020-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/room-input.png)。
 
 ```text
 Asset: Remove a tabletop distraction. Target aspect ratio: 3:2. Mode: edit.
@@ -115,7 +128,10 @@ Constraints: Keep table outline, chairs, books, windows and crop unchanged; reta
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p020-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/room-input.png)。
 
 ```text
 交付物：去除桌面杂物。目标比例：3:2。模式：编辑。
@@ -144,6 +160,8 @@ Correct only any remaining bottle-shaped reflection, keeping the repaired wood g
 
 **Mode:** edit · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p021-en) · [中文提示词](#p021-zh)
+
 **Best for:** Controlled revisions to an already selected image.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -162,7 +180,10 @@ Correct only any remaining bottle-shaped reflection, keeping the repaired wood g
 
 **Observed review:** Blue-hour exterior and warm desk lamp are coherent. The bottle remains because this edit starts from the original room input, not P020.
 
+<a id="p021-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/room-input.png)。
 
 ```text
 Asset: Window-light evening relight. Target aspect ratio: 3:2. Mode: edit.
@@ -171,7 +192,10 @@ Constraints: Do not move furniture, create new light fixtures, change materials 
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p021-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/room-input.png)。
 
 ```text
 交付物：室内窗光转傍晚。目标比例：3:2。模式：编辑。
@@ -200,6 +224,8 @@ Lower only the lamp brightness slightly while preserving the cooler window light
 
 **Mode:** edit · **Target:** 2:3 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p022-en) · [中文提示词](#p022-zh)
+
 **Best for:** Controlled revisions to an already selected image.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -218,7 +244,10 @@ Lower only the lamp brightness slightly while preserving the cooler window light
 
 **Observed review:** New headline A SLOWER SATURDAY is readable; event details and repair objects remain. Minor texture changes occur outside the headline.
 
+<a id="p022-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/example-p007.png)。
 
 ```text
 Asset: Poster text replacement. Target aspect ratio: 2:3. Mode: edit.
@@ -227,7 +256,10 @@ Constraints: Do not change date, venue, image, colors or layout outside the titl
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p022-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/example-p007.png)。
 
 ```text
 交付物：海报文案定点替换。目标比例：2:3。模式：编辑。
@@ -256,6 +288,8 @@ Fix only a misspelled headline character; repeat the exact approved headline.
 
 **Mode:** edit · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p023-en) · [中文提示词](#p023-zh)
+
 **Best for:** Controlled revisions to an already selected image.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -276,7 +310,10 @@ Fix only a misspelled headline character; repeat the exact approved headline.
 
 **Observed review:** Planter is placed against the terrace wall with plausible shadows. Plant spacing and object scale are illustrative, not measured construction guidance.
 
+<a id="p023-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/terrace-input.png) → [Input 2 / 输入 2](../assets/images/planter-sketch.png)。
 
 ```text
 Asset: Sketch-guided planter placement. Target aspect ratio: 3:2. Mode: edit.
@@ -285,7 +322,10 @@ Constraints: Remove sketch strokes from the result; preserve parapet, floor tile
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p023-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/terrace-input.png) → [Input 2 / 输入 2](../assets/images/planter-sketch.png)。
 
 ```text
 交付物：草图引导添加花盆。目标比例：3:2。模式：编辑。
@@ -314,6 +354,8 @@ Shorten only the planter width by 10%, keeping its left edge anchored.
 
 **Mode:** edit · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p024-en) · [中文提示词](#p024-zh)
+
 **Best for:** Controlled revisions to an already selected image.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -332,7 +374,10 @@ Shorten only the planter width by 10%, keeping its left edge anchored.
 
 **Observed review:** Transparent cutout retains the mug and handle opening. Fine colored fringes remain along parts of the edge; inspect against the intended background.
 
+<a id="p024-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/cup-input.png)。
 
 ```text
 Asset: Clean product cutout. Target aspect ratio: 1:1. Mode: edit.
@@ -341,7 +386,10 @@ Constraints: No painted checkerboard, white rectangle, drop shadow or cropped ed
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p024-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/cup-input.png)。
 
 ```text
 交付物：干净商品抠图。目标比例：1:1。模式：编辑。

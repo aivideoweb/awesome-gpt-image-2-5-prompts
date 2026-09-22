@@ -3356,24 +3356,30 @@
     {
       "id": "P076",
       "languages": [
-        "en"
+        "en",
+        "zh"
       ],
       "title": {
-        "en": "Doodle character across four media"
+        "en": "Doodle character across four media",
+        "zh": "同一角色的四种材质风格"
       },
       "ratio": "1:1",
       "mode": "edit",
       "brief": {
-        "en": "Use the attached original character doodle as the identity reference. Before rendering, identify its five clearest visual anchors: head shape, main color, eye arrangement, clothing silhouette and held accessory. Preserve those anchors in every rendition; do not borrow another franchise's character design. Make one square four-panel comparison sheet with equal gutters. Upper left: a sewn felt puppet with visible stitching. Upper right: a soft colored-pencil storybook drawing. Lower left: a two-color risograph illustration. Lower right: a glazed ceramic desk figurine. Keep the same front three-quarter pose, full-body crop and approximate scale in all panels. Each medium should have its own credible surface treatment while the character remains recognizable. Plain warm-gray backgrounds, no text, panels with no overlapping figures, and exactly one character per panel."
+        "en": "Use the attached original character doodle as the identity reference. Before rendering, identify its five clearest visual anchors: head shape, main color, eye arrangement, clothing silhouette and held accessory. Preserve those anchors in every rendition; do not borrow another franchise's character design. Make one square four-panel comparison sheet with equal gutters. Upper left: a sewn felt puppet with visible stitching. Upper right: a soft colored-pencil storybook drawing. Lower left: a two-color risograph illustration. Lower right: a glazed ceramic desk figurine. Keep the same front three-quarter pose, full-body crop and approximate scale in all panels. Each medium should have its own credible surface treatment while the character remains recognizable. Plain warm-gray backgrounds, no text, panels with no overlapping figures, and exactly one character per panel.",
+        "zh": "以附上的原创角色草图为身份参考。先识别五个最明显的特征：头部形状、主色、眼睛排列、服装轮廓和随身配件，并在每种风格中保留。不要借用其他作品的角色设计。制作一张1:1正方形四格对照图，格间留白等宽。左上为可见缝线的毛毡玩偶；右上为柔和彩铅绘本插画；左下为双色孔版印刷插画；右下为釉面陶瓷桌面摆件。四格保持相同的正面偏四分之三姿势、完整全身构图及大致比例。每种材质应呈现可信的表面质感，同时让角色保持可辨认。纯暖灰背景，不写文字，不让各格人物相互重叠，每格恰好一个角色。"
       },
       "constraints": {
-        "en": "Use your own doodle. The sketch controls identity; the four named media control surface and rendering. Do not change accessories to fit a style."
+        "en": "Use your own doodle. The sketch controls identity; the four named media control surface and rendering. Do not change accessories to fit a style.",
+        "zh": "使用你拥有权利的草图。草图决定角色身份，四种指定媒介决定表面与绘制方式。不要为了适应风格而替换配件。"
       },
       "revision": {
-        "en": "Render only the ceramic interpretation as a single product photograph. Preserve its head, face, colors, clothing and accessory."
+        "en": "Render only the ceramic interpretation as a single product photograph. Preserve its head, face, colors, clothing and accessory.",
+        "zh": "只把陶瓷版本制作成一张单独的产品摄影图，保留其头部、面部、颜色、服装和配件。"
       },
       "review": {
-        "en": "Check all five identity anchors in all four panels; inspect limbs and accessory count."
+        "en": "Check all five identity anchors in all four panels; inspect limbs and accessory count.",
+        "zh": "逐格核对五个身份特征，检查四肢和配件数量。"
       },
       "status": "template-not-rendered",
       "source_url": "https://mp.weixin.qq.com/s/mk3gp9wzmq93zV5EtD9rLQ",
@@ -3384,14 +3390,16 @@
         "preserve": "identity anchors, pose and scale"
       },
       "usage": {
-        "best_for": "Reference-led concept development, editorial design and storyboards.",
-        "inputs": "One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.",
+        "best_for": "Comparing four material treatments while preserving one character identity.",
+        "inputs": "One original character doodle; use the linked sample or your own authorized character drawing.",
         "review_workflow": "Inspect every panel or text region separately; a coherent overall layout can hide local errors.",
         "delivery": "Use the target ratio as a framing request; inspect actual pixel dimensions before export."
       },
+      "translation_note": "Chinese execution translation added by VideoWeb AI. Reviewed against the English brief; not separately rendered. / 中文执行版由 VideoWeb AI 补充，已对照英文核对，未单独生图。",
       "pack": "14-sketch-to-story",
       "prompt": {
-        "en": "Asset: Doodle character across four media. Target aspect ratio: 1:1. Mode: edit.\nUse the attached original character doodle as the identity reference. Before rendering, identify its five clearest visual anchors: head shape, main color, eye arrangement, clothing silhouette and held accessory. Preserve those anchors in every rendition; do not borrow another franchise's character design. Make one square four-panel comparison sheet with equal gutters. Upper left: a sewn felt puppet with visible stitching. Upper right: a soft colored-pencil storybook drawing. Lower left: a two-color risograph illustration. Lower right: a glazed ceramic desk figurine. Keep the same front three-quarter pose, full-body crop and approximate scale in all panels. Each medium should have its own credible surface treatment while the character remains recognizable. Plain warm-gray backgrounds, no text, panels with no overlapping figures, and exactly one character per panel.\nConstraints: Use your own doodle. The sketch controls identity; the four named media control surface and rendering. Do not change accessories to fit a style.\nRender only explicitly requested image text. Do not add unrelated logos, signatures or captions."
+        "en": "Asset: Doodle character across four media. Target aspect ratio: 1:1. Mode: edit.\nUse the attached original character doodle as the identity reference. Before rendering, identify its five clearest visual anchors: head shape, main color, eye arrangement, clothing silhouette and held accessory. Preserve those anchors in every rendition; do not borrow another franchise's character design. Make one square four-panel comparison sheet with equal gutters. Upper left: a sewn felt puppet with visible stitching. Upper right: a soft colored-pencil storybook drawing. Lower left: a two-color risograph illustration. Lower right: a glazed ceramic desk figurine. Keep the same front three-quarter pose, full-body crop and approximate scale in all panels. Each medium should have its own credible surface treatment while the character remains recognizable. Plain warm-gray backgrounds, no text, panels with no overlapping figures, and exactly one character per panel.\nConstraints: Use your own doodle. The sketch controls identity; the four named media control surface and rendering. Do not change accessories to fit a style.\nRender only explicitly requested image text. Do not add unrelated logos, signatures or captions.",
+        "zh": "交付物：同一角色的四种材质风格。目标比例：1:1。模式：编辑。\n以附上的原创角色草图为身份参考。先识别五个最明显的特征：头部形状、主色、眼睛排列、服装轮廓和随身配件，并在每种风格中保留。不要借用其他作品的角色设计。制作一张1:1正方形四格对照图，格间留白等宽。左上为可见缝线的毛毡玩偶；右上为柔和彩铅绘本插画；左下为双色孔版印刷插画；右下为釉面陶瓷桌面摆件。四格保持相同的正面偏四分之三姿势、完整全身构图及大致比例。每种材质应呈现可信的表面质感，同时让角色保持可辨认。纯暖灰背景，不写文字，不让各格人物相互重叠，每格恰好一个角色。\n约束：使用你拥有权利的草图。草图决定角色身份，四种指定媒介决定表面与绘制方式。不要为了适应风格而替换配件。\n只渲染明确要求的图中文字，不添加无关标识、签名或说明。"
       },
       "examples": [
         "assets/images/example-p076.png"
@@ -3428,11 +3436,15 @@
         "preserve": "matching names and quantities everywhere"
       },
       "usage": {
-        "best_for": "Reference-led concept development, editorial design and storyboards.",
+        "best_for": "Text-led editorial product sheets with supplied English copy, product labels and comparison tables.",
         "inputs": "No reference upload is required for this default text-to-image prompt.",
         "review_workflow": "Inspect every panel or text region separately; a coherent overall layout can hide local errors.",
         "delivery": "Use the target ratio as a framing request; inspect actual pixel dimensions before export."
       },
+      "compact_prompt": {
+        "en": "Design a flat front-facing 3:4 product sheet for fictional RIDGE & LEAF tea. Ivory paper, forest-green type, copper accents; six-column grid, wide margins, serif headline, sans-serif body. Zones: title; product/sidebar; three tasting cards; table; footer. Use only this exact copy:\nHEADER: \"RIDGE & LEAF\" / \"COLLECTION NOTES / 01\"\nTITLE: \"THREE LEAVES.\" / \"ONE SLOW AFTERNOON.\"\nINTRO: \"A small collection for noticing aroma, texture and the pace of a quiet afternoon.\"\nPRODUCT: left four columns: open paperboard box, exactly three cylindrical tins in three fitted recesses; left ivory, middle moss green, right warm clay. Each tin: \"RIDGE & LEAF\" plus respectively \"JASMINE GREEN\", \"ROASTED OOLONG\", \"PLAIN BLACK\". Soft side light; matte tins, molded-pulp lining.\nRight sidebar: \"IN THE BOX\" / \"3 tins × 30 g\" / \"Total: 90 g\"; \"MATERIALS\" / \"Paperboard box\" / \"Reusable tins\" / \"Molded-pulp insert\".\nCARDS: three equal cards, each with a small monochrome botanical drawing:\n\"01 / FLORAL\"; \"JASMINE GREEN\"; \"A delicate floral direction with a light, fresh finish.\"\n\"02 / TOASTED\"; \"ROASTED OOLONG\"; \"A warm aromatic direction with a rounded, lingering finish.\"\n\"03 / MELLOW\"; \"PLAIN BLACK\"; \"A familiar full-bodied direction for an unhurried pause.\"\nTABLE: \"CHOOSE YOUR MOMENT\". Columns: TEA | PROFILE | TIN | NET WT. Rows:\nJASMINE GREEN | Floral | Ivory | 30 g\nROASTED OOLONG | Toasted | Moss | 30 g\nPLAIN BLACK | Mellow | Clay | 30 g\nPipes separate cells; never print pipes. Equal rows, pale-green header.\nFOOTER: \"Store sealed, cool and dry.\" / \"FICTIONAL COLLECTION / DESIGN STUDY\".\nKeep headline/zone/tea/body/table/footer hierarchy; left-align body; match tea names everywhere. No extra text, prices, logos, QR codes or certification/origin/brewing claims. Raster concept: proofread and typeset final copy separately."
+      },
+      "compact_note": "Compact version retains the supplied copy and layout targets; wording is condensed. Not separately rendered. / 精简版保留给定文案与布局目标，缩短说明文字，未单独生图。",
       "pack": "14-sketch-to-story",
       "prompt": {
         "en": "Asset: English tea collection editorial sheet. Target aspect ratio: 3:4. Mode: generate.\nDesign a complete front-facing 3:4 editorial product sheet for the fictional tea collection RIDGE & LEAF. Fill the canvas with the flat design; do not photograph a magazine on a table. Use warm ivory stock, deep forest-green text and small copper accents. Establish a six-column grid with generous outer margins. Use five vertical zones: title, product with specification sidebar, three tasting cards, a comparison table, and a short footer. Prioritize readable English over decorative detail. Use a serif headline and clear sans-serif labels and table text. All required copy follows; do not invent additional text.\n\nHEADER: left \"RIDGE & LEAF\"; right \"COLLECTION NOTES / 01\".\nTITLE, on two lines: \"THREE LEAVES.\" / \"ONE SLOW AFTERNOON.\"\nINTRO: \"A small collection for noticing aroma, texture and the pace of a quiet afternoon.\"\n\nPRODUCT ZONE: Across the left four columns, show an open rectangular paperboard gift box with exactly three equal cylindrical tins in three fitted recesses. Left tin ivory, middle tin moss green, right tin warm clay. Each tin has the same small brand \"RIDGE & LEAF\" and, respectively, \"JASMINE GREEN\", \"ROASTED OOLONG\", \"PLAIN BLACK\". Use soft side light that distinguishes paperboard, matte tins and molded-pulp lining. The right two columns contain two separated groups: \"IN THE BOX\" / \"3 tins × 30 g\" / \"Total: 90 g\"; then \"MATERIALS\" / \"Paperboard box\" / \"Reusable tins\" / \"Molded-pulp insert\".\n\nTASTING ZONE: Three equal cards spanning two columns each, with a small single-color botanical illustration above each card. Card 1: \"01 / FLORAL\", \"JASMINE GREEN\", \"A delicate floral direction with a light, fresh finish.\" Card 2: \"02 / TOASTED\", \"ROASTED OOLONG\", \"A warm aromatic direction with a rounded, lingering finish.\" Card 3: \"03 / MELLOW\", \"PLAIN BLACK\", \"A familiar full-bodied direction for an unhurried pause.\"\n\nTABLE: Title \"CHOOSE YOUR MOMENT\". Exactly four columns headed \"TEA\", \"PROFILE\", \"TIN\", \"NET WT\". Rows: \"JASMINE GREEN | Floral | Ivory | 30 g\"; \"ROASTED OOLONG | Toasted | Moss | 30 g\"; \"PLAIN BLACK | Mellow | Clay | 30 g\". Pipes indicate cell boundaries and must not be printed. Use aligned cells, equal row heights and a pale-green header.\n\nFOOTER: \"Store sealed, cool and dry.\" and \"FICTIONAL COLLECTION / DESIGN STUDY\".\n\nMaintain six levels of information hierarchy: headline, zone heading, tea name, body text, table text and footer. Keep body copy left aligned. Match the tea names across tin labels, cards and rows. No price, discount, barcode, QR code, certification, origin claim or brewing-temperature claim.\nConstraints: Fictional copy is supplied for layout practice. Exactly three tins, three recesses and three data rows. This is a raster design concept; proofread and typeset final production copy separately when needed.\nRender only explicitly requested image text. Do not add unrelated logos, signatures or captions."
@@ -3708,24 +3720,30 @@
     {
       "id": "P084",
       "languages": [
-        "en"
+        "en",
+        "zh"
       ],
       "title": {
-        "en": "Nine-shot music-video concept board"
+        "en": "Nine-shot music-video concept board",
+        "zh": "九镜头音乐短片概念分镜"
       },
       "ratio": "3:2",
       "mode": "edit",
       "brief": {
-        "en": "Use the attached original adult illustrated singer as the identity reference. Create one 3-by-3 storyboard for a quiet music-video concept set in an abandoned botanical conservatory at dawn. Keep the singer's face, hair and outfit consistent. Use equal landscape panels with narrow clean gutters, no captions and no text inside the scene. Read left to right, top to bottom. Shots 1–3: wide exterior through fogged greenhouse glass; medium entrance shot with a small amber notebook; close-up of fingers opening the notebook. Shots 4–6: profile at an overgrown window; extreme close-up of the singer's eye reflecting leaves; wide shot walking between empty plant benches. Shots 7–9: high view of the singer beneath the roof structure; medium shot closing the notebook against the chest; wide exit into pale morning light. The notebook remains the same size and color. Use a restrained sage, amber and pearl palette, with coherent dawn lighting."
+        "en": "Use the attached original adult illustrated singer as the identity reference. Create one 3-by-3 storyboard for a quiet music-video concept set in an abandoned botanical conservatory at dawn. Keep the singer's face, hair and outfit consistent. Use equal landscape panels with narrow clean gutters, no captions and no text inside the scene. Read left to right, top to bottom. Shots 1–3: wide exterior through fogged greenhouse glass; medium entrance shot with a small amber notebook; close-up of fingers opening the notebook. Shots 4–6: profile at an overgrown window; extreme close-up of the singer's eye reflecting leaves; wide shot walking between empty plant benches. Shots 7–9: high view of the singer beneath the roof structure; medium shot closing the notebook against the chest; wide exit into pale morning light. The notebook remains the same size and color. Use a restrained sage, amber and pearl palette, with coherent dawn lighting.",
+        "zh": "以附上的原创成年歌手插画为身份参考，制作一张3×3九格音乐短片概念分镜。场景为黎明时分废弃的植物温室。保持歌手的面部、头发和服装一致。每格均为横向画面，尺寸相同，格缝细而整洁，不加说明文字，场景内也不出现文字。按从左到右、从上到下的顺序阅读。第1至3镜：隔着雾蒙蒙的温室玻璃看外部全景；歌手拿一本小琥珀色笔记本走进温室的中景；手指翻开笔记本的特写。第4至6镜：歌手在植物蔓生窗边的侧面；眼睛倒映叶片的极近特写；歌手走在空花台之间的全景。第7至9镜：从高处看屋架下的歌手；歌手将笔记本合在胸前的中景；歌手走向淡淡晨光的离场全景。笔记本尺寸和颜色始终一致。采用克制的鼠尾草绿、琥珀色与珍珠白配色，保持连贯的黎明光线。"
       },
       "constraints": {
-        "en": "Use an original adult character reference without an instrument. A board proposes shots, not generated video or synchronized lip movement."
+        "en": "Use an original adult character reference without an instrument. A board proposes shots, not generated video or synchronized lip movement.",
+        "zh": "使用不带乐器的原创成年角色参考图。分镜用于提出镜头方案，不是已生成视频，也不表示口型与音乐同步。"
       },
       "revision": {
-        "en": "Expand shot 4 into a standalone landscape keyframe. Preserve singer identity, wardrobe, notebook, greenhouse geometry and dawn light."
+        "en": "Expand shot 4 into a standalone landscape keyframe. Preserve singer identity, wardrobe, notebook, greenhouse geometry and dawn light.",
+        "zh": "将第4镜扩展为一张独立的横向关键帧。保留歌手身份、服装、笔记本、温室结构和黎明光线。"
       },
       "review": {
-        "en": "Count nine shots and verify framing variety, prop continuity, environment and light direction. Check close-ups against the identity reference."
+        "en": "Count nine shots and verify framing variety, prop continuity, environment and light direction. Check close-ups against the identity reference.",
+        "zh": "清点九个镜头，对照面部、服装、笔记本颜色与尺寸、视线和温室结构；用于制作前检查眼部特写与手部动作。"
       },
       "status": "template-not-rendered",
       "source_url": "https://mp.weixin.qq.com/s/mk3gp9wzmq93zV5EtD9rLQ",
@@ -3736,14 +3754,16 @@
         "preserve": "character, notebook and shot progression"
       },
       "usage": {
-        "best_for": "Reference-led concept development, editorial design and storyboards.",
-        "inputs": "One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.",
+        "best_for": "Planning a nine-shot music-video sequence with a consistent singer and notebook.",
+        "inputs": "One original adult singer reference, without an instrument; use the linked sample or your own authorized character image.",
         "review_workflow": "Inspect every panel or text region separately; a coherent overall layout can hide local errors.",
         "delivery": "Use the target ratio as a framing request; inspect actual pixel dimensions before export."
       },
+      "translation_note": "Chinese execution translation added by VideoWeb AI. Reviewed against the English brief; not separately rendered. / 中文执行版由 VideoWeb AI 补充，已对照英文核对，未单独生图。",
       "pack": "14-sketch-to-story",
       "prompt": {
-        "en": "Asset: Nine-shot music-video concept board. Target aspect ratio: 3:2. Mode: edit.\nUse the attached original adult illustrated singer as the identity reference. Create one 3-by-3 storyboard for a quiet music-video concept set in an abandoned botanical conservatory at dawn. Keep the singer's face, hair and outfit consistent. Use equal landscape panels with narrow clean gutters, no captions and no text inside the scene. Read left to right, top to bottom. Shots 1–3: wide exterior through fogged greenhouse glass; medium entrance shot with a small amber notebook; close-up of fingers opening the notebook. Shots 4–6: profile at an overgrown window; extreme close-up of the singer's eye reflecting leaves; wide shot walking between empty plant benches. Shots 7–9: high view of the singer beneath the roof structure; medium shot closing the notebook against the chest; wide exit into pale morning light. The notebook remains the same size and color. Use a restrained sage, amber and pearl palette, with coherent dawn lighting.\nConstraints: Use an original adult character reference without an instrument. A board proposes shots, not generated video or synchronized lip movement.\nRender only explicitly requested image text. Do not add unrelated logos, signatures or captions."
+        "en": "Asset: Nine-shot music-video concept board. Target aspect ratio: 3:2. Mode: edit.\nUse the attached original adult illustrated singer as the identity reference. Create one 3-by-3 storyboard for a quiet music-video concept set in an abandoned botanical conservatory at dawn. Keep the singer's face, hair and outfit consistent. Use equal landscape panels with narrow clean gutters, no captions and no text inside the scene. Read left to right, top to bottom. Shots 1–3: wide exterior through fogged greenhouse glass; medium entrance shot with a small amber notebook; close-up of fingers opening the notebook. Shots 4–6: profile at an overgrown window; extreme close-up of the singer's eye reflecting leaves; wide shot walking between empty plant benches. Shots 7–9: high view of the singer beneath the roof structure; medium shot closing the notebook against the chest; wide exit into pale morning light. The notebook remains the same size and color. Use a restrained sage, amber and pearl palette, with coherent dawn lighting.\nConstraints: Use an original adult character reference without an instrument. A board proposes shots, not generated video or synchronized lip movement.\nRender only explicitly requested image text. Do not add unrelated logos, signatures or captions.",
+        "zh": "交付物：九镜头音乐短片概念分镜。目标比例：3:2。模式：编辑。\n以附上的原创成年歌手插画为身份参考，制作一张3×3九格音乐短片概念分镜。场景为黎明时分废弃的植物温室。保持歌手的面部、头发和服装一致。每格均为横向画面，尺寸相同，格缝细而整洁，不加说明文字，场景内也不出现文字。按从左到右、从上到下的顺序阅读。第1至3镜：隔着雾蒙蒙的温室玻璃看外部全景；歌手拿一本小琥珀色笔记本走进温室的中景；手指翻开笔记本的特写。第4至6镜：歌手在植物蔓生窗边的侧面；眼睛倒映叶片的极近特写；歌手走在空花台之间的全景。第7至9镜：从高处看屋架下的歌手；歌手将笔记本合在胸前的中景；歌手走向淡淡晨光的离场全景。笔记本尺寸和颜色始终一致。采用克制的鼠尾草绿、琥珀色与珍珠白配色，保持连贯的黎明光线。\n约束：使用不带乐器的原创成年角色参考图。分镜用于提出镜头方案，不是已生成视频，也不表示口型与音乐同步。\n只渲染明确要求的图中文字，不添加无关标识、签名或说明。"
       },
       "examples": [
         "assets/images/example-p084.png"
@@ -4169,8 +4189,8 @@
         "zh": "只把雨衣改成赭黄色，保留姿势、面部、裤子、靴子、墨线风格及标题留白。"
       },
       "review": {
-        "en": "Check silhouette, anatomy or product geometry, usable title space and visual consistency. Follow-up and motion suggestions have not been executed.",
-        "zh": "检查轮廓、人体或产品结构、标题留白及画面一致性。后续修改和视频建议尚未执行。"
+        "en": "Check full-body framing, feet, coat opening and pockets, hand anatomy and title space; compare identity and pose after any color edit. Follow-up edits have not been executed.",
+        "zh": "检查全身与双脚是否完整，雨衣门襟、口袋和手部结构是否合理，标题区是否留空；换色后对照人物与姿势。后续修改尚未执行。"
       },
       "source_reference": {
         "id": "P092",
@@ -4233,8 +4253,8 @@
         "zh": "只把座椅布面改成低饱和铁锈红，保留人物、房间结构、窗光、收音机和构图。"
       },
       "review": {
-        "en": "Check silhouette, anatomy or product geometry, usable title space and visual consistency. Follow-up and motion suggestions have not been executed.",
-        "zh": "检查轮廓、人体或产品结构、标题留白及画面一致性。后续修改和视频建议尚未执行。"
+        "en": "Check camera angle, furniture placement, rain and window reflections. Remove wall decorations if a clean title area is required; this example does not fully meet that requirement. Motion suggestions are untested.",
+        "zh": "检查机位、家具位置、雨景与窗面反射。若需干净标题区，应清除墙面装饰；当前示例尚未完全满足留白要求。视频动作建议未实测。"
       },
       "source_reference": {
         "id": "P093",
@@ -4296,8 +4316,8 @@
         "zh": "只把石台改成低饱和蓝色，保留耳机形状、象牙白材质、阴影方向、相机及左侧文案留白。"
       },
       "review": {
-        "en": "Check silhouette, anatomy or product geometry, usable title space and visual consistency. Follow-up and motion suggestions have not been executed.",
-        "zh": "检查轮廓、人体或产品结构、标题留白及画面一致性。后续修改和视频建议尚未执行。"
+        "en": "Check the headband, two ear cups, cushion shape, pedestal contact and clear copy space at left. Joints are conceptual; compare geometry and lighting after edits. Follow-up edits have not been executed.",
+        "zh": "检查头梁、两只耳罩、耳垫形状、展台接触关系和左侧文案留白。关节结构属于概念设计；修改后对照外形与光线。后续修改尚未执行。"
       },
       "source_reference": {
         "id": "P094",

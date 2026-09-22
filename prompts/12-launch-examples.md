@@ -25,6 +25,8 @@ Scenario inspiration: [OpenAI launch article](https://openai.com/index/introduci
 
 **Mode:** edit · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p061-en) · [中文提示词](#p061-zh)
+
 **Best for:** Reference-led image-editing exercises.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -43,7 +45,10 @@ Scenario inspiration: [OpenAI launch article](https://openai.com/index/introduci
 
 **Observed review:** Green cape and tie added; eye patch, ears and paws remain recognizable. Fine fur detail changes.
 
+<a id="p061-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/launch-dog-input.png)。
 
 ```text
 Asset: Terrier cape makeover. Target aspect ratio: 1:1. Mode: edit.
@@ -52,7 +57,10 @@ Constraints: Attach the input image shown above, not both before/after images. M
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p061-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/launch-dog-input.png)。
 
 ```text
 交付物：梗犬披风换装。目标比例：1:1。模式：编辑。
@@ -81,6 +89,8 @@ Change only the cape fabric to burgundy. Keep the tie ochre and preserve the dog
 
 **Mode:** edit · **Target:** 2:3 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p062-en) · [中文提示词](#p062-zh)
+
 **Best for:** Reference-led image-editing exercises.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -99,7 +109,10 @@ Change only the cape fabric to burgundy. Keep the tie ochre and preserve the dog
 
 **Observed review:** Cardigan and cream shirt appear as requested; face, hands and pose remain visually similar. Fine texture is not identical. Subject is fully synthetic.
 
+<a id="p062-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/launch-child-input.png)。
 
 ```text
 Asset: Synthetic child portrait wardrobe edit. Target aspect ratio: 2:3. Mode: edit.
@@ -108,7 +121,10 @@ Constraints: Attach the input image shown above, not both before/after images. M
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p062-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/launch-child-input.png)。
 
 ```text
 交付物：虚构儿童人像换装。目标比例：2:3。模式：编辑。
@@ -137,6 +153,8 @@ Change only the cardigan buttons to cream. Preserve the approved outfit and port
 
 **Mode:** edit · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p063-en) · [中文提示词](#p063-zh)
+
 **Best for:** Reference-led image-editing exercises.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -155,7 +173,10 @@ Change only the cardigan buttons to cream. Preserve the approved outfit and port
 
 **Observed review:** Striped duvet and two oatmeal pillows are present; room arrangement remains similar. Duvet folds drift slightly.
 
+<a id="p063-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/launch-bed-input.png)。
 
 ```text
 Asset: Duvet pattern swap. Target aspect ratio: 3:2. Mode: edit.
@@ -164,7 +185,10 @@ Constraints: Attach the input image shown above, not both before/after images. M
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p063-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/launch-bed-input.png)。
 
 ```text
 交付物：卧室被套花色替换。目标比例：3:2。模式：编辑。
@@ -193,6 +217,8 @@ Change only the stripe color from teal to rust; preserve stripe spacing and the 
 
 **Mode:** edit · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p064-en) · [中文提示词](#p064-zh)
+
 **Best for:** Reference-led image-editing exercises.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -211,7 +237,10 @@ Change only the stripe color from teal to rust; preserve stripe spacing and the 
 
 **Observed review:** LISBON and the other required strings visually match. Illustration details drift slightly. This is a fictional souvenir, not a valid ticket.
 
+<a id="p064-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/launch-ticket-input.png)。
 
 ```text
 Asset: Souvenir city-name replacement. Target aspect ratio: 3:2. Mode: edit.
@@ -220,7 +249,10 @@ Constraints: Attach the input image shown above, not both before/after images. M
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p064-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/launch-ticket-input.png)。
 
 ```text
 交付物：纪念卡城市文字替换。目标比例：3:2。模式：编辑。
@@ -249,6 +281,8 @@ Replace only LISBON with KYOTO. Keep all other wording and illustration unchange
 
 **Mode:** edit · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p065-en) · [中文提示词](#p065-zh)
+
 **Best for:** Reference-led image-editing exercises.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -267,7 +301,10 @@ Replace only LISBON with KYOTO. Keep all other wording and illustration unchange
 
 **Observed review:** Partial result: face identities follow the intended arrangement, but a rigid 90-degree rotation is not established. The top outline has a visible kink. Do not use as validated geometry.
 
+<a id="p065-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/launch-cube-input.png)。
 
 ```text
 Asset: Symbol-marked cube rotation. Target aspect ratio: 1:1. Mode: edit.
@@ -276,7 +313,10 @@ Constraints: Attach the input image shown above, not both before/after images. M
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p065-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/launch-cube-input.png)。
 
 ```text
 交付物：带符号立方体旋转。目标比例：1:1。模式：编辑。
@@ -305,6 +345,8 @@ Repair only the bent top outline into straight cube edges. Preserve each face co
 
 **Mode:** edit · **Target:** 3:2 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p066-en) · [中文提示词](#p066-zh)
+
 **Best for:** Reference-led image-editing exercises.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -323,7 +365,10 @@ Repair only the bent top outline into straight cube edges. Preserve each face co
 
 **Observed review:** Middle time and heading match; three bowls appear on the workbench. Extra vessels appear on the shelf. Outer columns remain recognizable but fine illustration details drift.
 
+<a id="p066-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/launch-travel-input.png)。
 
 ```text
 Asset: One-column itinerary revision. Target aspect ratio: 3:2. Mode: edit.
@@ -332,7 +377,10 @@ Constraints: Attach the input image shown above, not both before/after images. M
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p066-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/launch-travel-input.png)。
 
 ```text
 交付物：旅行信息图单栏修改。目标比例：3:2。模式：编辑。
@@ -361,6 +409,8 @@ Change only STUDIO to POTTERY. Preserve 14:00, all three bowls and both outer co
 
 **Mode:** edit · **Target:** 1:1 · **Author:** flaq.ai team
 
+**Copy prompt / 复制提示词：** [English prompt](#p067-en) · [中文提示词](#p067-zh)
+
 **Best for:** Reference-led image-editing exercises.
 
 **Inputs:** One or more authorized reference images in the order specified by the prompt. See the generated example input links where available.
@@ -379,7 +429,10 @@ Change only STUDIO to POTTERY. Preserve 14:00, all three bowls and both outer co
 
 **Observed review:** Exactly five unlit orange candles are visible. Cake, plate and composition are similar; frosting texture changes slightly.
 
+<a id="p067-en"></a>
 ### English
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/launch-cake-input.png)。
 
 ```text
 Asset: Birthday candle count edit. Target aspect ratio: 1:1. Mode: edit.
@@ -388,7 +441,10 @@ Constraints: Attach the input image shown above, not both before/after images. M
 Render only explicitly requested image text. Do not add unrelated logos, signatures or captions.
 ```
 
+<a id="p067-zh"></a>
 ### 简体中文
+
+Attach the references specified below before running. / 执行前先附下方提示词要求的参考图。 Example inputs, in order / 示例输入顺序：[Input 1 / 输入 1](../assets/images/launch-cake-input.png)。
 
 ```text
 交付物：生日蜡烛数量修改。目标比例：1:1。模式：编辑。
