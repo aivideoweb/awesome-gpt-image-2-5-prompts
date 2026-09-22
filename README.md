@@ -1,6 +1,6 @@
 # Awesome GPT Image 2.5 Prompts — VideoWeb AI
 
-A practical prompt library for online shops, designers and video creators: make product campaigns, revise specific details and carry the same character into the next image.
+Start from a description or an existing image to make product campaigns, edit posters and plan video shots. Copyable prompts, illustrated examples and step-by-step edits help online shops, designers and video creators get started.
 
 **106 recipes, each with a generated example.** Every core recipe names the inputs, what may change, what must stay and what to check, so you can develop an image through successive revisions.
 
@@ -8,27 +8,29 @@ A practical prompt library for online shops, designers and video creators: make 
 
 [Three examples](#featured-examples) · [Copy a starter prompt](#quick-start) · [Find a category](#prompt-library) · [Before & after](#editing-examples) · [Video & guides](#learn-more)
 
-![VideoWeb AI GPT Image 2.5 prompt library: product visuals, film locations and storyboards](assets/images/videoweb-cover.png)
-
 **English** · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Português (Brasil)](README_pt.md) · [Italiano](README_it.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [ไทย](README_th.md) · [Bahasa Indonesia](README_id.md) · [Tiếng Việt](README_vi.md)
 
 <a id="featured-examples"></a>
 
 ## Three ways to use the library
 
-| Leave room for campaign copy | One character, four visual styles | One performer, nine shots |
+| Leave room for campaign copy | Product photo to white background | One performer, nine shots |
 | --- | --- | --- |
-| [![Headphone campaign with copy space](assets/images/p094-videoweb.png)](prompts/16-videoweb-x-creators.md#p094) | [![Same character in four media](assets/images/example-p076.png)](prompts/14-sketch-to-story.md#p076) | [![Nine-shot music-video board](assets/images/example-p084.png)](prompts/14-sketch-to-story.md#p084) |
-| Position the product on the right and leave the left clear for a headline added later. Text-to-image; no reference needed. | Interpret one doodle as felt, pencil, risograph and ceramic while retaining its outfit and accessories. Upload the character reference. | Explore shot scale and order from one performer reference for a music-video brief. Upload the performer reference. |
-| [P094 · Prompt](prompts/16-videoweb-x-creators.md#p094-en) | [P076 · Prompt and input](prompts/14-sketch-to-story.md#p076-en) | [P084 · Prompt and input](prompts/14-sketch-to-story.md#p084-en) |
+| [![Headphone campaign with copy space](assets/images/p094-videoweb.png)](prompts/16-videoweb-x-creators.md#p094-en) | <a href="prompts/01-product.md#p002-en"><img src="assets/images/cup-input.png" width="45%" alt="Input: ceramic cup on a kitchen table"> → <img src="assets/images/example-p002.png" width="45%" alt="Result: ceramic cup on a white background"></a> | [![Nine-shot music-video board](assets/images/example-p084.png)](prompts/14-sketch-to-story.md#p084-en) |
+| Position the product on the right and leave the left clear for a headline added later. Text-to-image; no reference needed. | Upload one product photo to replace its background and adjust the lighting. Input at left, result at right; a sample input is available for practice. | Explore shot scale and order from one performer reference for a music-video brief. Upload the performer reference. |
+| [P094 · Prompt](prompts/16-videoweb-x-creators.md#p094-en) | [P002 · Prompt and input](prompts/01-product.md#p002-en) | [P084 · Prompt and input](prompts/14-sketch-to-story.md#p084-en) |
 
-These are starting points with recorded limitations: the headphone joints are conceptual; the character sheet carries over the input’s four visible buttons; the eye close-up and notebook handling need continuity checks. [Generation records](docs/generation-log.md).
+These are starting points with recorded limitations: the headphone joints are conceptual; the cup’s glaze speckles and proportions drift slightly, so compare the rim, handle and glaze before use; the eye close-up and notebook handling need continuity checks. [Generation records](docs/generation-log.md).
 
 <a id="quick-start"></a>
 
 ## Start with your first image
 
-Open an image tool above and copy this prompt; no reference upload is needed. Try the default brief once, then replace the brand, product and copy.
+**Starting with an idea?** Copy the lamp prompt below; no upload is needed. Try the default brief once, then replace the brand, product and copy.
+
+**Already have a product photo?** Use the [P002 white-background prompt](prompts/01-product.md#p002-en): replace the cup description and preservation requirements with your product’s details, then upload your photo. Or download the [sample cup input](assets/images/cup-input.png) to practice.
+
+Text-to-image starter:
 
 ```text
 Create a landscape 3:2 product campaign for the fictional lamp brand TIDELINE.
@@ -63,7 +65,7 @@ Find a specific task across 16 packs and 106 recipes. Prefer to choose by appear
 | [Multilingual posters](prompts/11-multilingual.md) | 12 language-specific posters, from English to Japanese and Arabic | 12 |
 | [Launch-inspired editing examples](prompts/12-launch-examples.md) | Before-and-after edits: outfits, duvet, text, itinerary, candles | 7 |
 | [Customizable studio briefs](prompts/13-customizable-studio.md) | Adjustable portraits, coffee posters, packaging and miniatures | 6 |
-| [Sketch-to-story: English workflow prompts](prompts/14-sketch-to-story.md) | Sketch exploration, character styles, portrait edits, storyboards | 12 |
+| [Sketch-to-story (10 English, 2 English/Chinese)](prompts/14-sketch-to-story.md) | Sketch exploration, character styles, portrait edits, storyboards | 12 |
 | [X community: practical visual briefs](prompts/15-x-community.md) | Food lettering, fragrance boards, travel cards, architecture | 6 |
 | [VideoWeb creator briefs from X](prompts/16-videoweb-x-creators.md) | Fashion-film wardrobe, retro opening frames, headphone campaigns | 3 |
 

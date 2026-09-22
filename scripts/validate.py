@@ -82,7 +82,7 @@ def main():
                 require(step['anchor'] in targets, f'{r["id"]}: missing additional edit anchor')
     for name, lang in [('README.md','en'),('README_zh.md','zh')]:
         text = (ROOT/name).read_text()
-        for recipe in ['p076','p084','p094']:
+        for recipe in ['p002','p084','p094']:
             require(f'#{recipe}-{lang})' in text, f'{name}: featured prompt must open its execution language')
     require(len(manifest)==143,'Expected 143 recorded images')
     covered={a['recipe_id'] for a in manifest if a.get('role') not in ('input','draft')}
@@ -112,8 +112,10 @@ def main():
         require(content.count('```')%2==0,f'Unclosed code fence: {path}')
         # Remove fenced examples before checking document links.
         content=re.sub(r'```.*?```','',content,flags=re.S)
-        for match in re.finditer(r'!?\[[^\]]*\]\(([^\s)]+)(?:\s+"[^"]*")?\)',content):
-            target=match.group(1).strip('<>')
+        targets = re.findall(r'!?\[[^\]]*\]\(([^\s)]+)(?:\s+"[^"]*")?\)', content)
+        targets += re.findall(r'(?:src|href)="([^"]+)"', content)
+        for target in targets:
+            target=target.strip('<>')
             parsed=urlsplit(target)
             if parsed.scheme or parsed.netloc: continue
             link_count+=1
@@ -145,9 +147,11 @@ def main():
         if not page.is_file():
             continue
         text = page.read_text()
-        for url in ['https://videoweb.ai/model/gpt-image-2-5/', 'https://videoweb.ai/free-gpt-image-2-5/', 'https://videoweb.ai/affiliate-program/']:
+        tool_base = 'https://videoweb.ai/cn/' if page.name == 'README_zh.md' else 'https://videoweb.ai/'
+        for url in [tool_base + 'model/gpt-image-2-5/', tool_base + 'free-gpt-image-2-5/', 'https://videoweb.ai/affiliate-program/']:
             require(url in text, f'{page.name}: missing VideoWeb entry {url}')
-        require('assets/images/videoweb-cover.png' in text, f'{page.name}: missing brand cover')
+        if page.name not in ('README.md', 'README_zh.md'):
+            require('assets/images/videoweb-cover.png' in text, f'{page.name}: missing brand cover')
         require(str(len(ids)) in text, f'{page.name}: missing current recipe total')
         if entry['path'] in [f'README_{lang}.md' for lang in ['de','hi','id','it','ko','pt','ru','th','tw','vi']]:
             require(str(len(catalog['packs']) + 1) in text.splitlines()[8] and '15' not in text.splitlines()[8], f'{page.name}: stale pack total')

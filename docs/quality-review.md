@@ -1,6 +1,6 @@
 # Reader-focused comparison · 2026-09-22
 
-**Current homepage:** audience and purpose, three lead examples with concrete uses, a first-generation prompt, the full 16-pack directory, broader visual examples, and single- and multi-step editing comparisons. The full 106-recipe gallery remains available. The chronological review notes below describe earlier versions.
+**Current homepage:** audience and purpose, three lead examples for campaign concepts, existing product photos and storyboards, separate starting paths for text and reference images, the full 16-pack directory, broader visual examples, and single- and multi-step editing comparisons. The full 106-recipe gallery remains available. The chronological review notes below describe earlier versions.
 
 Baseline: [Flaq AI source](https://github.com/flaqai/awesome-chatgpt-images-2-5-prompts), commit `0c74e035a713370217a1ecf29dd4a06edcc25fed`.
 
@@ -71,3 +71,14 @@ The editor added complete playbook bridge prompts with explicit approved inputs,
 The reviewer accepted three repairs but found that the brand practice link still selected the P031 draft. The editor independently checked the manifest, accepted that finding and linked the corrected `example-p031-v2.png` result. The reviewer confirmed that final issue closed. The editor also moved the original six-panel review above the new P087 single-frame step and supplied a separate one-bottle review, so readers do not apply the wrong checklist.
 
 After the reviewer’s final response, the editor independently checked the input-to-output sequence, copyable blocks, source preservation and example states. All 91 source core generation prompts in English, 12 localized recipes, 139 PNGs and their exact execution prompts remain intact. The reusable P080 follow-up is intentionally split; source preservation is not a claim that its old combined follow-up remains the recommended instruction. GitHub Markdown output was checked for code-block separation and the new anchors. The three generators and validator pass with 106 recipes, 143 images and 2,397 local links. No additional material correction was identified in the four reviewed workflows; the new instructions have not been executed as image or video generations.
+
+
+## Homepage entry review
+
+The English and Simplified Chinese homepages now bring real examples forward without the large decorative cover. The asset remains in the repository. P002 replaces P076 in the lead group, showing the recorded kitchen-table input beside its white-background output; P076 remains accessible through its pack and the complete gallery. The three lead cases cover a new concept, an existing product photo and a performer storyboard. Their image and text links go directly to the appropriate execution language, where required input links are available.
+
+The starting instructions distinguish text generation from existing-product editing and tell readers to replace cup-specific details before using another product photo. The Chinese tool links use the Chinese pages. The sketch-to-story directory entry reports its English-only and English/Chinese counts from catalog data. Existing candle and lamp comparisons, all 16 pack entrances, provenance, affiliate and license sections remain available.
+
+Sol high-reasoning review found no required correction after checking the input/result records, language anchors and tool-page content. The editor accepted its optional link-consistency suggestion and aligned all three image targets with their prompt links. During GitHub Markdown rendering with a local preview stylesheet, fixed-width cup thumbnails wrapped; percentage widths corrected the inspected desktop layout. This preview is not a mobile or production conversion test.
+
+The primary editor independently compared both homepages and the source reader journey after the review. No additional material obstacle was found in choosing a task, finding an input, copying a prompt or continuing an edit. The upstream main still matches the baseline above. All 139 source images and their exact generation-prompt files remain byte-identical; no recipe, image or execution record changed in this round.

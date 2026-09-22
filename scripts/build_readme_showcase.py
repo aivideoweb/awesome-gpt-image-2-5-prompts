@@ -44,6 +44,11 @@ def render(lang):
              '| --- | --- | --- |']
     for slug, pack in sorted(packs.items()):
         title = pack['title'].get(lang, pack['title']['en'])
+        if slug == '14-sketch-to-story':
+            english = sum(r.get('languages') == ['en'] for r in pack['recipes'])
+            bilingual = sum(set(r.get('languages', ['en', 'zh'])) == {'en', 'zh'} for r in pack['recipes'])
+            title = (f'从草图到故事（{english} 条英文、{bilingual} 条中英）' if zh
+                     else f'Sketch-to-story ({english} English, {bilingual} English/Chinese)')
         lines.append(f'| [{title}](prompts/{slug}.md) | {USES[slug][1 if zh else 0]} | {len(pack["recipes"])} |')
     return '\n'.join(lines + ['', END])
 

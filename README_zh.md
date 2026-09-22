@@ -1,14 +1,12 @@
 # Awesome GPT Image 2.5 Prompts — VideoWeb AI
 
-给电商经营者、设计师和视频创作者的实用提示词库：制作商品广告、修好局部细节，让同一个角色继续出现在下一张图里。
+从一段描述或一张现有图片开始，制作商品广告、修改海报、规划视频分镜。这里提供可复制的提示词、示例图和逐步修改方法，适合电商经营者、设计师和视频创作者。
 
 **106 条配方，每条都有生成示例。** 核心配方同时说明输入素材、允许改变的部分、必须保留的细节和结果检查方法，方便从一张概念图继续做到下一版。
 
-[使用 GPT Image 2.5](https://videoweb.ai/model/gpt-image-2-5/) · [免注册免费体验](https://videoweb.ai/free-gpt-image-2-5/)
+[使用 GPT Image 2.5](https://videoweb.ai/cn/model/gpt-image-2-5/) · [免注册免费体验](https://videoweb.ai/cn/free-gpt-image-2-5/)
 
 [先看三个案例](#featured-examples) · [复制生图提示词](#quick-start) · [查找全部分类](#按实际工作选场景) · [看修改前后](#editing-examples) · [视频与进阶](#learn-more)
-
-![VideoWeb AI GPT Image 2.5 提示词库封面](assets/images/videoweb-cover.png)
 
 [English](README.md) · **简体中文** · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Português (Brasil)](README_pt.md) · [Italiano](README_it.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [ไทย](README_th.md) · [Bahasa Indonesia](README_id.md) · [Tiếng Việt](README_vi.md)
 
@@ -16,19 +14,23 @@
 
 ## 先看三个实际用途
 
-| 为广告预留文案位置 | 同一角色，四种视觉风格 | 同一人物，九个镜头 |
+| 为广告预留文案位置 | 商品照片，变成白底图 | 同一人物，九个镜头 |
 | --- | --- | --- |
-| [![耳机广告留白](assets/images/p094-videoweb.png)](prompts/16-videoweb-x-creators.md#p094) | [![四种材质的同一角色](assets/images/example-p076.png)](prompts/14-sketch-to-story.md#p076) | [![九镜头音乐短片分镜](assets/images/example-p084.png)](prompts/14-sketch-to-story.md#p084) |
-| 产品放右侧，左侧留空，方便后期排标题。文字生图，无需参考图。 | 把同一张角色草图转成毛毡、彩铅、双色印刷和陶瓷，比较风格时保留服装与配件。需上传角色图。 | 用同一人物参考图规划景别和镜头顺序，为短片前期讨论准备分镜。需上传人物图。 |
-| [P094 · 中英提示词](prompts/16-videoweb-x-creators.md#p094-zh) | [P076 · 中文提示词与输入图](prompts/14-sketch-to-story.md#p076-zh) | [P084 · 中文提示词与输入图](prompts/14-sketch-to-story.md#p084-zh) |
+| [![耳机广告留白](assets/images/p094-videoweb.png)](prompts/16-videoweb-x-creators.md#p094-zh) | <a href="prompts/01-product.md#p002-zh"><img src="assets/images/cup-input.png" width="45%" alt="输入：厨房木桌上的陶瓷杯"> → <img src="assets/images/example-p002.png" width="45%" alt="结果：纯白背景上的陶瓷杯"></a> | [![九镜头音乐短片分镜](assets/images/example-p084.png)](prompts/14-sketch-to-story.md#p084-zh) |
+| 产品放右侧，左侧留空，方便后期排标题。文字生图，无需参考图。 | 上传一张商品照片，换成白底并调整光线。左为输入，右为结果；也可下载示例输入图练习。 | 用同一人物参考图规划景别和镜头顺序，为短片前期讨论准备分镜。需上传人物图。 |
+| [P094 · 中文提示词](prompts/16-videoweb-x-creators.md#p094-zh) | [P002 · 中文提示词与输入图](prompts/01-product.md#p002-zh) | [P084 · 中文提示词与输入图](prompts/14-sketch-to-story.md#p084-zh) |
 
-这些示例展示创作方向，也保留检查记录：耳机结构属于概念设计；角色输入图中的四颗纽扣延续到了各版本；九镜头中的眼部特写和拿本子的动作仍需检查连续性。[查看生成记录](docs/generation-log.md)。
+这些示例展示创作方向，也保留检查记录：耳机结构属于概念设计；杯子的釉点和比例有轻微变化，使用前应对照杯口、把手和釉面；九镜头中的眼部特写和拿本子的动作仍需检查连续性。[查看生成记录](docs/generation-log.md)。
 
 <a id="quick-start"></a>
 
 ## 从第一张图开始
 
-打开上方生图工具，直接复制这条提示词，不需要上传参考图。先保留默认内容跑通一次，再替换品牌、商品和文案。
+**只有想法：** 复制下方台灯提示词，无需上传图片。先保留默认内容试一次，再替换品牌、商品和文案。
+
+**已有商品照片：** 使用 [P002 白底商品图提示词](prompts/01-product.md#p002-zh)，先将杯子的描述和保留项改为自己的商品，再上传照片；也可以先下载[陶瓷杯示例输入图](assets/images/cup-input.png)练习。
+
+文字生图示例：
 
 ```text
 为虚构台灯品牌 TIDELINE 制作 3:2 横版产品广告。
@@ -63,7 +65,7 @@
 | [多语言海报](prompts/11-multilingual.md) | 中、英、日、韩、西、法、德、葡、阿拉伯、印地、泰、俄 | 12 |
 | [官方发布场景原创实践](prompts/12-launch-examples.md) | 带前后对照的换装、被套换花色、改字、行程修改、蜡烛计数 | 7 |
 | [可微调创作配方](prompts/13-customizable-studio.md) | 可调整人物、配色与文案的工坊肖像、咖啡海报、包装、微缩景观 | 6 |
-| [从草图到故事：创作工作流](prompts/14-sketch-to-story.md) | 草图探索、角色风格、人像连续修改、品牌周边、故事分镜 | 12 |
+| [从草图到故事（10 条英文、2 条中英）](prompts/14-sketch-to-story.md) | 草图探索、角色风格、人像连续修改、品牌周边、故事分镜 | 12 |
 | [X 社区实用场景](prompts/15-x-community.md) | X 来源的食材文字、香水分镜、旅行卡、建筑方案、邀请函 | 6 |
 | [VideoWeb 创作者 X 案例](prompts/16-videoweb-x-creators.md) | VideoWeb 新增：时装短片服装、复古开场帧、耳机广告 | 3 |
 

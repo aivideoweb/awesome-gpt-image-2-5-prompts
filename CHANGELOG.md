@@ -1,3 +1,11 @@
+# Homepage entry update — 2026-09-22
+
+- Brought illustrated examples forward by removing the large decorative cover from the English and Simplified Chinese homepages; the original cover asset remains available.
+- Paired P094 campaign concepts and P084 storyboards with the P002 product-photo input/result comparison.
+- Added separate starting instructions for text generation and existing product photos, including adaptation and preservation checks.
+- Linked the Chinese homepage to Chinese tool pages and exposed the sketch-to-story pack’s actual language coverage, calculated from the catalog.
+- Extended local-link validation to HTML image and anchor attributes. Recipe data, images and generation records are unchanged.
+
 # Workflow continuity update — 2026-09-22
 
 - Added copyable character-story and ceramics-brand packaging bridge instructions to the playbook, with explicit approved inputs and unrendered status.
