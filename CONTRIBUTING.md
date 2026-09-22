@@ -23,6 +23,8 @@ python3 scripts/validate.py
 
 The scripts use Python’s standard library. Do not edit generated prompt Markdown as the only source of a change. Update counts and the changelog when adding entries; the checker verifies the documented totals.
 
+For a sequence, keep `revision` to one edit and use `revision_input` to name its approved input. Put further unrendered instructions in `additional_edits`, each with its own `anchor`, `title`, `input`, language-keyed `prompt` and `review`. The generator currently labels these additions as unrendered VideoWeb instructions. Record and update that status before claiming a tested result. Never combine two approval stages in one copyable block; follow-ups do not increase the recipe count. Preserve the exact executed prompts in the asset archive when revising reusable instructions.
+
 ## Add an image
 
 Use material you have the right to share. Store the full exact prompt in `assets/generation/`, the image in `assets/images/`, and its record in `assets/manifest.json`. Record the recipe ID, actual creation date, input images, output dimensions, SHA-256 hash, generation method and visible limitations. If the model ID is unavailable, use `null`; never infer a specific model from the interface’s product name.

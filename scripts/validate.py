@@ -67,12 +67,19 @@ def main():
         for lang, prompt in r.get('compact_prompt',{}).items():
             require(lang in languages and 0 < len(prompt) <= 2000, f'{r["id"]}: compact prompt must fit the free tool')
             require(bool(r.get('compact_note')), f'{r["id"]}: missing compact-version status')
+        for step in r.get('additional_edits',[]):
+            require(step['anchor'].startswith(r['id'].lower()+'-'), f'{r["id"]}: additional edit anchor must name its recipe')
+            require(bool(step['input']) and bool(step['title']) and bool(step['review']), f'{r["id"]}: additional edit needs input, title and review')
+            require('en' in step['prompt'] and set(step['prompt']) <= {'en','zh'}, f'{r["id"]}: invalid additional edit languages')
+            require(all(0 < len(text) <= 2000 for text in step['prompt'].values()), f'{r["id"]}: additional edit must fit the free tool')
     for pack in catalog['packs']:
         page = ROOT/'prompts'/f'{pack["slug"]}.md'
         targets = anchors(page)
         for r in pack['recipes']:
             for lang in r.get('languages',['en','zh']):
                 require(f'{r["id"].lower()}-{lang}' in targets, f'{r["id"]}: missing direct prompt anchor')
+            for step in r.get('additional_edits',[]):
+                require(step['anchor'] in targets, f'{r["id"]}: missing additional edit anchor')
     for name, lang in [('README.md','en'),('README_zh.md','zh')]:
         text = (ROOT/name).read_text()
         for recipe in ['p076','p084','p094']:

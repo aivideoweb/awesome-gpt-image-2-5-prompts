@@ -3558,7 +3558,7 @@
         "en": "Use a portrait with a documented preserve list. Execute and inspect one revision at a time. Previous outcomes are constraints, not evidence of pixel-perfect preservation."
       },
       "revision": {
-        "en": "Revision 2, with approved revision 1 attached: change only the overall grading to a restrained cool-neutral editorial palette. Preserve hairstyle, identity, eye color, bag, pose and geometry. After approval, revision 3 uses that output: add light snow in the background only; preserve face, hair, clothes, bag and the approved grade. Do not add another person."
+        "en": "Revision 2: use the uploaded approved revision 1 portrait.\nChange only the overall grading to a restrained cool-neutral editorial palette.\nPreserve hairstyle, identity, eye color, bag, pose and geometry.\nDo not add snow or change the background content.\nGenerate this revision only."
       },
       "review": {
         "en": "At each step compare the face, hair, eyes, bag and pose with the previous approved image and the original identity reference; record any drift."
@@ -3577,6 +3577,18 @@
         "review_workflow": "Inspect every panel or text region separately; a coherent overall layout can hide local errors.",
         "delivery": "Use the target ratio as a framing request; inspect actual pixel dimensions before export."
       },
+      "revision_input": "Upload the approved hair-edit result from revision 1; the linked generated example above records that stage. Save and inspect the graded result before revision 3. / 上传第1轮改发型后的确认图；上方已生成示例记录的是这一阶段。调色后先检查并保存，再执行第3轮。",
+      "additional_edits": [
+        {
+          "anchor": "p080-revision-3",
+          "title": "Revision 3: background snow / 第3轮：背景加雪",
+          "input": "Upload only your approved revision 2 (graded) result. No revision 2 or 3 output is recorded in this release. / 只上传你刚确认的第2轮调色结果；本库未记录第2、3轮成图。",
+          "prompt": {
+            "en": "Revision 3: use the uploaded approved revision 2 portrait.\nAdd light snow in the background only.\nPreserve the face, hairstyle, clothes, bag, pose, geometry and approved cool-neutral grade.\nDo not put snow over the face or clothing, re-grade the image, change the hairstyle or add another person.\nGenerate this revision only."
+          },
+          "review": "Compare against the approved revision 2: snow stays in the background, and the face, hair, bag and color grade remain consistent. / 对照第2轮确认图：雪只出现在背景，面部、发型、挎包及调色结果保持一致。"
+        }
+      ],
       "pack": "14-sketch-to-story",
       "prompt": {
         "en": "Asset: Portrait continuity through three revisions. Target aspect ratio: 2:3. Mode: edit.\nUse the latest approved portrait as the input, not the first image in the sequence. This is revision 1 of a three-step workflow. Change only the hairstyle to a shoulder-length loose wave in the subject's existing hair color. Keep the face, age, skin texture, eye color, expression, earrings or their absence, white shirt, bag, body pose, street geometry, camera crop and existing lighting. Hair should fall naturally around the shoulders and leave both eyes unobstructed. Do not execute the later color-grade or weather revisions yet. Preserve recognizable identity; if the input contains an unresolved facial or bag defect, stop and request that correction first. After the image is reviewed, save it as the approved input for revision 2.\nConstraints: Use a portrait with a documented preserve list. Execute and inspect one revision at a time. Previous outcomes are constraints, not evidence of pixel-perfect preservation.\nRender only explicitly requested image text. Do not add unrelated logos, signatures or captions."
@@ -3923,6 +3935,18 @@
         "review_workflow": "Use the repository result to assess the adapted brief; the linked X preview illustrates a different original prompt.",
         "delivery": "Use the target ratio as a framing request; inspect actual pixel dimensions before export."
       },
+      "additional_edits": [
+        {
+          "anchor": "p087-single-frame",
+          "title": "Expand shot 01 for video / 将第01格扩展为视频首帧",
+          "input": "Upload one approved P087 six-panel board; for practice, use the [recorded board](../assets/images/example-p087.png). Copy one language block, then inspect the standalone image before passing it to a video tool. / 上传一张确认的P087六格分镜板；练习可用[现有示例](../assets/images/example-p087.png)。任选一种语言复制，独立成图检查后再交给视频工具。",
+          "prompt": {
+            "en": "Use the uploaded NORTH ROOM six-panel fragrance board as the only reference.\nExpand only shot 01, the upper-left full-bottle view on slate, into a single landscape 16:9 opening frame.\nPreserve that panel's squat amber rectangular bottle, attached silver cylindrical cap, ivory NORTH ROOM label, proportions, slate surface, camera angle and lighting.\nExtend the surrounding studio naturally to fill the wider frame; do not borrow the uncapped bottle, mist or cedar block from other panels.\nOutput exactly one scene with one full bottle.\nRemove the grid, gutters, frame number 01 and outer paper border; retain only the product label text.\nDo not add titles, objects or motion effects.\nThis is a standalone still, not a storyboard or video.",
+            "zh": "以唯一上传的NORTH ROOM香水六格分镜板为参考，只把左上角第01格的石板上完整香水瓶扩展为一张16:9横向开场静帧。\n保留该格矮宽琥珀色长方瓶、盖好的银色圆柱瓶盖、象牙白NORTH ROOM标签、比例、石板表面、机位和光线。\n自然延伸周围影棚环境以填满横幅，不引入其他格的开盖状态、喷雾或雪松木块。\n只输出一个场景和一个完整瓶子，去掉网格、格缝、01编号及外层纸边，只保留瓶身标签文字。\n不要标题、额外物品或运动效果。\n这是独立静帧，不是分镜总板或视频。"
+          },
+          "review": "One scene and one capped bottle; no grid, frame number or border. Compare bottle shape, label spelling and lighting with shot 01; check actual pixel dimensions before video upload. / 只有一个场景和一个盖好盖子的瓶子，无格缝、编号或边框；对照第01格检查瓶形、标签拼写与光线，上传视频工具前核对实际像素尺寸。"
+        }
+      ],
       "pack": "15-x-community",
       "prompt": {
         "en": "Asset: Six-frame fragrance launch board. Target aspect ratio: 3:2. Mode: generate.\nCreate a static six-panel presentation board for a fictional cedar fragrance named NORTH ROOM. Use a precise three-column, two-row grid on warm gray paper. The product is a squat amber rectangular glass bottle with a brushed silver cylindrical cap and an ivory NORTH ROOM label. Read left to right: full bottle on slate; close-up of the cap seam; side light through amber liquid; uncapped bottle with the cap resting beside it; atomizer releasing a fine mist; final bottle beside a small cedar block. Number the frames 01 through 06 in identical outside gutters. Keep the same bottle geometry and studio surface throughout.\nConstraints: A single still image, not a video or GIF. Six panels only. No floating cap, invented performance claims or additional text.\nRender only explicitly requested image text. Do not add unrelated logos, signatures or captions."

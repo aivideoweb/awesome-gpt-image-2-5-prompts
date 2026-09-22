@@ -411,7 +411,7 @@ Correct only any remaining earring fragments. Preserve hazel irises, cleared eye
 
 **Mode:** edit · **Target:** 2:3 · **Author:** flaq.ai team
 
-**Copy prompt / 复制提示词：** [English prompt](#p080-en)
+**Copy prompt / 复制提示词：** [English prompt](#p080-en) · [Revision 3: background snow / 第3轮：背景加雪](#p080-revision-3)
 
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
@@ -451,11 +451,36 @@ Render only explicitly requested image text. Do not add unrelated logos, signatu
 
 ### Next edit / 后续修改
 
+Upload the approved hair-edit result from revision 1; the linked generated example above records that stage. Save and inspect the graded result before revision 3. / 上传第1轮改发型后的确认图；上方已生成示例记录的是这一阶段。调色后先检查并保存，再执行第3轮。
+
 ```text
-Revision 2, with approved revision 1 attached: change only the overall grading to a restrained cool-neutral editorial palette. Preserve hairstyle, identity, eye color, bag, pose and geometry. After approval, revision 3 uses that output: add light snow in the background only; preserve face, hair, clothes, bag and the approved grade. Do not add another person.
+Revision 2: use the uploaded approved revision 1 portrait.
+Change only the overall grading to a restrained cool-neutral editorial palette.
+Preserve hairstyle, identity, eye color, bag, pose and geometry.
+Do not add snow or change the background content.
+Generate this revision only.
 ```
 
 **Review / 验收：** At each step compare the face, hair, eyes, bag and pose with the previous approved image and the original identity reference; record any drift.
+
+<a id="p080-revision-3"></a>
+### Revision 3: background snow / 第3轮：背景加雪
+
+Upload only your approved revision 2 (graded) result. No revision 2 or 3 output is recorded in this release. / 只上传你刚确认的第2轮调色结果；本库未记录第2、3轮成图。
+
+VideoWeb workflow instruction; not rendered. / VideoWeb 补充的操作指令，尚未生成实测图。
+
+**English**
+
+```text
+Revision 3: use the uploaded approved revision 2 portrait.
+Add light snow in the background only.
+Preserve the face, hairstyle, clothes, bag, pose, geometry and approved cool-neutral grade.
+Do not put snow over the face or clothing, re-grade the image, change the hairstyle or add another person.
+Generate this revision only.
+```
+
+**Review / 验收：** Compare against the approved revision 2: snow stays in the background, and the face, hair, bag and color grade remain consistent. / 对照第2轮确认图：雪只出现在背景，面部、发型、挎包及调色结果保持一致。
 
 [Back to index / 返回索引](README.md)
 

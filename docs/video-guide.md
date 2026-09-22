@@ -24,6 +24,8 @@ Source text and media metadata were checked through a public mirror on 2026-09-2
 
 Follow the [step-by-step VideoWeb guide](videoweb-workflow.md). The motion suggestions are untested. No generated video output is claimed in this release.
 
+Starting from the six-panel fragrance board instead? Use [P087’s shot 01 expansion](../prompts/15-x-community.md#p087-single-frame) to prepare an individual frame, inspect it, then upload it to the video tool. This added image-edit instruction has not been rendered. / 若从香水六格分镜开始，先执行[P087第01格扩图](../prompts/15-x-community.md#p087-single-frame)，检查独立画面后再上传到视频工具；新增扩图指令尚未实测。
+
 ## 中文说明
 
 上方是 OpenAI 发布在 X 的约58秒产品演示，介绍生图与连续修图。点击预览可到原帖，也可打开外链视频。它不是“GPT Image 2.5生成的视频”。本次核对了公开镜像中的帖子文字和视频信息，外链720p版本已在浏览器加载并播放到末尾，目测仅检查了结束画面，没有逐段审查，因此不编写未经核实的分秒解说。

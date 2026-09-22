@@ -39,6 +39,7 @@ def build():
             direct = [f'[{label}](#{r["id"].lower()}-{lang})' for lang,label in [('en','English prompt'),('zh','中文提示词')] if lang in languages]
             if r.get('compact_prompt'):
                 direct += [f'[Free-tool version / 免费工具版](#{r["id"].lower()}-en-compact)']
+            direct += [f'[{step["title"]}](#{step["anchor"]})' for step in r.get('additional_edits',[])]
             lines += ['**Copy prompt / 复制提示词：** ' + ' · '.join(direct), '']
             if languages == ['en']:
                 lines += ['**Language:** English. Expanded adaptation; see the result status and source information below.', '']
@@ -107,11 +108,21 @@ def build():
                               f'{len(compact):,} characters / 字符 · No reference upload / 无需上传参考图。', '', r['compact_note'], '',
                               'Copy this block alone into the [free tool](https://videoweb.ai/free-gpt-image-2-5/). / 只复制本段到[免费工具](https://videoweb.ai/free-gpt-image-2-5/)，不要再拼接上方完整版。', '',
                               '```text', compact, '```', '']
-            lines += ['### Next edit / 后续修改', '', '```text', r['revision']['en'], '```', '']
+            lines += ['### Next edit / 后续修改', '']
+            if r.get('revision_input'):
+                lines += [r['revision_input'], '']
+            lines += ['```text', r['revision']['en'], '```', '']
             if 'zh' in languages:
                 lines += ['```text', r['revision']['zh'], '```', '']
-            lines += ['**Review / 验收：** '+r['review']['en']+' '+r['review'].get('zh',''), '',
-                      '[Back to index / 返回索引](README.md)', '']
+            lines += ['**Review / 验收：** '+r['review']['en']+' '+r['review'].get('zh',''), '']
+            for step in r.get('additional_edits',[]):
+                lines += [f'<a id="{step["anchor"]}"></a>', f'### {step["title"]}', '', step['input'], '',
+                          'VideoWeb workflow instruction; not rendered. / VideoWeb 补充的操作指令，尚未生成实测图。', '']
+                for lang,label in [('en','English'),('zh','简体中文')]:
+                    if lang in step['prompt']:
+                        lines += [f'**{label}**', '', '```text', step['prompt'][lang], '```', '']
+                lines += ['**Review / 验收：** '+step['review'], '']
+            lines += ['[Back to index / 返回索引](README.md)', '']
             full.append({**r,'pack':pack['slug'],'prompt':complete,'examples':[a['path'] for a in examples.get(r['id'],[])]})
         (ROOT/'prompts'/f'{pack["slug"]}.md').write_text('\n'.join(line.rstrip() for line in lines).rstrip()+'\n')
     locales=json.loads((ROOT/'data/locales.json').read_text())

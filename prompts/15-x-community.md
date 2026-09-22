@@ -88,7 +88,7 @@ Change the enamel surface to warm ivory while preserving the dough shapes, shado
 
 **Mode:** generate · **Target:** 3:2 · **Author:** flaq.ai team
 
-**Copy prompt / 复制提示词：** [English prompt](#p087-en)
+**Copy prompt / 复制提示词：** [English prompt](#p087-en) · [Expand shot 01 for video / 将第01格扩展为视频首帧](#p087-single-frame)
 
 **Language:** English. Expanded adaptation; see the result status and source information below.
 
@@ -141,6 +141,39 @@ Correct only panel 05 so the mist originates at the atomizer; preserve all other
 ```
 
 **Review / 验收：** Count six frames, compare caps and labels, inspect mist origin. Animation and sound require a separate production step.
+
+<a id="p087-single-frame"></a>
+### Expand shot 01 for video / 将第01格扩展为视频首帧
+
+Upload one approved P087 six-panel board; for practice, use the [recorded board](../assets/images/example-p087.png). Copy one language block, then inspect the standalone image before passing it to a video tool. / 上传一张确认的P087六格分镜板；练习可用[现有示例](../assets/images/example-p087.png)。任选一种语言复制，独立成图检查后再交给视频工具。
+
+VideoWeb workflow instruction; not rendered. / VideoWeb 补充的操作指令，尚未生成实测图。
+
+**English**
+
+```text
+Use the uploaded NORTH ROOM six-panel fragrance board as the only reference.
+Expand only shot 01, the upper-left full-bottle view on slate, into a single landscape 16:9 opening frame.
+Preserve that panel's squat amber rectangular bottle, attached silver cylindrical cap, ivory NORTH ROOM label, proportions, slate surface, camera angle and lighting.
+Extend the surrounding studio naturally to fill the wider frame; do not borrow the uncapped bottle, mist or cedar block from other panels.
+Output exactly one scene with one full bottle.
+Remove the grid, gutters, frame number 01 and outer paper border; retain only the product label text.
+Do not add titles, objects or motion effects.
+This is a standalone still, not a storyboard or video.
+```
+
+**简体中文**
+
+```text
+以唯一上传的NORTH ROOM香水六格分镜板为参考，只把左上角第01格的石板上完整香水瓶扩展为一张16:9横向开场静帧。
+保留该格矮宽琥珀色长方瓶、盖好的银色圆柱瓶盖、象牙白NORTH ROOM标签、比例、石板表面、机位和光线。
+自然延伸周围影棚环境以填满横幅，不引入其他格的开盖状态、喷雾或雪松木块。
+只输出一个场景和一个完整瓶子，去掉网格、格缝、01编号及外层纸边，只保留瓶身标签文字。
+不要标题、额外物品或运动效果。
+这是独立静帧，不是分镜总板或视频。
+```
+
+**Review / 验收：** One scene and one capped bottle; no grid, frame number or border. Compare bottle shape, label spelling and lighting with shot 01; check actual pixel dimensions before video upload. / 只有一个场景和一个盖好盖子的瓶子，无格缝、编号或边框；对照第01格检查瓶形、标签拼写与光线，上传视频工具前核对实际像素尺寸。
 
 [Back to index / 返回索引](README.md)
 

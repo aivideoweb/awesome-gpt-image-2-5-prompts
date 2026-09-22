@@ -1,3 +1,10 @@
+# Workflow continuity update — 2026-09-22
+
+- Added copyable character-story and ceramics-brand packaging bridge instructions to the playbook, with explicit approved inputs and unrendered status.
+- Split P080 color grading and background snow into separate edits, each using the previous approved result.
+- Added bilingual P087 shot-01 expansion for a standalone video opening frame, with its own review criteria and direct links from the video guides.
+- Added source-data support for separately copyable follow-ups. Recipe/image counts and original execution records are unchanged.
+
 # Reader usability update — 2026-09-22
 
 - Added a 1,823-character P077 free-tool prompt alongside the unchanged full version; the compact version has not been separately rendered.
