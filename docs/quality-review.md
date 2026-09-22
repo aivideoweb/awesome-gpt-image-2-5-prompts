@@ -10,7 +10,7 @@ A Sol reviewer with high reasoning reviewed the VideoWeb edition from an externa
 - Round 2: aligned localized pack counts, video resolution and observation scope, removed redundant source-record copies, and improved new-image alternative text.
 - Round 3: verified those issues closed; no remaining material issue in the reviewed adaptation and additions prevented source-level coverage and usability.
 
-After the review rounds, the primary editor independently compared the source and target. The original 14 core packs, 12 language-specific recipes, 139 asset records, image bytes and exact-prompt bytes were preserved. English and Chinese navigation were compared, the historical playbook count was clarified, and the publishing-notes link was restored. GitHub Markdown rendering was inspected for the cover and overview table.
+After the review rounds, the primary editor independently compared the source and target. The original 14 core packs, 12 language-specific recipes, 139 asset records, image bytes and exact-prompt bytes were preserved. English and Chinese navigation were compared, the historical playbook count was clarified, and the publishing-notes link was restored. Both the source Flaq AI and target aivideoweb copyright notices remain in the MIT license. GitHub Markdown rendering was inspected for the cover and overview table.
 
 ## Result and limits
 
