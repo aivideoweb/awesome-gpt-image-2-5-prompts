@@ -10,7 +10,7 @@ VideoWeb AI maintains this edition. A brand change does not change the authorshi
 
 1. Edit `data/catalog.json` for authored recipes, `data/locales.json` for language-specific briefs and `data/x-sources.json` for X records.
 2. Save exact executed prompts in `assets/generation/` and register generated PNGs in `assets/manifest.json`, with input order and honest visual review.
-3. Run `python3 scripts/build_catalog.py`, `python3 scripts/build_gallery.py`, `python3 scripts/validate.py` and `git diff --check`.
+3. Run `python3 scripts/build_catalog.py`, `python3 scripts/build_gallery.py`, `python3 scripts/build_readme_showcase.py`, `python3 scripts/validate.py` and `git diff --check`.
 4. Compare new upstream commits before importing. Preserve VideoWeb entry links and localization, original credits and asset hashes. Never replace checked dates with the current date unless the source was rechecked.
 5. Review the English and Chinese reader journey and all language navigation. Submit changes with the [contribution guide](../CONTRIBUTING.md).
 

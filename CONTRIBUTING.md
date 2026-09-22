@@ -41,7 +41,7 @@ Contributions are submitted under the repository’s [MIT License](LICENSE), sub
 
 ## VideoWeb edition maintenance
 
-Edit the source data before generated Markdown. Run `python3 scripts/build_catalog.py`, `python3 scripts/build_gallery.py`, `python3 scripts/validate.py` and `git diff --check`. CI rebuilds the catalog and gallery and rejects stale generated files. Update all 16 entry-page totals when adding a recipe. Keep the VideoWeb model, free-tool and affiliate links in every README.
+Edit the source data before generated Markdown. Run `python3 scripts/build_catalog.py`, `python3 scripts/build_gallery.py`, `python3 scripts/build_readme_showcase.py`, `python3 scripts/validate.py` and `git diff --check`. CI rebuilds the catalog, gallery and README showcases and rejects stale generated files. Update all 16 entry-page totals when adding a recipe. Keep the VideoWeb model, free-tool and affiliate links in every README.
 
 X additions require an original post, author, published date, check date, access method and rights disclosure. Link third-party images/videos instead of adding them to the MIT image archive. If a post contains only a visual idea, label your expanded prompt as an adaptation, not a transcription. Separate real generated outputs from suggested edits and video steps.
 

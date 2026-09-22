@@ -106,6 +106,17 @@ def main():
         overview = (ROOT / name).read_text().split(heading, 1)[1].split('\n## ', 1)[0]
         for pack in catalog['packs']:
             require(f'prompts/{pack["slug"]}.md' in overview, f'{name}: pack missing from overview table: {pack["slug"]}')
+    from build_readme_showcase import START, END, render
+    for name, lang in [('README.md', 'en'), ('README_zh.md', 'zh')]:
+        text = (ROOT / name).read_text()
+        require(START in text and END in text, f'{name}: missing inline showcase')
+        if START in text and END in text:
+            block = START + text.split(START, 1)[1].split(END, 1)[0] + END
+            require(block == render(lang), f'{name}: stale inline showcase')
+            require(block.count('### ') == 16 and block.count('```text') == 16,
+                    f'{name}: expected 16 visible categories and copyable examples')
+            require(len(re.findall(r'!\[', block)) == len(ids),
+                    f'{name}: every recipe needs an inline preview')
     readmes = read_json('data/readme-locales.json')['versions']
     require(len(readmes) == 16, 'Expected 16 README entry languages')
     for entry in readmes:

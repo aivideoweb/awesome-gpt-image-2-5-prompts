@@ -25,3 +25,13 @@ This is a content and repository review. It does not verify VideoWeb uptime or a
 完成三轮 Sol 高推理复查后，主编辑再次独立对比源库，确认原始103条配方及139张图的原始数据与文件完整保留，并修复历史数量表述和维护入口遗漏。当前版本在源库基础上新增3条中英配方、4张图、视频来源导览和图片转视频说明。
 
 这次结论针对内容覆盖、读者操作路径和仓库可维护性，不等于平台生图或模型效果实测。复古开场图留白等已知缺陷仍如实记录，不隐藏失败，也不把建议中的后续操作写成已完成。
+
+## Homepage expansion follow-up
+
+Reader feedback requested that categories and examples be visible without opening separate documents. The English and Simplified Chinese READMEs now display all 16 categories and 106 recipe previews, with one complete prompt per category and in-page navigation. Detailed recipes and generation records remain available.
+
+The Sol reviewer identified a Chinese locale-code mismatch and three preview-to-prompt mismatches. The editor mapped Chinese to `zh-Hans`, selected the first recoloring result for P019, and chose single-pass P032 and P087 as the copyable examples. P031 and P086 previews explicitly identify their revised results. README generation is included in CI and checked against the source data.
+
+The previews use the original PNG files (about 221 MiB in total before browser caching or GitHub processing). This change improves browsing coverage; it does not establish fast loading on mobile connections. Original full-resolution assets and generation provenance remain intact.
+
+The Sol follow-up confirmed both findings closed. The primary editor then independently rechecked all 106 unique homepage previews, representative prompts, source asset bytes, category navigation and the final affiliate section. No further issue in the requested homepage expansion remained.

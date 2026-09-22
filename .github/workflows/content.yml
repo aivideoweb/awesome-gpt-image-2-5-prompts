@@ -14,6 +14,7 @@ jobs:
           python-version: '3.12'
       - run: python3 scripts/build_catalog.py
       - run: python3 scripts/build_gallery.py
+      - run: python3 scripts/build_readme_showcase.py
       - run: python3 scripts/validate.py
       - run: git diff --exit-code
       - run: git diff --check
