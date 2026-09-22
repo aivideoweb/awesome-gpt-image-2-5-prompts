@@ -1,0 +1,20 @@
+{
+  "videos": [
+    {
+      "id": "V001",
+      "author": "OpenAI",
+      "source_url": "https://x.com/OpenAI/status/2097394956457623964",
+      "published": "2026-09-08",
+      "checked": "2026-09-22",
+      "kind": "official product demonstration, not a generated video benchmark",
+      "media_url": "https://video.twimg.com/amplify_video/2097390126577893376/vid/avc1/1920x1080/8IlFZqV8g8G39D8V.mp4?tag=29",
+      "thumbnail_url": "https://pbs.twimg.com/amplify_video_thumb/2097390126577893376/img/mmRUE0c57MKr8qDk.jpg",
+      "duration_seconds": 57.849,
+      "width": 1920,
+      "height": 1080,
+      "verification": "Public FxTwitter media metadata; native X returned 403. Playback not independently reviewed.",
+      "rights": "External copyrighted media; linked only, excluded from repository MIT license.",
+      "metadata_url": "https://api.fxtwitter.com/status/2097394956457623964"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+# Awesome ChatGPT Images 2.5 Prompts — VideoWeb AI 提示词库
+
+**面向电商产品图、精准修图、人物宠物、广告海报、故事分镜与多语言设计的实用提示词。由 VideoWeb AI 维护，基于 Flaq AI 的开源配方扩展。**
+
+[English](README.md) · **简体中文** · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Português (Brasil)](README_pt.md) · [Italiano](README_it.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [ไทย](README_th.md) · [Bahasa Indonesia](README_id.md) · [Tiếng Việt](README_vi.md)
+
+![VideoWeb AI GPT Image 2.5 提示词库封面](assets/images/videoweb-cover.png)
+
+[直接选提示词](prompts/README.md) · [查看修图案例](docs/editing-case-study.md) · [提示词写法](docs/prompting-guide.md) · [API 使用](docs/api-guide.md) · [图片生成记录](docs/generation-log.md)
+
+## 在 VideoWeb AI 开始
+
+**[使用 GPT Image 2.5](https://videoweb.ai/model/gpt-image-2-5/) · [免注册免费体验](https://videoweb.ai/free-gpt-image-2-5/)**
+
+推荐使用 VideoWeb 的 GPT Image 2.5 页面持续创作；免费体验页支持文字或一张参考图，提交前需要验证。先选配方、检查图片，再继续修改。
+
+
+## VideoWeb 新增案例
+
+| 时装短片服装概念 | 复古短片开场帧 | 耳机发布主视觉 |
+| --- | --- | --- |
+| [![服装概念](assets/images/p092-videoweb.png)](prompts/16-videoweb-x-creators.md#p092) | [![复古开场](assets/images/p093-videoweb.png)](prompts/16-videoweb-x-creators.md#p093) | [![耳机广告](assets/images/p094-videoweb.png)](prompts/16-videoweb-x-creators.md#p094) |
+
+[复制3条新增双语提示词](prompts/16-videoweb-x-creators.md) · [视频演示导览](docs/video-guide.md) · [从图片到视频](docs/videoweb-workflow.md)
+
+保留源库全部103条配方，新增3条从X案例扩展的原创简报及各自生成图。X原生页面要求登录，本次通过公开镜像核对作者、内容和素材地址，并在配方中注明。复古开场图的左墙仍有装饰物，未完全满足留白要求，已记录在图片检查说明中。
+
+## 新增：官方发布场景原创实践
+
+参照 [OpenAI 发布文章](https://openai.com/index/introducing-chatgpt-images-2-5/) 的实用场景，新增7条中英双语配方、14张原创图片：宠物披风、虚构儿童换装、被套花色、纪念卡文字、立方体旋转、行程单栏修改与蜡烛计数。每组附输入图、编辑图、实际提示词和检查结果；立方体存在几何偏差，已如实标明。
+
+[查看7组前后对照](docs/launch-examples.md) · [复制P061–P067提示词](prompts/12-launch-examples.md)
+
+## 新增：中文文章转化的英文工作流
+
+根据文章提取并扩展P074–P085共12条英文配方，覆盖草图、复杂英文排版、局部修图、连续编辑、品牌周边和分镜。配方、图内文案与使用指南均以英文编写，使用新虚构品牌和故事；现已全部配有新生成示例，编辑类同时提供输入图和实际效果说明。
+
+[复制12条英文提示词](prompts/14-sketch-to-story.md) · [查看来源与场景对应](docs/sketch-to-story.md)
+
+## 新增：可微调创作配方
+
+新增P068–P073共6条中英双语提示词，每条有3组可调整项与保留条件，覆盖工坊纪实照、手冲流程、玩具包装、灯塔微缩、纪念贺卡和陶艺拼贴。附7张新图，包括一次真实屋顶换色编辑。
+
+[复制可微调提示词](prompts/13-customizable-studio.md) · [查看微调示例与来源说明](docs/customizable-studio.md)
+
+## 从一张好看的图，到可以继续修改的作品
+
+商业创作经常需要“产品不变，只换背景”“中文换成日文，版式不要乱”“同一角色继续下一镜”。因此，本库不止描述风格，还明确任务、构图、材质、图中文字、保留项、后续修改与验收标准。
+
+当前版本包含 **106 条配方、16 个场景包**：76 条完整中英双语核心提示词、18条英文工作流配方，以及12条本地语言配方。翻译、追问和变体不重复计数。**全部106条现已配图**，共143张PNG（源库139张，本次新增4张），包含生成结果、编辑参考图、修改过程与封面。源库已为全部原始配方配图，本分支保留这些记录，并补充新增配方的使用说明。可直接浏览[完整图片画廊](docs/gallery.md)。
+
+## 新增：玩法路线与版本对比
+
+- [10条实用玩法路线](docs/playbook.md)：从商品母版、宠物写真到故事分镜，按素材选择并逐步执行。
+- [GPT Image 2 与 Images 2.5 升级对比](docs/images-2-vs-2-5.md)：解释Flare、Sunburst的区别，以及哪些能力属于改进而非首次支持。
+
+两份指南复用现有配方和图片，不增加配方计数，不冒充模型对比实测。
+
+README现提供 **16个语言／地区版本**，默认英文。各语言入口包含使用指引、示例提示词和平台资源；原有76条核心配方为完整中英双语，新工作流包以英文提供。[查看语言覆盖范围](docs/localization-guide.md#readme-language-coverage)。
+
+## 三步开始
+
+1. 从下表选择场景，复制其中一个语言版本，把虚构品牌、商品和文案替换成你的内容。
+2. 新建图直接使用；编辑图按提示顺序上传素材，并说明每张图的用途。
+3. 检查结果并保存确认稿，再使用条目中的后续修改。开启新对话时，请重新附上确认稿。
+
+先试试这个原创简版：
+
+```text
+为虚构台灯品牌制作3:2横版产品广告。
+台灯使用午夜蓝圆柱金属底座、象牙白圆盘灯罩和橙色拉环。
+放在珊瑚色阶梯展台上，深蓝背景，阴影自然可信。
+左侧仅排白字“LIGHT, UNPLUGGED.”和“TIDELINE”。
+呈现真实材料纹理，只保留一盏灯，不添加其他文案或产品参数。
+```
+
+确认图片后继续：
+
+```text
+只把台灯底座改为低饱和玉绿色，保持形状和金属纹理。
+灯罩、拉环、文字、背景、镜头与展台均保持不变。
+```
+
+[查看详细版](prompts/01-product.md#p001)；本库展示图的[实际执行提示词](assets/generation/tideline-lamp.txt)另有记录。
+
+## 按实际工作选场景
+
+| 场景包 | 包含内容 | 数量 |
+| --- | --- | --- |
+| [产品摄影与电商](prompts/01-product.md) | 台灯广告、陶瓷杯白底图、护肤静物、磨豆机结构、运动鞋特写、礼盒 | 6 |
+| [广告与社交媒体](prompts/02-social.md) | 活动海报、视频封面、旅行轮播、午餐广告、播客封面、市集主视觉 | 6 |
+| [人物、时尚与宠物](prompts/03-people-pets.md) | 职业头像、宠物探险照、外套试穿、生活抓拍、双人插画、宠物水彩 | 6 |
+| [精准编辑](prompts/04-editing.md) | 局部换色、去杂物、光照调整、定点换字、草图添加物件、透明抠图 | 6 |
+| [信息图与教育](prompts/05-information.md) | 雨水花园、风味图、示例数据图、街区地图、植物生长、流程演示 | 6 |
+| [品牌与界面](prompts/06-brand-ui.md) | 字标、导视、移动应用、落地页、包装系列、创作者看板 | 6 |
+| [故事与游戏](prompts/07-stories-games.md) | 六格故事、角色转面、表情表、物品图标、等距屋顶、像素海港 | 6 |
+| [建筑与空间](prompts/08-spaces.md) | 阅读室、公寓翻新、精品客房、快闪店、庭院、小亭效果图 | 6 |
+| [出版与插画](prompts/09-publishing.md) | 书封、食谱跨页、年度回顾、编辑隐喻、水墨画、独立刊物 | 6 |
+| [系列与制作交付](prompts/10-production.md) | 四季系列、横转竖、本地化、三图合成、老照修复、分镜扩展 | 6 |
+| [12种语言配方](prompts/11-multilingual.md) | 中、英、日、韩、西、法、德、葡、阿拉伯、印地、泰、俄语 | 12 |
+| [官方发布场景原创实践](prompts/12-launch-examples.md) | 宠物换装、儿童肖像、被套花色、城市文字、立方体、行程卡、蜡烛计数 | 7 |
+| [可微调创作配方](prompts/13-customizable-studio.md) | 工坊人像、咖啡流程、收藏包装、灯塔微缩、纪念贺卡、陶艺拼贴 | 6 |
+| [从草图到故事：英文工作流](prompts/14-sketch-to-story.md) | 草图、密集排版、人像编辑、品牌周边、动作表、MV及剧情分镜 | 12 |
+| [X 社区来源配方](prompts/15-x-community.md) | 食材文字、香水分镜、交通海报、纸艺旅行卡、建筑方案、野餐邀请 | 6 |
+| [VideoWeb 创作者配方](prompts/16-videoweb-x-creators.md) | 时装短片服装概念、复古开场帧、耳机广告 | 3 |
+
+## 源库生成示例
+
+| 商品广告 | 日英双语烘焙海报 |
+| --- | --- |
+| ![台灯产品广告：深蓝金属与珊瑚展台](assets/images/tideline-lamp.png) | ![日英双语面包店海报：焼きたての朝](assets/images/komorebi-bakery.png) |
+| [P001 提示词](prompts/01-product.md#p001) | [L003 提示词](prompts/11-multilingual.md#l003) |
+
+| 修补纸月亮故事 | 社区阅读室 |
+| --- | --- |
+| ![机器人修补纸月亮六格分镜](assets/images/paper-moon-story.png) | ![旧工坊改造社区阅读室概念图](assets/images/reading-room.png) |
+| [P037 提示词](prompts/07-stories-games.md#p037) | [P043 提示词](prompts/08-spaces.md#p043) |
+
+示例来自 Codex 内置生图工具，工具未返回底层模型ID，因此**不作为 Flare / Sunburst 的指定型号实测或横向评测**。六格故事第三格提前出现缝线；阅读室增加了杯子和花瓶。这些可见偏差均在[生成记录](docs/generation-log.md)中说明。
+
+## 同一张广告：先改颜色，再改标题
+
+| 原稿 | 第一轮：底座换绿 | 第二轮：只换标题 |
+| --- | --- | --- |
+| ![原始蓝色台灯](assets/images/tideline-lamp.png) | ![保留标题的绿色台灯](assets/images/tideline-lamp-jade.png) | ![保留绿色并更换标题](assets/images/tideline-lamp-copy.png) |
+
+第二轮以第一轮绿色成图为输入，能直观看到确认稿如何继续修改。细微表面纹理仍有变化，灯杆也随底座变绿，不能理解为像素级不变。[查看完整过程与验收方法](docs/editing-case-study.md)。
+
+## X 社区提示词与原图来源
+
+新增 **P086–P091 共6条英文配方**，覆盖食材文字、香水分镜、交通工具海报、纸艺旅行卡、建筑草图演变与野餐邀请。每条都附 X 作者、原帖、原图预览、改写说明、微调参数和验收要点。
+
+原图为第三方来源参考，不是改写提示词的生成结果，也不纳入本库 MIT 许可；本库改写后的6条X场景也已单独生成配图，计入143张原创图片资产。模型名称来自原帖作者说明，未经独立验证。
+
+[查看提示词及来源图片](prompts/15-x-community.md) · [英文使用指南](docs/x-community.md)
+
+## 免费 GPT Image 2.5 AI 工具，无需注册
+
+想直接试用本库提示词，可以从以下在线工具开始。各页面均介绍了免费、免注册的 ChatGPT Images 2.5 文生图和单张参考图编辑：输入提示词或上传一张图片，选择比例，再根据结果继续调整。
+
+| 工具 | 简介 | 推荐尝试 |
+| --- | --- | --- |
+| [VideoWeb AI free gpt image 2.5](https://videoweb.ai/free-gpt-image-2-5/) | 适合影片开场概念、转场参考帧、广告主视觉和场景氛围研究。提示词中明确机位与光线，可添加单张参考图，先确认静态画面，再用于视频前期策划。 | [故事与分镜](prompts/07-stories-games.md) |
+| [Flaq.ai free gpt image 2.5](https://flaq.ai/free-chatgpt-images-2-5/) | 源库团队提供的另一个工具，可尝试产品图、海报、写实场景和单图修改。页面还连接 flaq.ai 的创作工具与模型 API，方便将确认后的创意进一步接入应用流程。 | [P001 产品广告](prompts/01-product.md#p001) |
+| [UGC Maker free gpt image 2.5](https://ugcmaker.org/free-chatgpt-images-2-5/) | 面向创作者内容、UGC 广告概念、产品故事和社交媒体图片，可先探索广告主视觉或封面，再继续制作其他内容。 | [广告、社媒与创作者封面](prompts/02-social.md) |
+| [Best Image AI free gpt image 2.5](https://bestimage.ai/free-chatgpt-images-2-5/) | 通用文生图与单图编辑入口，适合电商、海报和视觉概念探索，可尝试方形、竖版和横版等不同构图。 | [P070 收藏玩具包装](prompts/13-customizable-studio.md#p070) |
+| [HeyDream free gpt image 2.5](https://heydream.im/free-chatgpt-images-2-5/) | 适合写实场景、照片风格调整、背景编辑与初步分镜构思；页面还提供独立图生视频工具入口，方便继续探索动态内容。 | [P071 灯塔微缩场景](prompts/13-customizable-studio.md#p071) |
+| [AITryOn free gpt image 2.5](https://aitryon.art/free-chatgpt-images-2-5/) | 适合服装概念、时尚人像、配饰和商品图。生成或编辑时明确服装、材质、姿势与背景，有助于表达具体造型方向。 | [P079 人像局部修改](prompts/14-sketch-to-story.md#p079) |
+| [Flyne AI free gpt image 2.5](https://flyne.ai/free-gpt-image-2-5/) | 适合产品发布概念图、醒目社交配图、插画分镜和情绪板。可从文字或单张参考图开始，通过九种画幅比例安排主体位置与标题留白。 | [产品广告](prompts/01-product.md) |
+| [Sea Imagine AI free gpt image 2.5](https://seaimagine.com/free-gpt-image-2-5/) | 适合艺术构图、建筑环境、海报布局和配色探索。通过文字或单张参考图引导画面，明确留白、材质与光线，比较不同画幅中的视觉方向。 | [空间与建筑](prompts/08-spaces.md) |
+| [Fylia AI free gpt image 2.5](https://fylia.ai/free-gpt-image-2-5/) | 适合插画人像、微缩绘本场景、生活方式图片及纸艺色彩实验。可输入文字或使用单张参考图，根据故事需要选择横版、方形或竖版构图。 | [人物与宠物](prompts/03-people-pets.md) |
+| [SeeVido AI free gpt image 2.5](https://seevido.com/free-gpt-image-2-5/) | 适合角色场景、产品预热图、旅行插画和季节性社交配图。支持文字或单张参考图引导；修改时明确需要保留的表情、产品细节与背景元素。 | [广告与社交配图](prompts/02-social.md) |
+| [VO4 AI free gpt image 2.5](https://vo4.org/free-gpt-image-2-5/) | 适合电影感场景、动作参考帧、科幻环境和镜头构图研究。先明确视点、主体和照明，再从九种画幅中选择合适比例，为镜头规划制作静态参考图。 | [草图到故事工作流](prompts/14-sketch-to-story.md) |
+| [Chat 4O AI free gpt image 2.5](https://chat4o.ai/free-gpt-image-2-5/) | 适合将文字想法转成演示文稿配图、教学插画、项目情绪板和故事图片。从提示词或单张参考图开始，为幻灯片文案预留空间，并检查图像是否准确表达主题。 | [信息图与教学插图](prompts/05-information.md) |
+
+**使用方法：**复制配方并替换虚构内容；编辑任务上传参考图，生成后检查并保存确认稿，再使用后续修改指令。需要多张参考图的配方，应选择支持相应输入数量的工具。
+
+**可用性说明：**原有5个页面于 **2026-09-14** 核对，新增7个页面于 **2026-09-16** 核对，本次未实测生成。新增工具的页面均说明生成前需完成验证，免注册不代表无需验证。免费指所链接的工具，不代表高级功能、视频服务或 API 一并免费；当前可用性与限制以各站规则为准。
+
+## 针对 Images 2.5 做了哪些细化？
+
+官方模型文档将 **Flare** 定位为快速日常生图，将 **Sunburst** 用于更重视编辑精度的工作流，均接受文字和图像输入。参见 [Flare 模型页](https://developers.openai.com/api/docs/models/gpt-image-2.5-flare)及 [Sunburst 模型页](https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst)。
+
+本库据此强化参考图分工、保留项、多轮确认稿、局部换字和系列一致性。这是提示词设计策略，不是成功率承诺；[版本说明](docs/model-notes.md)区分官方参数与尚未验证的假设。
+
+## 从图片到视频
+
+先生成并检查静态图，再将选定图片用于独立的视频工具。GPT Image 2.5 负责图片；分镜图本身不是视频。见[VideoWeb 创作流程](docs/videoweb-workflow.md)。
+
+## 常见问题
+
+### 可以免费使用吗？
+
+仓库原创内容采用 [MIT](LICENSE) 开源许可。最终图片中的人物、品牌、输入素材及其他第三方权利仍需结合实际用途检查；虚构演示名称不等于经过商标检索。
+
+### 106条都已经生成验证了吗？
+
+全部106条已有对应生成示例，其中76条双语配方（源库73条、本次新增3条）、18条英文工作流配方、12条本地语言配方。配图不代表所有要求均完美达成；每张图附有实际效果说明，建议中的后续修改只有单独记录结果时才表示已执行。
+
+### 可以直接用作商业成品吗？
+
+可作为创作起点，但需要检查文字、人物、产品外形和用途。界面图不是可运行软件；字标不是矢量文件；数据图、施工图和长篇排版需要相应制作工具复核。
+
+### 如何避免多轮修改越改越乱？
+
+每次只改一个变量，重复必须保留的内容，传入最近一次确认图。如有漂移，回到确认图重新修改。不要依赖新对话记住以前的图。
+
+### 是 OpenAI 官方项目吗？
+
+不是。这是 **VideoWeb AI 维护的独立开源项目**，与 OpenAI 无隶属或背书关系。
+
+## 参与贡献
+
+欢迎提交原创场景、语言审校和带真实生成记录的图片。请阅读[贡献规范](CONTRIBUTING.md)与[原创规范](docs/originality.md)。
+
+## 关于 VideoWeb AI
+
+VideoWeb AI 面向图片和视频创作者。这个分支保留源库完整配方与图片记录，并持续补充视频封面、分镜和社区案例。原始内容归属与同步方法见[源库说明](docs/upstream.md)。
+
+## 联盟推广合作
+
+我们支持联盟推广合作，欢迎教程作者、视频创作者和工具评测者通过 [VideoWeb AI 联盟计划](https://videoweb.ai/affiliate-program/)加入。
+
+首笔有效付费订单佣金为20%；注册后60天内的后续有效付费订单为10%。具体资格、退款处理和结算规则以联盟页面为准。
+
+## 许可
+
+[MIT](LICENSE) © 2026 Flaq AI；VideoWeb AI 品牌适配与新增内容。第三方素材另行标注。

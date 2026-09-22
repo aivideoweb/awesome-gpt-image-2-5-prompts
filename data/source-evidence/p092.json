@@ -1,0 +1,18 @@
+{
+  "id": "P092",
+  "author": "Banana Prompts",
+  "handle": "@bananaprompts",
+  "url": "https://x.com/bananaprompts/status/2097453650100547924",
+  "photo_url": "https://x.com/bananaprompts/status/2097453650100547924/photo/1",
+  "image_url": "https://pbs.twimg.com/media/HRumna0bsAAgi6L.jpg?name=orig",
+  "published": "2026-09-08",
+  "checked": "2026-09-22",
+  "source_summary": "An outfit rendered as an editorial illustration.",
+  "adaptation": "Original expansion of the author’s fashion illustration idea into a film wardrobe concept; new clothing, framing and production constraints. The linked reply contains the source prompt.",
+  "model_claim": "GPT Image 2.5 according to the author; not independently verified",
+  "image_role": "external-source-preview",
+  "rights": "Third-party reference, linked remotely; not included in MIT license.",
+  "verification": "Public FxTwitter metadata and TwStalker text checked; native X required login / returned 403.",
+  "metadata_url": "https://api.fxtwitter.com/status/2097453650100547924",
+  "prompt_url": "https://x.com/bananaprompts/status/2097453653170790659"
+}

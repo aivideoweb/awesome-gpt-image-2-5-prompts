@@ -1,0 +1,17 @@
+{
+  "id": "P093",
+  "author": "Banana Prompts",
+  "handle": "@bananaprompts",
+  "url": "https://x.com/bananaprompts/status/2097420057919848639",
+  "photo_url": "https://x.com/bananaprompts/status/2097420057919848639/photo/1",
+  "image_url": "https://pbs.twimg.com/media/HRuHs2uWYAA-UN-.jpg?name=orig",
+  "published": "2026-09-08",
+  "checked": "2026-09-22",
+  "source_summary": "An 1980s photo aesthetic presented by the author as a GPT Image 2.5 test.",
+  "adaptation": "New text-to-image scene inspired by a retro-photo demonstration. The source post does not disclose a complete prompt; the brief below is authored by VideoWeb AI, not a transcription.",
+  "model_claim": "GPT Image 2.5 according to the author; not independently verified",
+  "image_role": "external-source-preview",
+  "rights": "Third-party reference, linked remotely; not included in MIT license.",
+  "verification": "Public FxTwitter metadata and TwStalker text checked; native X required login / returned 403.",
+  "metadata_url": "https://api.fxtwitter.com/status/2097420057919848639"
+}
