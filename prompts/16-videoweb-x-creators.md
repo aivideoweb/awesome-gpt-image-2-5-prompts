@@ -41,7 +41,7 @@ Copy one language block. For edits, attach the images named in the prompt in tha
 
 **Generated example / 已生成示例：** Exact executed prompts and review notes are in the [generation log](../docs/generation-log.md). These examples do not verify every template variation.
 
-![P092 VideoWeb creator concept](../assets/images/p092-videoweb.png)
+![Full-body ink and watercolor wardrobe concept with a teal rain jacket, ivory trousers and dark boots](../assets/images/p092-videoweb.png)
 
 [VideoWeb P092 generated concept: exact prompt / 实际提示词](../assets/generation/p092-videoweb.txt)
 
@@ -109,7 +109,7 @@ Change only the rain jacket to ochre yellow. Preserve the pose, face, trousers, 
 
 **Generated example / 已生成示例：** Exact executed prompts and review notes are in the [generation log](../docs/generation-log.md). These examples do not verify every template variation.
 
-![P093 VideoWeb creator concept](../assets/images/p093-videoweb.png)
+![Rainy 1980s living-room opening frame with a seated adult, wood radio and soft window light](../assets/images/p093-videoweb.png)
 
 [VideoWeb P093 generated concept: exact prompt / 实际提示词](../assets/generation/p093-videoweb.txt)
 
@@ -177,7 +177,7 @@ Change only the upholstery to muted rust red; keep the person, room geometry, wi
 
 **Generated example / 已生成示例：** Exact executed prompts and review notes are in the [generation log](../docs/generation-log.md). These examples do not verify every template variation.
 
-![P094 VideoWeb creator concept](../assets/images/p094-videoweb.png)
+![Ivory headphones on a violet pedestal with dark empty copy space on the left](../assets/images/p094-videoweb.png)
 
 [VideoWeb P094 generated concept: exact prompt / 实际提示词](../assets/generation/p094-videoweb.txt)
 

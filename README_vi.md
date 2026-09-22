@@ -6,7 +6,7 @@ Tạo ảnh và lên ý tưởng video với VideoWeb AI.
 
 ![VideoWeb AI — GPT Image 2.5](assets/images/videoweb-cover.png)
 
-Thư viện có 106 công thức trong 15 nhóm và 143 ảnh mới: 76 công thức đầy đủ bằng tiếng Anh và tiếng Trung giản thể, cùng 12 công thức riêng theo ngôn ngữ. README có 16 phiên bản ngôn ngữ và khu vực. Trang này là phần giới thiệu bằng tiếng Việt, không phải bản dịch toàn bộ thư viện. Ngoài ra còn có 18 công thức quy trình mới chỉ bằng tiếng Anh.
+Thư viện có 106 công thức trong 16 nhóm và 143 ảnh mới: 76 công thức đầy đủ bằng tiếng Anh và tiếng Trung giản thể, cùng 12 công thức riêng theo ngôn ngữ. README có 16 phiên bản ngôn ngữ và khu vực. Trang này là phần giới thiệu bằng tiếng Việt, không phải bản dịch toàn bộ thư viện. Ngoài ra còn có 18 công thức quy trình mới chỉ bằng tiếng Anh.
 
 
 **[Thư viện ảnh cho 106 công thức](docs/gallery.md)**

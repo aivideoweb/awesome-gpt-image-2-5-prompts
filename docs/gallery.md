@@ -113,7 +113,7 @@ These are generated demonstrations inherited from Flaq AI or added for VideoWeb 
 
 | | | |
 | --- | --- | --- |
-| [![P092 VideoWeb creator concept](../assets/images/p092-videoweb.png)](../prompts/16-videoweb-x-creators.md#p092)<br>**[P092 · Fashion-film wardrobe concept](../prompts/16-videoweb-x-creators.md#p092)** | [![P093 VideoWeb creator concept](../assets/images/p093-videoweb.png)](../prompts/16-videoweb-x-creators.md#p093)<br>**[P093 · Retro short-film opening frame](../prompts/16-videoweb-x-creators.md#p093)** | [![P094 VideoWeb creator concept](../assets/images/p094-videoweb.png)](../prompts/16-videoweb-x-creators.md#p094)<br>**[P094 · Headphone launch key visual](../prompts/16-videoweb-x-creators.md#p094)** |
+| [![Full-body ink and watercolor wardrobe concept with a teal rain jacket, ivory trousers and dark boots](../assets/images/p092-videoweb.png)](../prompts/16-videoweb-x-creators.md#p092)<br>**[P092 · Fashion-film wardrobe concept](../prompts/16-videoweb-x-creators.md#p092)** | [![Rainy 1980s living-room opening frame with a seated adult, wood radio and soft window light](../assets/images/p093-videoweb.png)](../prompts/16-videoweb-x-creators.md#p093)<br>**[P093 · Retro short-film opening frame](../prompts/16-videoweb-x-creators.md#p093)** | [![Ivory headphones on a violet pedestal with dark empty copy space on the left](../assets/images/p094-videoweb.png)](../prompts/16-videoweb-x-creators.md#p094)<br>**[P094 · Headphone launch key visual](../prompts/16-videoweb-x-creators.md#p094)** |
 
 ## Multilingual posters
 

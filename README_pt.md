@@ -6,7 +6,7 @@ Crie imagens e planeje seus vídeos com o VideoWeb AI.
 
 ![VideoWeb AI — GPT Image 2.5](assets/images/videoweb-cover.png)
 
-São 106 receitas em 15 conjuntos e 143 imagens geradas para o projeto: 76 receitas completas em inglês e chinês simplificado, mais 12 receitas específicas por idioma. Há 16 versões do README por idioma ou região. Esta introdução em português do Brasil não é uma tradução de toda a biblioteca. Há também 18 novas receitas de fluxo de trabalho disponíveis apenas em inglês.
+São 106 receitas em 16 conjuntos e 143 imagens geradas para o projeto: 76 receitas completas em inglês e chinês simplificado, mais 12 receitas específicas por idioma. Há 16 versões do README por idioma ou região. Esta introdução em português do Brasil não é uma tradução de toda a biblioteca. Há também 18 novas receitas de fluxo de trabalho disponíveis apenas em inglês.
 
 
 **[Galeria das 106 receitas ilustradas](docs/gallery.md)**
