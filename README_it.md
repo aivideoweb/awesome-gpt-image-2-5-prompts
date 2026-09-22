@@ -6,7 +6,7 @@ Crea immagini e prepara i tuoi progetti video con VideoWeb AI.
 
 ![VideoWeb AI — GPT Image 2.5](assets/images/videoweb-cover.png)
 
-La raccolta comprende 106 ricette in 16 sezioni e 144 nuove immagini: 78 ricette complete in inglese e cinese semplificato, più 12 ricette dedicate a singole lingue. Il README è disponibile in 16 versioni linguistiche e regionali. Questa pagina introduce la raccolta in italiano, senza tradurre tutti i prompt. Si aggiungono 16 nuove ricette di workflow disponibili solo in inglese.
+La raccolta comprende 106 ricette in 16 sezioni e 145 nuove immagini: 78 ricette complete in inglese e cinese semplificato, più 12 ricette dedicate a singole lingue. Il README è disponibile in 16 versioni linguistiche e regionali. Questa pagina introduce la raccolta in italiano, senza tradurre tutti i prompt. Si aggiungono 16 nuove ricette di workflow disponibili solo in inglese.
 
 
 **[Galleria delle 106 ricette illustrate](docs/gallery.md)**

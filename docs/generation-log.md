@@ -1,6 +1,6 @@
 # Generation log · 图片生成记录
 
-144 recorded PNG files (139 inherited from Flaq AI and 5 VideoWeb additions), including synthetic inputs, first attempts and refined outputs. All 106 recipes have at least one generated result. Images were generated with the Codex built-in image tool; all editing references are this project’s own generated assets.
+145 recorded PNG files (139 inherited from Flaq AI and 6 VideoWeb additions), including synthetic inputs, first attempts and refined outputs. All 106 recipes have at least one generated result. Images were generated with the Codex built-in image tool; all editing references are this project’s own generated assets.
 
 Each record preserves the exact executed prompt, input order, dimensions, SHA-256 and visual review. Model ID, seed and quality settings were not exposed and are not inferred. These examples are not verified Flare/Sunburst comparisons.
 
@@ -1447,3 +1447,13 @@ Each record preserves the exact executed prompt, input order, dimensions, SHA-25
 - Inputs: None
 
 **Review:** Three requested text lines are legible and the output is exactly 3:1. The lamp shade is rounded rather than a flat disc; the second frame is a lamp detail rather than an architectural close view. These are acceptable editorial cover variations, not a recorded recipe result or continuity benchmark.
+
+## videoweb-banner-v2 · VideoWeb AI creative-island homepage cover
+
+- Recipe: `COVER` · Role: result · Date: 2026-09-22
+- [Original PNG](../assets/images/videoweb-banner-v2.png) · 2172 × 724
+- [Exact executed prompt](../assets/generation/videoweb-banner-v2.txt)
+- SHA-256: `8f7304601b48c0eb6c3b420eb0db7ed23dd7d43576a5c311e65374d34c0d421a`
+- Inputs: None
+
+**Review:** Cobalt typography is legible against warm ivory; the orange island, turquoise waves, lighthouse and courier form one cohesive miniature scene. The headphone arch touches and is slightly cropped by the upper edge, and a small sailboat and background foliage were added. Main text, lighthouse and courier remain unobstructed. Original conceptual cover art, not the output of a library recipe.

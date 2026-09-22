@@ -2674,6 +2674,23 @@
       "height": 724,
       "sha256": "3d33571d2137ceb01a7193685659f79e826bf16f41113c8a4af951c6df7e3c7d",
       "review": "Three requested text lines are legible and the output is exactly 3:1. The lamp shade is rounded rather than a flat disc; the second frame is a lamp detail rather than an architectural close view. These are acceptable editorial cover variations, not a recorded recipe result or continuity benchmark."
+    },
+    {
+      "id": "videoweb-banner-v2",
+      "recipe_id": "COVER",
+      "label": "VideoWeb AI creative-island homepage cover",
+      "path": "assets/images/videoweb-banner-v2.png",
+      "prompt_path": "assets/generation/videoweb-banner-v2.txt",
+      "alt": "VideoWeb AI GPT Image 2.5 Prompt Library in cobalt type beside a paper island with a lighthouse, headphones and a yellow-coated courier",
+      "created": "2026-09-22",
+      "method": "Codex built-in image_gen",
+      "model_id": null,
+      "model_note": "Model ID not exposed; original editorial cover illustration, not a verified GPT Image 2.5 output.",
+      "input_images": [],
+      "width": 2172,
+      "height": 724,
+      "sha256": "8f7304601b48c0eb6c3b420eb0db7ed23dd7d43576a5c311e65374d34c0d421a",
+      "review": "Cobalt typography is legible against warm ivory; the orange island, turquoise waves, lighthouse and courier form one cohesive miniature scene. The headphone arch touches and is slightly cropped by the upper edge, and a small sailboat and background foliage were added. Main text, lighthouse and courier remain unobstructed. Original conceptual cover art, not the output of a library recipe."
     }
   ]
 }

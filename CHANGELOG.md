@@ -1,3 +1,8 @@
+# Creative cover revision — 2026-09-22
+
+- Replaced the homepage’s dark lamp banner with a brighter original paper-island illustration and stronger title contrast.
+- Preserved the previous cover and its record; current total is 145 PNGs, with 106 recipes unchanged.
+
 # Wide homepage cover — 2026-09-22
 
 - Added a new 3:1 VideoWeb AI cover above the English and Chinese homepage examples. Existing covers remain intact.

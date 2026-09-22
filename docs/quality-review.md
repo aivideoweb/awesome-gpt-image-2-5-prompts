@@ -16,7 +16,7 @@ After the review rounds, the primary editor independently compared the source an
 
 ## Result and limits
 
-The edition includes 106 illustrated recipes in 16 packs, 16 README language entries and 144 PNG records. Three new bilingual X-inspired creator briefs and five images extend the source; a linked official video and separate motion-planning guide support video creators.
+The edition includes 106 illustrated recipes in 16 packs, 16 README language entries and 145 PNG records. Three new bilingual X-inspired creator briefs and six images extend the source; a linked official video and separate motion-planning guide support video creators.
 
 Catalog and gallery generation are reproducible. The validator checks recipe exports, image hashes and dimensions, local links, multilingual entry points and source records. Continuous integration rebuilds and rejects stale generated files.
 
@@ -98,3 +98,12 @@ GitHub Markdown API output was visually inspected with an 835-pixel-wide local p
 ## Wide homepage cover
 
 Added a separately recorded 3:1 VideoWeb banner to the English and Simplified Chinese homepages, after language navigation and before the featured examples. At an 835-pixel content width it displays about 278 pixels high. The 143 earlier assets remain intact; the new editorial cover brings the total to 144 without adding a recipe. Its exact prompt, dimensions, hash and observed deviations are recorded in the manifest and generation log. Earlier review counts in this document describe their respective historical revisions.
+
+
+## Brighter creative cover
+
+Reader feedback rejected the dark lamp banner as insufficiently engaging. A new 3:1 cover replaces it on the English and Simplified Chinese homepages: cobalt title text on warm ivory, with an orange-and-turquoise paper island, lighthouse, oversized headphones and a courier. The single connected scene presents product and story imagery without adding a thumbnail grid. The prior banner and its provenance remain available; the new record brings the total to 145 images, with 106 recipes unchanged.
+
+The editor visually compared the new cover with the source cover: both prioritize a large readable title and tactile materials. The new banner keeps its existing display height and leaves the following two-column examples in place. Its headphone arch is slightly cropped at the upper edge, but the title, lighthouse and courier remain clear. This is a design judgment, not evidence of improved reader engagement or conversion. All 139 inherited PNGs remain byte-identical.
+
+A Sol high-reasoning reviewer inspected both cover images and recommended keeping the revision for its clearer title hierarchy, stronger color contrast and connected miniature scene. It noted that the large headphones could briefly suggest audio, but did not consider this a required correction in context. The primary editor independently reconsidered that concern against the explicit image-library title and the following product/story examples and retained the design. Catalog, gallery, README-directory, asset and link checks pass.
