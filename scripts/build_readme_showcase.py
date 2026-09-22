@@ -10,61 +10,68 @@ START = '<!-- BEGIN GENERATED SHOWCASE -->'
 END = '<!-- END GENERATED SHOWCASE -->'
 
 
+# Reader tasks, deliberately separate from the chronological source packs.
+GROUPS = [
+    ('products', 'Products & brand design', '商品与品牌',
+     'Create catalog photos, packaging and a consistent brand look.', '制作商品图、包装和品牌视觉。',
+     ['P002', 'P003', 'P035'], ['01-product', '06-brand-ui', '13-customizable-studio']),
+    ('posters', 'Posters, covers & publishing', '海报、封面与出版',
+     'Give a message a clear visual hierarchy, including multilingual copy.', '让活动、视频和书籍的标题与画面一眼可读，也支持多语言文案。',
+     ['P008', 'L003', 'P049'], ['02-social', '09-publishing', '11-multilingual']),
+    ('people', 'Portraits, outfits & pets', '人像、穿搭与宠物',
+     'Explore a look or edit a portrait while preserving recognizable features.', '探索服装造型，或在修图时保留人物和宠物的特征。',
+     ['P013', 'P014', 'P092'], ['03-people-pets']),
+    ('editing', 'Change one thing at a time', '局部修改与系列延展',
+     'Change clothing, patterns or text while keeping the approved composition.', '保留已确认的画面，只换服装、花色、文字，或制作同系列图片。',
+     ['P061', 'P063', 'P066'], ['04-editing', '10-production', '12-launch-examples']),
+    ('information', 'Explain an idea', '知识讲解与信息图',
+     'Turn a process, concept or supplied data into a visual explanation.', '把步骤、知识和给定数据整理成易懂的图示。',
+     ['P025', 'P027', 'P030'], ['05-information']),
+    ('spaces', 'Rooms & architecture', '室内与建筑',
+     'Explore room layouts, materials and concepts from sketches.', '从空间照片或草图出发，探索家具、材质与建筑方案。',
+     ['P043', 'P044', 'P048'], ['08-spaces']),
+    ('stories', 'Stories & video planning', '故事、分镜与视频前期',
+     'Plan characters, shot sequences and product films as still images.', '用静态图设计角色、镜头顺序和产品短片。分镜图本身不是视频。',
+     ['P037', 'P084', 'P087'], ['07-stories-games', '14-sketch-to-story', '15-x-community', '16-videoweb-x-creators']),
+]
+
+
 def render(lang):
+    zh = lang == 'zh'
     catalog = json.loads((ROOT / 'data/catalog.json').read_text())
     exported = json.loads((ROOT / 'data/prompts.json').read_text())
     assets = json.loads((ROOT / 'assets/manifest.json').read_text())['assets']
     latest = {a['recipe_id']: a for a in assets
               if a.get('role') not in ('input', 'draft') and a['recipe_id'] != 'COVER'}
-    # P019's first edit matches the reusable recoloring prompt; the second edit changes text.
-    latest['P019'] = next(a for a in assets if a['recipe_id'] == 'P019')
-    byid = {r['id']: r for r in exported['core']}
-    packs = [(p['slug'], p['title'].get(lang, p['title']['en']),
-              [byid[r['id']] for r in p['recipes']]) for p in catalog['packs']]
-    packs.append(('11-multilingual', '多语言海报' if lang == 'zh' else 'Multilingual posters', exported['localized']))
-    packs.sort(key=lambda p: p[0])
-    zh = lang == 'zh'
+    byid = {r['id']: r for r in exported['core'] + exported['localized']}
+    packs = {p['slug']: p for p in catalog['packs']}
+    packs['11-multilingual'] = {'title': {'en': 'Multilingual posters', 'zh': '多语言海报'}, 'recipes': exported['localized']}
     lines = [START, '',
-        '下面直接展示全部 16 个分类、106 条配方的图片。每类附一条完整提示词；点击其他图片可查看对应配方。'
-        if zh else 'All 16 categories and 106 illustrated recipes are displayed below. Each category includes one complete prompt to copy; other images link to their full recipes.', '',
-        '图片是项目生成示例，不代表 VideoWeb 或指定模型的实测结果。配方与实际执行提示词可能有差异，输入关系及已知问题见[图片生成记录](docs/generation-log.md)。修图配方需要上传参考图；多图任务需使用支持多图输入的工具。'
-        if zh else 'These are project-generated examples, not verified VideoWeb or model-specific results. Reusable recipes may differ from executed prompts; see the [generation log](docs/generation-log.md) for inputs and known limitations. Editing recipes require references; use a tool supporting multiple uploads for multi-image tasks.', '']
-    for slug, title, recipes in packs:
-        lines += [f'<a id="showcase-{slug}"></a>', '', f'### {title} · {len(recipes)}', '', '| | | |', '| --- | --- | --- |']
-        cells = []
-        for r in recipes:
-            name = r['title'].get(lang, r['title'].get('en')) if isinstance(r['title'], dict) else r['title']
-            a = latest[r['id']]
-            link = f'prompts/{slug}.md#{r["id"].lower()}'
-            note = ('<br>修订后成图；完整过程见配方' if zh else '<br>Revised result; steps in recipe') if r['id'] in ('P031', 'P086') else ''
-            cells.append(f'[![{name}]({a["path"]})]({link})<br>**[{r["id"]} · {name}]({link})**{note}')
-        for i in range(0, len(cells), 3):
-            lines.append('| ' + ' | '.join((cells[i:i+3] + [''] * 3)[:3]) + ' |')
-        representative = {'06-brand-ui': 'P032', '15-x-community': 'P087'}
-        locale = 'zh-Hans' if zh else 'en'
-        r = next((r for r in recipes if r['id'] == representative.get(slug)
-                  or r.get('language') == locale), recipes[0])
-        # Editing examples expose their recorded input; generated recipes start from text.
-        a = next(a for a in assets if a['recipe_id'] == r['id'] and a.get('role') not in ('input', 'draft'))
-        p = r['prompt']
-        chosen_lang = lang if isinstance(p, dict) and lang in p else 'en'
-        prompt = p[chosen_lang] if isinstance(p, dict) else p
-        lines += ['', f'**{"可直接复制" if zh else "Copy this prompt"} · {r["id"]}**', '']
-        if isinstance(p, dict) and lang not in p:
-            lines += ['此配方提供英文提示词，可直接复制使用。', '']
-        if r.get('mode') == 'edit' and a['input_images']:
-            lines += [('参考图（按顺序上传）：' if zh else 'References (upload in order): ') + ' · '.join(f'[{i+1}]({path})' for i, path in enumerate(a['input_images'])), '']
-        else:
-            lines += ['输入：此默认示例无需上传参考图。' if zh else 'Input: no reference upload is needed for this default example.', '']
-        lines += ['```text', prompt, '```', '']
-        for field, label in [('revision', '下一轮修改' if zh else 'Next edit'), ('review', '检查要点' if zh else 'Check the result')]:
-            value = r.get(field, '')
-            if isinstance(value, dict):
-                value = value.get(lang, value.get('en', ''))
-            if value:
-                lines += [f'**{label}：** {value}', '']
-        lines += [f'[{"本分类完整配方与使用说明" if zh else "All prompts and usage notes in this category"}](prompts/{slug}.md) · [{"回到分类目录" if zh else "Back to categories"}](#{"按实际工作选场景" if zh else "prompt-library"})', '']
-    return '\n'.join(lines + [END])
+             '先按用途看代表案例，再打开需要的配方。首页精选 21 例；全部 106 例见[完整画廊](docs/gallery.md)。'
+             if zh else 'Find your task, preview an example, then open its recipe. These 21 selections introduce the [full gallery of 106 recipes](docs/gallery.md).', '',
+             ' · '.join(f'[{g[2] if zh else g[1]}](#browse-{g[0]})' for g in GROUPS), '']
+    for key, en, cn, desc_en, desc_cn, ids, slugs in GROUPS:
+        lines += [f'<a id="browse-{key}"></a>', '', f'### {cn if zh else en}', '', desc_cn if zh else desc_en, '']
+        headings, cells, modes = [], [], []
+        for id in ids:
+            r = byid[id];a = latest[id]
+            title = r['title'].get(lang, r['title']['en']) if isinstance(r['title'], dict) else r['title']
+            if zh:
+                title = {'L003': '日文烘焙店海报', 'P084': '九镜头音乐短片分镜', 'P087': '六画面香水发布分镜'}.get(id, title)
+            slug = r.get('pack', '11-multilingual')
+            link = f'prompts/{slug}.md#{id.lower()}'
+            mode = ('需参考图' if zh else 'Reference needed') if r.get('mode') == 'edit' else ('文字生图' if zh else 'Text to image')
+            if r.get('mode') != 'edit' and a['input_images']:
+                mode += ' · 含后续修订' if zh else ' · Refined result'
+            headings.append(f'[{title}]({link})')
+            cells.append(f'[![{title}]({a["path"]})]({link})')
+            modes.append(mode)
+        lines += ['| ' + ' | '.join(headings) + ' |', '| --- | --- | --- |',
+                  '| ' + ' | '.join(cells) + ' |', '| ' + ' | '.join(modes) + ' |', '',
+                  ('更多配方：' if zh else 'More recipes: ') + ' · '.join(
+                      f'[{packs[slug]["title"].get(lang, packs[slug]["title"]["en"])} ({len(packs[slug]["recipes"])})](prompts/{slug}.md)' for slug in slugs), '']
+    lines += [END]
+    return '\n'.join(lines)
 
 
 def main():
@@ -82,7 +89,7 @@ def main():
             raise SystemExit(f'Stale showcase: {filename}')
         if not args.check:
             path.write_text(new)
-    print('README showcases: 16 categories, 106 images and 16 complete prompts per language.')
+    print('README showcases: 7 reader tasks and 21 selected examples per language.')
 
 
 if __name__ == '__main__':

@@ -46,3 +46,5 @@ Edit the source data before generated Markdown. Run `python3 scripts/build_catal
 X additions require an original post, author, published date, check date, access method and rights disclosure. Link third-party images/videos instead of adding them to the MIT image archive. If a post contains only a visual idea, label your expanded prompt as an adaptation, not a transcription. Separate real generated outputs from suggested edits and video steps.
 
 See [source synchronization](docs/upstream.md) and [video source rules](docs/video-guide.md).
+
+Keep the homepage organized by reader tasks in `scripts/build_readme_showcase.py`. Choose three representative examples per task; keep full coverage in `docs/gallery.md` and the recipe packs. Avoid adding chronological update sections or repeating long prompts between preview groups.
