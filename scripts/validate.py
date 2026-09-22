@@ -84,7 +84,7 @@ def main():
         text = (ROOT/name).read_text()
         for recipe in ['p002','p084','p094']:
             require(f'#{recipe}-{lang})' in text, f'{name}: featured prompt must open its execution language')
-    require(len(manifest)==143,'Expected 143 recorded images')
+    require(len(manifest)==144,'Expected 144 recorded images')
     covered={a['recipe_id'] for a in manifest if a.get('role') not in ('input','draft')}
     require(set(ids).issubset(covered), 'Every recipe must have a generated result')
     require({a['path'] for a in manifest}=={str(p.relative_to(ROOT)) for p in (ROOT/'assets/images').glob('*.png')}, 'Unrecorded or missing PNG files')

@@ -1,4 +1,4 @@
-> **Edition provenance:** The historical release notes below describe the inherited Flaq AI baseline (103 recipes, 139 images). VideoWeb adds three bilingual recipes and four images, for 106 recipes and 143 images in this edition. See [source and credits](upstream.md).
+> **Edition provenance:** The historical release notes below describe the inherited Flaq AI baseline (103 recipes, 139 images). VideoWeb adds three bilingual recipes and five images, for 106 recipes and 144 images in this edition. See [source and credits](upstream.md).
 
 # Originality and provenance
 

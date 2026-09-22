@@ -6,7 +6,7 @@ Erstelle Bilder und plane Videoprojekte mit VideoWeb AI.
 
 ![VideoWeb AI — GPT Image 2.5](assets/images/videoweb-cover.png)
 
-Die Sammlung enthält 106 Rezepte in 16 Paketen und 143 neu erzeugte Bilder: 78 Kernrezepte auf Englisch und vereinfachtem Chinesisch sowie 12 sprachspezifische Rezepte. Es gibt 16 README-Sprach- und Regionalversionen. Diese deutsche Einstiegsseite ist keine vollständige Übersetzung aller Prompts. Hinzu kommen 16 neue Workflow-Rezepte ausschließlich auf Englisch.
+Die Sammlung enthält 106 Rezepte in 16 Paketen und 144 neu erzeugte Bilder: 78 Kernrezepte auf Englisch und vereinfachtem Chinesisch sowie 12 sprachspezifische Rezepte. Es gibt 16 README-Sprach- und Regionalversionen. Diese deutsche Einstiegsseite ist keine vollständige Übersetzung aller Prompts. Hinzu kommen 16 neue Workflow-Rezepte ausschließlich auf Englisch.
 
 
 **[Bildergalerie mit 106 Rezepten](docs/gallery.md)**

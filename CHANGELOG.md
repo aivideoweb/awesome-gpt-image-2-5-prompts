@@ -1,3 +1,8 @@
+# Wide homepage cover — 2026-09-22
+
+- Added a new 3:1 VideoWeb AI cover above the English and Chinese homepage examples. Existing covers remain intact.
+- Recorded its exact prompt, dimensions, hash and visual review; synchronized the current image total to 144. Recipe totals are unchanged.
+
 # Homepage layout update — 2026-09-22
 
 - Adopted the source collection’s two-column image presentation for the English and Simplified Chinese homepages, with shorter titles and captions.

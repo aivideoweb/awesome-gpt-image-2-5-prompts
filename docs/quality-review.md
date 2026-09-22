@@ -16,7 +16,7 @@ After the review rounds, the primary editor independently compared the source an
 
 ## Result and limits
 
-The edition includes 106 illustrated recipes in 16 packs, 16 README language entries and 143 PNG records. Three new bilingual X-inspired creator briefs and four images extend the source; a linked official video and separate motion-planning guide support video creators.
+The edition includes 106 illustrated recipes in 16 packs, 16 README language entries and 144 PNG records. Three new bilingual X-inspired creator briefs and five images extend the source; a linked official video and separate motion-planning guide support video creators.
 
 Catalog and gallery generation are reproducible. The validator checks recipe exports, image hashes and dimensions, local links, multilingual entry points and source records. Continuous integration rebuilds and rejects stale generated files.
 
@@ -93,3 +93,8 @@ P002 now has a separate input/result table. The existing P076 image returns in t
 Sol high-reasoning review accepted the structure and identified one input-label error: P084 had been described as using a performer photo even though its recorded reference is an illustrated character. The editor changed this to a performer reference image, clarified P076’s doodle input and made P043’s caption describe specified furniture, materials and light. The primary editor checked those descriptions against the catalog and independently compared the final source and target structure, images, inputs and prompt destinations.
 
 GitHub Markdown API output was visually inspected with an 835-pixel-wide local preview: the lead examples and poster/portrait pair are substantially larger than the previous three-column layout. Local preview styling is not identical to GitHub; published-page inspection is a separate visual check. Generators and the content validator pass. All recipe data, image files and generation records are unchanged in this round; no mobile usability or conversion result is claimed.
+
+
+## Wide homepage cover
+
+Added a separately recorded 3:1 VideoWeb banner to the English and Simplified Chinese homepages, after language navigation and before the featured examples. At an 835-pixel content width it displays about 278 pixels high. The 143 earlier assets remain intact; the new editorial cover brings the total to 144 without adding a recipe. Its exact prompt, dimensions, hash and observed deviations are recorded in the manifest and generation log. Earlier review counts in this document describe their respective historical revisions.

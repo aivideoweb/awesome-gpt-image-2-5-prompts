@@ -6,7 +6,7 @@ Buat gambar dan rencanakan video dengan VideoWeb AI.
 
 ![VideoWeb AI — GPT Image 2.5](assets/images/videoweb-cover.png)
 
-Koleksi ini berisi 106 resep dalam 16 kategori serta 143 gambar baru. Sebanyak 78 resep utama tersedia dalam bahasa Inggris dan Mandarin sederhana, ditambah 12 resep khusus bahasa. README tersedia dalam 16 versi bahasa dan wilayah. Halaman ini merupakan pengantar bahasa Indonesia, bukan terjemahan seluruh prompt. Ada pula 16 resep alur kerja baru yang tersedia hanya dalam bahasa Inggris.
+Koleksi ini berisi 106 resep dalam 16 kategori serta 144 gambar baru. Sebanyak 78 resep utama tersedia dalam bahasa Inggris dan Mandarin sederhana, ditambah 12 resep khusus bahasa. README tersedia dalam 16 versi bahasa dan wilayah. Halaman ini merupakan pengantar bahasa Indonesia, bukan terjemahan seluruh prompt. Ada pula 16 resep alur kerja baru yang tersedia hanya dalam bahasa Inggris.
 
 
 **[Galeri 106 resep bergambar](docs/gallery.md)**

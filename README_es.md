@@ -6,7 +6,7 @@ Crea imágenes y prepara ideas para tus vídeos con VideoWeb AI.
 
 ![VideoWeb AI — GPT Image 2.5](assets/images/videoweb-cover.png)
 
-106 recetas: 78 con instrucciones completas en inglés y chino simplificado, más 12 recetas específicas por idioma. Incluye 143 imágenes nuevas. Esta página es una introducción en español, no una traducción completa de la biblioteca. También incluye 16 nuevas recetas de flujo de trabajo disponibles solo en inglés.
+106 recetas: 78 con instrucciones completas en inglés y chino simplificado, más 12 recetas específicas por idioma. Incluye 144 imágenes nuevas. Esta página es una introducción en español, no una traducción completa de la biblioteca. También incluye 16 nuevas recetas de flujo de trabajo disponibles solo en inglés.
 
 
 **[Galería visual de las 106 recetas](docs/gallery.md)**

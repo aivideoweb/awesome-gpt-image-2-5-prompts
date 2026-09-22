@@ -6,7 +6,7 @@ Créez des images et préparez vos projets vidéo avec VideoWeb AI.
 
 ![VideoWeb AI — GPT Image 2.5](assets/images/videoweb-cover.png)
 
-106 recettes : 78 briefs complets en anglais et en chinois simplifié, plus 12 recettes propres à différentes langues. 143 images ont été nouvellement générées. Cette page est une introduction en français, pas la traduction intégrale de la bibliothèque. S’y ajoutent 16 nouvelles recettes de workflow disponibles uniquement en anglais.
+106 recettes : 78 briefs complets en anglais et en chinois simplifié, plus 12 recettes propres à différentes langues. 144 images ont été nouvellement générées. Cette page est une introduction en français, pas la traduction intégrale de la bibliothèque. S’y ajoutent 16 nouvelles recettes de workflow disponibles uniquement en anglais.
 
 
 **[Galerie des 106 recettes illustrées](docs/gallery.md)**

@@ -1,6 +1,6 @@
 # Generation log · 图片生成记录
 
-143 recorded PNG files (139 inherited from Flaq AI and four VideoWeb additions), including synthetic inputs, first attempts and refined outputs. All 106 recipes have at least one generated result. Images were generated with the Codex built-in image tool; all editing references are this project’s own generated assets.
+144 recorded PNG files (139 inherited from Flaq AI and 5 VideoWeb additions), including synthetic inputs, first attempts and refined outputs. All 106 recipes have at least one generated result. Images were generated with the Codex built-in image tool; all editing references are this project’s own generated assets.
 
 Each record preserves the exact executed prompt, input order, dimensions, SHA-256 and visual review. Model ID, seed and quality settings were not exposed and are not inferred. These examples are not verified Flare/Sunburst comparisons.
 
@@ -1437,3 +1437,13 @@ Each record preserves the exact executed prompt, input order, dimensions, SHA-25
 - Inputs: None
 
 **Review:** A single ivory headset sits on a violet pedestal with useful empty space at left and no text. Headband and cushions read clearly; small mechanical joints are conceptual and should not serve as a real-product specification.
+
+## videoweb-banner · VideoWeb AI wide homepage cover
+
+- Recipe: `COVER` · Role: result · Date: 2026-09-22
+- [Original PNG](../assets/images/videoweb-banner.png) · 2172 × 724
+- [Exact executed prompt](../assets/generation/videoweb-banner.txt)
+- SHA-256: `3d33571d2137ceb01a7193685659f79e826bf16f41113c8a4af951c6df7e3c7d`
+- Inputs: None
+
+**Review:** Three requested text lines are legible and the output is exactly 3:1. The lamp shade is rounded rather than a flat disc; the second frame is a lamp detail rather than an architectural close view. These are acceptable editorial cover variations, not a recorded recipe result or continuity benchmark.

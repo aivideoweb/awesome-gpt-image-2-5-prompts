@@ -10,6 +10,8 @@
 
 [English](README.md) · **简体中文** · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Português (Brasil)](README_pt.md) · [Italiano](README_it.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [ไทย](README_th.md) · [Bahasa Indonesia](README_id.md) · [Tiếng Việt](README_vi.md)
 
+![VideoWeb AI GPT Image 2.5 提示词库：商品创作与视觉分镜](assets/images/videoweb-banner.png)
+
 <a id="featured-examples"></a>
 
 ## 先看三个实际用途
@@ -149,7 +151,7 @@
 
 ## 关于示例与开源使用
 
-本库由 VideoWeb AI 基于 [Flaq AI 源库](https://github.com/flaqai/awesome-chatgpt-images-2-5-prompts)维护，保留源库 103 条配方，新增 3 条创作者配方。共 16 个场景包、143 张图片；78 条配方为中英双语，16 条为英文，另有 12 条本地语言配方。
+本库由 VideoWeb AI 基于 [Flaq AI 源库](https://github.com/flaqai/awesome-chatgpt-images-2-5-prompts)维护，保留源库 103 条配方，新增 3 条创作者配方。共 16 个场景包、144 张图片；78 条配方为中英双语，16 条为英文，另有 12 条本地语言配方。
 
 图片由项目生图工具生成，未返回底层模型名称，不代表 VideoWeb 或指定型号的实测结果。示例可能有文字、结构或细节偏差，已知问题见[生成记录](docs/generation-log.md)。X 作者原图另有来源标注，不纳入本库 MIT 许可。
 

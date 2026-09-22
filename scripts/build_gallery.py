@@ -21,7 +21,7 @@ def build():
         for i in range(0,len(cells),3):lines.append('| '+' | '.join((cells[i:i+3]+['']*3)[:3])+' |')
         lines+=['']
     (ROOT/'docs/gallery.md').write_text('\n'.join(lines).rstrip()+'\n')
-    lines=['# Generation log · 图片生成记录','',f'{len(assets)} recorded PNG files (139 inherited from Flaq AI and four VideoWeb additions), including synthetic inputs, first attempts and refined outputs. All {len(latest)} recipes have at least one generated result. Images were generated with the Codex built-in image tool; all editing references are this project’s own generated assets.','',
+    lines=['# Generation log · 图片生成记录','',f'{len(assets)} recorded PNG files (139 inherited from Flaq AI and {len(assets) - 139} VideoWeb additions), including synthetic inputs, first attempts and refined outputs. All {len(latest)} recipes have at least one generated result. Images were generated with the Codex built-in image tool; all editing references are this project’s own generated assets.','',
            'Each record preserves the exact executed prompt, input order, dimensions, SHA-256 and visual review. Model ID, seed and quality settings were not exposed and are not inferred. These examples are not verified Flare/Sunburst comparisons.','',
            '实际执行提示词与可复用配方可能略有不同。以下记录保留输入关系、原始文件和目测发现；后续修改建议只有出现独立输出记录时才代表已执行。','',
            '[Browse results by recipe](gallery.md) · [Machine-readable manifest](../assets/manifest.json)','']

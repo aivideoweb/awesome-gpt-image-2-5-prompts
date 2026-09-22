@@ -10,6 +10,8 @@ Prompts for online shops, designers and video creators: make product campaigns, 
 
 **English** · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Português (Brasil)](README_pt.md) · [Italiano](README_it.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [ไทย](README_th.md) · [Bahasa Indonesia](README_id.md) · [Tiếng Việt](README_vi.md)
 
+![VideoWeb AI GPT Image 2.5 prompt library — product images and visual storytelling](assets/images/videoweb-banner.png)
+
 <a id="featured-examples"></a>
 
 ## Three ways to use the library
@@ -149,7 +151,7 @@ Preserve the green base, "TIDELINE" brand name, layout, product and lighting.
 
 ## About the examples and open-source use
 
-Maintained by VideoWeb AI from the [Flaq AI collection](https://github.com/flaqai/awesome-chatgpt-images-2-5-prompts): 103 inherited recipes plus 3 creator additions, across 16 packs and 143 images. There are 78 bilingual English/Chinese recipes, 16 English-only recipes and 12 language-specific briefs.
+Maintained by VideoWeb AI from the [Flaq AI collection](https://github.com/flaqai/awesome-chatgpt-images-2-5-prompts): 103 inherited recipes plus 3 creator additions, across 16 packs and 144 images. There are 78 bilingual English/Chinese recipes, 16 English-only recipes and 12 language-specific briefs.
 
 Examples were made with the project image tool, which did not expose a model ID; they are not verified VideoWeb or model-specific tests. Known text, structure and detail errors are documented in the [generation log](docs/generation-log.md). Third-party X images are credited separately and are not covered by this repository’s MIT license.
 

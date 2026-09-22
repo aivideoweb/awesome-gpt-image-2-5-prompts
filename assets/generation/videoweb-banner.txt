@@ -1,0 +1,12 @@
+Use case: ads-marketing.
+Asset type: a polished GitHub README cover banner for the VideoWeb AI prompt repository.
+Create ONE very wide horizontal raster banner, 3:1 aspect ratio, ideally 2304 x 768 pixels. This is a shallow header, not a tall poster.
+Design: premium editorial art direction, dark charcoal/navy background with restrained lavender and soft cyan illumination. Generous empty space, crisp typography, a tactile photographic/3D still life. It should introduce an open-source image prompt library for product images, image editing and visual storytelling.
+Composition: left 45% contains only the title, large and easy to read at 835-pixel-wide display. Right 55% contains a midnight-blue portable lamp with an ivory disc shade and orange pull tab on a small coral plinth, plus a discreet two-frame visual-story motif behind it showing the same glasshouse setting from a wide and close view. Integrate the motifs into one clean composition; no busy image wall, no UI screenshot, no cards full of tiny copy. Keep every element safely inside the canvas with generous margins.
+Text (verbatim, only these three lines):
+"VideoWeb AI"
+"GPT IMAGE 2.5"
+"PROMPT LIBRARY"
+Typography: VideoWeb AI is a modest brand line. GPT IMAGE 2.5 is the strongest line; PROMPT LIBRARY is the second title line. Elegant modern sans serif, off-white, left-aligned. Do not invent a logo symbol.
+Lighting/materials: believable soft studio shadows, finely textured metal lamp, matte coral pedestal, cinematic but restrained color.
+Constraints: truly 3:1 extra-wide composition; no large blank borders, no watermark, no extra words, no recipe counts, no performance claims, no crop of title or subject. Original editorial cover art, not a model benchmark.
