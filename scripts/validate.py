@@ -119,7 +119,7 @@ def main():
         require('assets/images/videoweb-cover.png' in text, f'{page.name}: missing brand cover')
         require(str(len(ids)) in text, f'{page.name}: missing current recipe total')
         if entry['path'] in [f'README_{lang}.md' for lang in ['de','hi','id','it','ko','pt','ru','th','tw','vi']]:
-            require(str(len(catalog['packs']) + 1) in text.splitlines()[8], f'{page.name}: stale pack total')
+            require(str(len(catalog['packs']) + 1) in text.splitlines()[8] and '15' not in text.splitlines()[8], f'{page.name}: stale pack total')
     for video in read_json('data/video-sources.json')['videos']:
         require(video['source_url'].startswith('https://x.com/'), 'Video source must identify its original X post')
         require(urlsplit(video['media_url']).netloc == 'video.twimg.com', 'Unexpected video host')
