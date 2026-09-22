@@ -1,8 +1,8 @@
 # Awesome GPT Image 2.5 Prompts — VideoWeb AI
 
-从一段描述或一张现有图片开始，制作商品广告、修改海报、规划视频分镜。这里提供可复制的提示词、示例图和逐步修改方法，适合电商经营者、设计师和视频创作者。
+给电商经营者、设计师和视频创作者：从文字或现有图片出发，制作商品广告、修改图片、规划视频分镜。
 
-**106 条配方，每条都有生成示例。** 核心配方同时说明输入素材、允许改变的部分、必须保留的细节和结果检查方法，方便从一张概念图继续做到下一版。
+**106 条带图配方，16 个场景包。** 核心配方附输入要求、保留细节和结果检查方法。
 
 [使用 GPT Image 2.5](https://videoweb.ai/cn/model/gpt-image-2-5/) · [免注册免费体验](https://videoweb.ai/cn/free-gpt-image-2-5/)
 
@@ -14,13 +14,23 @@
 
 ## 先看三个实际用途
 
-| 为广告预留文案位置 | 商品照片，变成白底图 | 同一人物，九个镜头 |
-| --- | --- | --- |
-| [![耳机广告留白](assets/images/p094-videoweb.png)](prompts/16-videoweb-x-creators.md#p094-zh) | <a href="prompts/01-product.md#p002-zh"><img src="assets/images/cup-input.png" width="45%" alt="输入：厨房木桌上的陶瓷杯"> → <img src="assets/images/example-p002.png" width="45%" alt="结果：纯白背景上的陶瓷杯"></a> | [![九镜头音乐短片分镜](assets/images/example-p084.png)](prompts/14-sketch-to-story.md#p084-zh) |
-| 产品放右侧，左侧留空，方便后期排标题。文字生图，无需参考图。 | 上传一张商品照片，换成白底并调整光线。左为输入，右为结果；也可下载示例输入图练习。 | 用同一人物参考图规划景别和镜头顺序，为短片前期讨论准备分镜。需上传人物图。 |
-| [P094 · 中文提示词](prompts/16-videoweb-x-creators.md#p094-zh) | [P002 · 中文提示词与输入图](prompts/01-product.md#p002-zh) | [P084 · 中文提示词与输入图](prompts/14-sketch-to-story.md#p084-zh) |
+| 商品广告 | 视频分镜 |
+| --- | --- |
+| [![耳机广告：右侧产品，左侧留白](assets/images/p094-videoweb.png)](prompts/16-videoweb-x-creators.md#p094-zh) | [![同一人物的九镜头音乐短片分镜](assets/images/example-p084.png)](prompts/14-sketch-to-story.md#p084-zh) |
+| 为后期文案留出空间。无需参考图。 | 用一张人物图规划九个镜头。需上传参考图。 |
+| [P094 · 中文提示词](prompts/16-videoweb-x-creators.md#p094-zh) | [P084 · 中文提示词与输入图](prompts/14-sketch-to-story.md#p084-zh) |
 
-这些示例展示创作方向，也保留检查记录：耳机结构属于概念设计；杯子的釉点和比例有轻微变化，使用前应对照杯口、把手和釉面；九镜头中的眼部特写和拿本子的动作仍需检查连续性。[查看生成记录](docs/generation-log.md)。
+耳机结构为概念设计；分镜的眼部特写和拿本子的动作仍需检查连续性。[查看生成记录](docs/generation-log.md)。
+
+### 商品照片变成白底图
+
+| 输入：厨房场景中的杯子 | 结果：白底商品图 |
+| --- | --- |
+| [![输入：厨房木桌上的陶瓷杯](assets/images/cup-input.png)](assets/images/cup-input.png) | [![结果：纯白背景上的陶瓷杯](assets/images/example-p002.png)](prompts/01-product.md#p002-zh) |
+
+上传一张商品照片，换背景、调整光线。此例釉点和比例有轻微变化，使用前应对照杯口、把手和釉面。
+
+[P002 · 中文提示词](prompts/01-product.md#p002-zh) · [下载示例输入图](assets/images/cup-input.png)
 
 <a id="quick-start"></a>
 
@@ -71,12 +81,25 @@
 
 <!-- END GENERATED SHOWCASE -->
 
-## 海报、人像与空间
+<a id="海报人像与空间"></a>
 
-| 多语言海报：安排文字层级 | 人像修改：保留身份细节 | 空间概念：安排材料与动线 |
-| --- | --- | --- |
-| [![日英双语烘焙海报](assets/images/komorebi-bakery.png)](prompts/11-multilingual.md#l003) | [![自然职业头像](assets/images/example-p013.png)](prompts/03-people-pets.md#p013) | [![工坊改造阅读室](assets/images/reading-room.png)](prompts/08-spaces.md#p043) |
-| 用给定的日文和英文组织标题与副标题，生成后逐字检查。无需参考图。[L003 配方](prompts/11-multilingual.md#l003)。 | 上传人像，改变背景和穿着后对照五官、肤色及发际线。[P013 中英配方与输入图](prompts/03-people-pets.md#p013-zh)。 | 明确家具位置、材料和光线，先讨论空间概念；不是施工图。[P043 中英配方](prompts/08-spaces.md#p043-zh)。 |
+## 更多创作案例
+
+| 多语言海报 | 职业人像 |
+| --- | --- |
+| [![日英双语烘焙海报](assets/images/komorebi-bakery.png)](prompts/11-multilingual.md#l003) | [![自然职业头像](assets/images/example-p013.png)](prompts/03-people-pets.md#p013-zh) |
+| 安排日文与英文标题。无需参考图。 | 调整背景与穿着。需上传人像。 |
+| [L003 · 提示词](prompts/11-multilingual.md#l003) | [P013 · 中文提示词与输入图](prompts/03-people-pets.md#p013-zh) |
+
+检查海报的每个字，并对照原人像的五官、肤色和发际线。
+
+| 角色风格探索 | 室内空间概念 |
+| --- | --- |
+| [![同一角色的毛毡、彩铅、双色印刷和陶瓷版本](assets/images/example-p076.png)](prompts/14-sketch-to-story.md#p076-zh) | [![工坊改造阅读室](assets/images/reading-room.png)](prompts/08-spaces.md#p043-zh) |
+| 一张角色涂鸦，比较四种材质。需上传参考图。 | 明确家具位置、材料和光线。无需参考图。 |
+| [P076 · 中文提示词与输入图](prompts/14-sketch-to-story.md#p076-zh) | [P043 · 中文提示词](prompts/08-spaces.md#p043-zh) |
+
+角色需核对服装与配件是否延续；空间图供概念讨论，不是施工图。
 
 <a id="editing-examples"></a>
 

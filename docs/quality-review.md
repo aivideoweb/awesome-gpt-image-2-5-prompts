@@ -1,6 +1,6 @@
 # Reader-focused comparison · 2026-09-22
 
-**Current homepage:** audience and purpose, three lead examples for campaign concepts, existing product photos and storyboards, separate starting paths for text and reference images, the full 16-pack directory, broader visual examples, and single- and multi-step editing comparisons. The full 106-recipe gallery remains available. The chronological review notes below describe earlier versions.
+**Current homepage:** a short introduction, two-column campaign and storyboard examples, a separate product-photo input/result pair, text/reference starting paths, the full 16-pack directory, two-column poster/portrait and character/interior examples, and single- and multi-step editing comparisons. The full 106-recipe gallery remains available. The chronological review notes below describe earlier versions.
 
 Baseline: [Flaq AI source](https://github.com/flaqai/awesome-chatgpt-images-2-5-prompts), commit `0c74e035a713370217a1ecf29dd4a06edcc25fed`.
 
@@ -82,3 +82,14 @@ The starting instructions distinguish text generation from existing-product edit
 Sol high-reasoning review found no required correction after checking the input/result records, language anchors and tool-page content. The editor accepted its optional link-consistency suggestion and aligned all three image targets with their prompt links. During GitHub Markdown rendering with a local preview stylesheet, fixed-width cup thumbnails wrapped; percentage widths corrected the inspected desktop layout. This preview is not a mobile or production conversion test.
 
 The primary editor independently compared both homepages and the source reader journey after the review. No additional material obstacle was found in choosing a task, finding an input, copying a prompt or continuing an edit. The upstream main still matches the baseline above. All 139 source images and their exact generation-prompt files remain byte-identical; no recipe, image or execution record changed in this round.
+
+
+## Source-inspired image layout
+
+A direct comparison of the rendered GitHub pages found that the compact three-column layout made the examples harder to inspect than the source’s two-column galleries. Passing link checks and completing a reader path had not established visual parity. Both main READMEs now use two columns for independent examples and input/result pairs; only the three-stage lamp sequence keeps three columns. Short titles, one-line task/input captions and prompt links replace the longer table text. Review notes remain beside their image groups.
+
+P002 now has a separate input/result table. The existing P076 image returns in the broader gallery alongside the interior concept, so the poster and portrait can form a second two-column pair. This creates 13 inline images per main README without adding assets or recipes. Original image proportions are preserved. The old English and Chinese gallery-section anchors remain valid, and the 16-pack directory and three copyable starter/edit blocks remain unchanged.
+
+Sol high-reasoning review accepted the structure and identified one input-label error: P084 had been described as using a performer photo even though its recorded reference is an illustrated character. The editor changed this to a performer reference image, clarified P076’s doodle input and made P043’s caption describe specified furniture, materials and light. The primary editor checked those descriptions against the catalog and independently compared the final source and target structure, images, inputs and prompt destinations.
+
+GitHub Markdown API output was visually inspected with an 835-pixel-wide local preview: the lead examples and poster/portrait pair are substantially larger than the previous three-column layout. Local preview styling is not identical to GitHub; published-page inspection is a separate visual check. Generators and the content validator pass. All recipe data, image files and generation records are unchanged in this round; no mobile usability or conversion result is claimed.

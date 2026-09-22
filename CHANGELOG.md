@@ -1,3 +1,9 @@
+# Homepage layout update — 2026-09-22
+
+- Adopted the source collection’s two-column image presentation for the English and Simplified Chinese homepages, with shorter titles and captions.
+- Gave P002 its own input/result comparison and paired existing poster, portrait, character and interior examples in two-column groups.
+- Preserved the full category directory, starter paths, editing sequence and previous gallery-section anchors. No recipe or image assets changed.
+
 # Homepage entry update — 2026-09-22
 
 - Brought illustrated examples forward by removing the large decorative cover from the English and Simplified Chinese homepages; the original cover asset remains available.

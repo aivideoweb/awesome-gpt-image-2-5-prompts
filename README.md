@@ -1,8 +1,8 @@
 # Awesome GPT Image 2.5 Prompts — VideoWeb AI
 
-Start from a description or an existing image to make product campaigns, edit posters and plan video shots. Copyable prompts, illustrated examples and step-by-step edits help online shops, designers and video creators get started.
+Prompts for online shops, designers and video creators: make product campaigns, edit existing images and plan video shots.
 
-**106 recipes, each with a generated example.** Every core recipe names the inputs, what may change, what must stay and what to check, so you can develop an image through successive revisions.
+**106 illustrated recipes across 16 packs.** Core recipes include required inputs, details to preserve and checks for the result.
 
 [Create with GPT Image 2.5](https://videoweb.ai/model/gpt-image-2-5/) · [Try free without signup](https://videoweb.ai/free-gpt-image-2-5/)
 
@@ -14,13 +14,23 @@ Start from a description or an existing image to make product campaigns, edit po
 
 ## Three ways to use the library
 
-| Leave room for campaign copy | Product photo to white background | One performer, nine shots |
-| --- | --- | --- |
-| [![Headphone campaign with copy space](assets/images/p094-videoweb.png)](prompts/16-videoweb-x-creators.md#p094-en) | <a href="prompts/01-product.md#p002-en"><img src="assets/images/cup-input.png" width="45%" alt="Input: ceramic cup on a kitchen table"> → <img src="assets/images/example-p002.png" width="45%" alt="Result: ceramic cup on a white background"></a> | [![Nine-shot music-video board](assets/images/example-p084.png)](prompts/14-sketch-to-story.md#p084-en) |
-| Position the product on the right and leave the left clear for a headline added later. Text-to-image; no reference needed. | Upload one product photo to replace its background and adjust the lighting. Input at left, result at right; a sample input is available for practice. | Explore shot scale and order from one performer reference for a music-video brief. Upload the performer reference. |
-| [P094 · Prompt](prompts/16-videoweb-x-creators.md#p094-en) | [P002 · Prompt and input](prompts/01-product.md#p002-en) | [P084 · Prompt and input](prompts/14-sketch-to-story.md#p084-en) |
+| Product campaign | Video storyboard |
+| --- | --- |
+| [![Headphone campaign with room for copy](assets/images/p094-videoweb.png)](prompts/16-videoweb-x-creators.md#p094-en) | [![Nine music-video shots of one performer](assets/images/example-p084.png)](prompts/14-sketch-to-story.md#p084-en) |
+| Leave space for copy added later. No reference needed. | Plan nine shots from one performer reference image. |
+| [P094 · Prompt](prompts/16-videoweb-x-creators.md#p094-en) | [P084 · Prompt and input](prompts/14-sketch-to-story.md#p084-en) |
 
-These are starting points with recorded limitations: the headphone joints are conceptual; the cup’s glaze speckles and proportions drift slightly, so compare the rim, handle and glaze before use; the eye close-up and notebook handling need continuity checks. [Generation records](docs/generation-log.md).
+The headphone joints are conceptual; the storyboard’s eye close-up and notebook handling need continuity checks. [Generation records](docs/generation-log.md).
+
+### Product photo to white background
+
+| Input: cup in a kitchen setting | Result: white-background catalog image |
+| --- | --- |
+| [![Input: ceramic cup on a kitchen table](assets/images/cup-input.png)](assets/images/cup-input.png) | [![Result: ceramic cup on a white background](assets/images/example-p002.png)](prompts/01-product.md#p002-en) |
+
+Upload one product photo to change its background and lighting. Glaze speckles and proportions drift slightly in this example; compare the rim, handle and glaze before use.
+
+[P002 · Prompt](prompts/01-product.md#p002-en) · [Download the sample input](assets/images/cup-input.png)
 
 <a id="quick-start"></a>
 
@@ -71,12 +81,25 @@ Find a specific task across 16 packs and 106 recipes. Prefer to choose by appear
 
 <!-- END GENERATED SHOWCASE -->
 
-## Posters, portraits and spaces
+<a id="posters-portraits-and-spaces"></a>
 
-| Multilingual copy: organize the hierarchy | Portrait edits: retain identity details | Interior concepts: plan materials and circulation |
-| --- | --- | --- |
-| [![Japanese and English bakery poster](assets/images/komorebi-bakery.png)](prompts/11-multilingual.md#l003) | [![Natural professional portrait](assets/images/example-p013.png)](prompts/03-people-pets.md#p013) | [![Workshop reading-room concept](assets/images/reading-room.png)](prompts/08-spaces.md#p043) |
-| Arrange supplied Japanese and English copy into a headline and subheading; proofread every character. No reference needed. [L003 prompt](prompts/11-multilingual.md#l003). | Upload a portrait, change the setting and clothing, then compare facial features, skin tone and hairline. [P013 prompt and input](prompts/03-people-pets.md#p013-en). | Specify furniture positions, materials and light for a concept discussion, not construction drawings. [P043 prompt](prompts/08-spaces.md#p043-en). |
+## More creative examples
+
+| Multilingual poster | Professional portrait |
+| --- | --- |
+| [![Japanese and English bakery poster](assets/images/komorebi-bakery.png)](prompts/11-multilingual.md#l003) | [![Natural professional portrait](assets/images/example-p013.png)](prompts/03-people-pets.md#p013-en) |
+| Arrange Japanese and English copy. No reference needed. | Change the setting and clothing. Portrait required. |
+| [L003 · Prompt](prompts/11-multilingual.md#l003) | [P013 · Prompt and input](prompts/03-people-pets.md#p013-en) |
+
+Proofread every character on the poster. Compare the portrait’s facial features, skin tone and hairline with the input.
+
+| Character styles | Interior concept |
+| --- | --- |
+| [![One character in felt, pencil, risograph and ceramic](assets/images/example-p076.png)](prompts/14-sketch-to-story.md#p076-en) | [![Workshop reading-room concept](assets/images/reading-room.png)](prompts/08-spaces.md#p043-en) |
+| Explore four materials from one character doodle. Reference required. | Specify furniture, materials and light. No reference needed. |
+| [P076 · Prompt and input](prompts/14-sketch-to-story.md#p076-en) | [P043 · Prompt](prompts/08-spaces.md#p043-en) |
+
+Check the character’s outfit and accessories across versions. The room is a discussion concept, not a construction drawing.
 
 <a id="editing-examples"></a>
 
